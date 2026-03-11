@@ -1,8 +1,8 @@
-PWD /Users/cyrille/Perso/Mes projets/TCV/REPO/TCV-Phi/TCV-PHI/papers/paper-02/tex
+PWD /Users/cyrille/Perso/Mes projets/TCV-Phi_Papers/papers/paper-02/tex
 INPUT /usr/local/texlive/2025/texmf.cnf
 INPUT /usr/local/texlive/2025/texmf-dist/web2c/texmf.cnf
 INPUT /usr/local/texlive/2025/texmf-var/web2c/pdftex/pdflatex.fmt
-INPUT paper-02.tex
+INPUT /Users/cyrille/Perso/Mes projets/TCV-Phi_Papers/papers/paper-02/tex/paper-02.tex
 OUTPUT paper-02.log
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/revtex/revtex4-2.cls
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/revtex/revtex4-2.cls

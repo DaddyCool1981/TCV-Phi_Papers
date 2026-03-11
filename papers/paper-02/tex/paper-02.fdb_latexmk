@@ -1,13 +1,13 @@
 # Fdb version 4
-["bibtex paper-02"] 1773148818.07438 "paper-02.aux" "paper-02.bbl" "paper-02" 1773148820.74473 0
-  "./paper-02Notes.bib" 1773148820.37198 104 4d8bb863c86f3d7b03a471e9d4707f34 ""
+["bibtex paper-02"] 1773148818.07438 "paper-02.aux" "paper-02.bbl" "paper-02" 1773221073.06012 0
+  "./paper-02Notes.bib" 1773221072.67674 104 4d8bb863c86f3d7b03a471e9d4707f34 ""
   "/usr/local/texlive/2025/texmf-dist/bibtex/bst/revtex/apsrev4-2.bst" 1601932770 69609 e9dea59f0e753ccda3ddc8f5806d846d ""
-  "paper-02.aux" 1773148820.37075 6873 d28c790bab0185eede0e19c9eac7fa48 "pdflatex"
+  "paper-02.aux" 1773221072.6753 6873 d28c790bab0185eede0e19c9eac7fa48 "pdflatex"
   (generated)
   "paper-02.bbl"
   "paper-02.blg"
   (rewritten before read)
-["pdflatex"] 1773148818.20779 "paper-02.tex" "paper-02.pdf" "paper-02" 1773148820.74498 0
+["pdflatex"] 1773221070.29524 "/Users/cyrille/Perso/Mes projets/TCV-Phi_Papers/papers/paper-02/tex/paper-02.tex" "paper-02.pdf" "paper-02" 1773221073.06036 0
   "../figs/baryogenesis_history.png" 1773063004.65148 123561 99e5353cd708cbae66cdda65014442c8 ""
   "../figs/bounce_history_background.png" 1773061386.73027 170288 9026daf8e48d3889d524cff9ee7dcef9 ""
   "../figs/bounce_history_energy_ratio.png" 1773061386.80632 57925 97718e4d2d0a755244354d92f583ad3b ""
@@ -15,6 +15,8 @@
   "../figs/primordial_spectrum.png" 1773075415.54792 78963 e5fa3597d76961bada708250592b733c ""
   "../figs/uldm_background_scaling.png" 1773074845.47189 219320 d2f41525f20175c9a70d291dee8ff55c ""
   "../figs/uldm_pk_comparison.png" 1773074845.60332 104861 d84e87932283bc5d1ba8a609451a1cce ""
+  "/Users/cyrille/Perso/Mes" 1770370310.07885 0 d41d8cd98f00b204e9800998ecf8427e ""
+  "/Users/cyrille/Perso/Mes projets/TCV-Phi_Papers/papers/paper-02/tex/paper-02.tex" 1773221070.04473 17066 be3a8b3e14f872280cf1fbfb0669f89e ""
   "/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc" 1254269338 2375 baa924870cfb487815765f9094cf3728 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc" 1202520719 3486 c7eadf5dcc57b3b2d11736679f6636ba ""
   "/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc" 1202520719 2405 5dcf2c1b967ee25cc46c58cd52244aed ""
@@ -173,10 +175,10 @@
   "/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1769006903 5467155 19efa205003f9ecad95fbbaa6ff24da1 ""
   "/usr/local/texlive/2025/texmf-var/web2c/pdftex/pdflatex.fmt" 1769006826 3345740 df4bf6da6a887d91e4f0d78fac6548e0 ""
   "/usr/local/texlive/2025/texmf.cnf" 1741450484 577 418a7058ec8e006d8704f60ecd22c938 ""
-  "paper-02.aux" 1773148820.37075 6873 d28c790bab0185eede0e19c9eac7fa48 "pdflatex"
+  "paper-02.aux" 1773221072.6753 6873 d28c790bab0185eede0e19c9eac7fa48 "pdflatex"
   "paper-02.bbl" 1773148818.20388 1982 35453d3875d823f0ec9445e740a573d9 "bibtex paper-02"
-  "paper-02.out" 1773148820.37176 3756 2022ef8363b0cf9d6ac27354d01e02be "pdflatex"
-  "paper-02.tex" 1773148790.55636 17013 6d52dba38f8ff7cfa78d3185cc27bb27 ""
+  "paper-02.out" 1773221072.67649 3756 2022ef8363b0cf9d6ac27354d01e02be "pdflatex"
+  "paper-02.tex" 1773221070.04473 17066 be3a8b3e14f872280cf1fbfb0669f89e ""
   (generated)
   "paper-02.aux"
   "paper-02.log"

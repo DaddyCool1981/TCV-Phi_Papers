@@ -1,13 +1,13 @@
 # Fdb version 4
-["bibtex paper-04"] 1773148826.61355 "paper-04.aux" "paper-04.bbl" "paper-04" 1773148828.82505 0
-  "./paper-04Notes.bib" 1773148828.46034 104 4d8bb863c86f3d7b03a471e9d4707f34 ""
+["bibtex paper-04"] 1773222415.72187 "paper-04.aux" "paper-04.bbl" "paper-04" 1773222417.94168 0
+  "./paper-04Notes.bib" 1773222417.59269 104 4d8bb863c86f3d7b03a471e9d4707f34 ""
   "/usr/local/texlive/2025/texmf-dist/bibtex/bst/revtex/apsrev4-2.bst" 1601932770 69609 e9dea59f0e753ccda3ddc8f5806d846d ""
-  "paper-04.aux" 1773148828.45898 7199 a4ea860962a5b15e3d82156e8c070df1 "pdflatex"
+  "paper-04.aux" 1773222417.59145 7199 9eba7247054c4fca69c34f27f5471a9f "pdflatex"
   (generated)
   "paper-04.bbl"
   "paper-04.blg"
   (rewritten before read)
-["pdflatex"] 1773148826.73646 "paper-04.tex" "paper-04.pdf" "paper-04" 1773148828.8253 0
+["pdflatex"] 1773222415.87835 "/Users/cyrille/Perso/Mes projets/TCV-Phi_Papers/papers/paper-04/tex/paper-04.tex" "paper-04.pdf" "paper-04" 1773222417.94192 0
   "../figs/bh_curvature_regularization.png" 1773142742.37445 104729 86d8f70eec8470b44d737f7220fa9b1b ""
   "../figs/bh_direction_dependence.png" 1773143831.65004 109968 eb0bb0f20441de257a664078178534a1 ""
   "../figs/bh_kerr_echo_template.png" 1773144325.46868 64289 6cb97d6f754ff64d1ceb4493395dd6b7 ""
@@ -15,6 +15,8 @@
   "../figs/bh_kerr_photon_ring.png" 1773144325.30005 45576 e7a0e04b782b8c7586eab698fa77a46c ""
   "../figs/bh_matching_residuals.png" 1773142742.63326 134632 9292dfb4508e264b5a8f27c665e053ce ""
   "../figs/bh_metric_profiles.png" 1773142736.89559 78543 789741b4c478cb4d5a7e5e0f0a12ccad ""
+  "/Users/cyrille/Perso/Mes" 1770370310.07885 0 d41d8cd98f00b204e9800998ecf8427e ""
+  "/Users/cyrille/Perso/Mes projets/TCV-Phi_Papers/papers/paper-04/tex/paper-04.tex" 1773222413.37657 17506 29ecd6b5fab9622cc2184e484d734727 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc" 1254269338 2375 baa924870cfb487815765f9094cf3728 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc" 1202520719 3486 c7eadf5dcc57b3b2d11736679f6636ba ""
   "/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc" 1202520719 2405 5dcf2c1b967ee25cc46c58cd52244aed ""
@@ -173,10 +175,10 @@
   "/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1769006903 5467155 19efa205003f9ecad95fbbaa6ff24da1 ""
   "/usr/local/texlive/2025/texmf-var/web2c/pdftex/pdflatex.fmt" 1769006826 3345740 df4bf6da6a887d91e4f0d78fac6548e0 ""
   "/usr/local/texlive/2025/texmf.cnf" 1741450484 577 418a7058ec8e006d8704f60ecd22c938 ""
-  "paper-04.aux" 1773148828.45898 7199 a4ea860962a5b15e3d82156e8c070df1 "pdflatex"
-  "paper-04.bbl" 1773148826.73245 1982 35453d3875d823f0ec9445e740a573d9 "bibtex paper-04"
-  "paper-04.out" 1773148828.46012 3071 94b47d087d123cebf7356a7a6d4dd427 "pdflatex"
-  "paper-04.tex" 1773148798.38099 17079 5a46084a8fb69fe701fe1365dce832ba ""
+  "paper-04.aux" 1773222417.59145 7199 9eba7247054c4fca69c34f27f5471a9f "pdflatex"
+  "paper-04.bbl" 1773222415.87458 1980 28c19e8c34138b62d4af8c2d0ed844b0 "bibtex paper-04"
+  "paper-04.out" 1773222417.59247 3071 94b47d087d123cebf7356a7a6d4dd427 "pdflatex"
+  "paper-04.tex" 1773222413.37657 17506 29ecd6b5fab9622cc2184e484d734727 ""
   (generated)
   "paper-04.aux"
   "paper-04.log"

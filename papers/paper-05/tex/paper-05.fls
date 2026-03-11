@@ -1,8 +1,8 @@
-PWD /Users/cyrille/Perso/Mes projets/TCV/REPO/TCV-Phi/TCV-PHI/papers/paper-05/tex
+PWD /Users/cyrille/Perso/Mes projets/TCV-Phi_Papers/papers/paper-05/tex
 INPUT /usr/local/texlive/2025/texmf.cnf
 INPUT /usr/local/texlive/2025/texmf-dist/web2c/texmf.cnf
 INPUT /usr/local/texlive/2025/texmf-var/web2c/pdftex/pdflatex.fmt
-INPUT paper-05.tex
+INPUT /Users/cyrille/Perso/Mes projets/TCV-Phi_Papers/papers/paper-05/tex/paper-05.tex
 OUTPUT paper-05.log
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/revtex/revtex4-2.cls
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/revtex/revtex4-2.cls
@@ -242,6 +242,7 @@ INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/lm/ec-lmr7.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/lm/ec-lmri9.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/lm/ec-lmr6.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/lm/ec-lmbx9.tfm
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/lm/ec-lmbx10.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/lm/t1lmtt.fd
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/lm/t1lmtt.fd
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/lm/t1lmtt.fd
@@ -284,6 +285,7 @@ INPUT paper-05.bbl
 INPUT paper-05.aux
 INPUT ./paper-05.out
 INPUT ./paper-05.out
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmbx10.pfb
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmbx12.pfb
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmbx9.pfb
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmex10.pfb
