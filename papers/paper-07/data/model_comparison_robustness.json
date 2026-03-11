@@ -1,0 +1,48 @@
+{
+  "delta_chi2_tcv_minus_lcdm": 1.2634999999999081,
+  "delta_k_tcv_minus_lcdm": -2.0,
+  "bic_proxy_scan": [
+    {
+      "n_data_proxy": 1500,
+      "delta_bic_tcv_minus_lcdm": -13.362940774180695,
+      "favors_tcv": true
+    },
+    {
+      "n_data_proxy": 2000,
+      "delta_bic_tcv_minus_lcdm": -13.938304919084256,
+      "favors_tcv": true
+    },
+    {
+      "n_data_proxy": 2500,
+      "delta_bic_tcv_minus_lcdm": -14.384592021712676,
+      "favors_tcv": true
+    },
+    {
+      "n_data_proxy": 3000,
+      "delta_bic_tcv_minus_lcdm": -14.749235135300584,
+      "favors_tcv": true
+    },
+    {
+      "n_data_proxy": 4000,
+      "delta_bic_tcv_minus_lcdm": -15.324599280204147,
+      "favors_tcv": true
+    }
+  ],
+  "convergence_last_rows": {
+    "lcdm_v7_lowl": {
+      "N": 5376.0,
+      "timestamp": "2026-03-10T19:08:43.872464",
+      "acceptance_rate": 0.607732,
+      "Rminus1": 0.039993,
+      "Rminus1_cl": 0.13893
+    },
+    "tcv_minimal_v1_lowl": {
+      "N": 3040.0,
+      "timestamp": "2026-03-10T19:44:44.003720",
+      "acceptance_rate": 0.64027,
+      "Rminus1": 0.044393,
+      "Rminus1_cl": 0.168642
+    }
+  },
+  "note": "BIC scan uses explicit n_data proxy values; convergence rows are read from chain .progress files."
+}

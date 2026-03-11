@@ -1,0 +1,62 @@
+#!/usr/bin/env python3
+"""Build explicit falsification statements for Paper-06."""
+
+from __future__ import annotations
+
+import json
+from pathlib import Path
+
+REPO_ROOT = Path(__file__).resolve().parents[3]
+
+
+def main() -> None:
+    out_data = REPO_ROOT / "papers" / "paper-06" / "data"
+    out_data.mkdir(parents=True, exist_ok=True)
+
+    table = [
+        {
+            "id": "F1",
+            "sector": "BH direction scan",
+            "statement": "High-density branch should show strong integration-direction dependence in min(F).",
+            "current_status": "supported in paper-04 diagnostic scan",
+            "exclusion_rule": "If method-matched scans eliminate branch splitting entirely, current interpretation must be revised.",
+            "status_label": "numerical diagnostic",
+        },
+        {
+            "id": "F2",
+            "sector": "BH slow-rotation template",
+            "statement": "Photon-ring proxy shift remains at O(10%) level in the current template branch.",
+            "current_status": "template result",
+            "exclusion_rule": "If full slow-rotation ODE closure forces near-zero shift across validated priors, template branch is disfavored.",
+            "status_label": "template-level",
+        },
+        {
+            "id": "F3",
+            "sector": "Primordial bridge",
+            "statement": "External-spectrum CLASS bridge stays close to baseline over validated k-range.",
+            "current_status": "supported in paper-03 bridge diagnostics",
+            "exclusion_rule": (
+                "If improved primordial closure produces persistent bridge "
+                "inconsistency at linear scales after numerical/interface "
+                "artefacts are controlled, the primordial sector must be revised."
+            ),
+            "status_label": "pipeline consistency",
+        },
+        {
+            "id": "F4",
+            "sector": "CC-Phi1 microstructure",
+            "statement": "Curvature response should keep finite coherent scales and mode hierarchy in toy window.",
+            "current_status": "supported in paper-05 toy scan",
+            "exclusion_rule": "If refined microphysics removes stable hierarchy for canonical benchmark, toy assumptions fail.",
+            "status_label": "phenomenological toy",
+        },
+    ]
+
+    out_json = out_data / "falsification_table.json"
+    with out_json.open("w", encoding="utf-8") as f:
+        json.dump(table, f, indent=2)
+    print("[INFO] Wrote:", out_json)
+
+
+if __name__ == "__main__":
+    main()

@@ -1,0 +1,29 @@
+[
+  {
+    "rho_cc0": 1e-12,
+    "fmin_out": 0.9991622419590427,
+    "fmin_in": 0.9991622419590427,
+    "rH_out": null,
+    "rH_in": null,
+    "out_success": true,
+    "in_success": true
+  },
+  {
+    "rho_cc0": 1e-10,
+    "fmin_out": 0.9162241959042721,
+    "fmin_in": 0.9162241959042721,
+    "rH_out": null,
+    "rH_in": null,
+    "out_success": true,
+    "in_success": true
+  },
+  {
+    "rho_cc0": 1e-08,
+    "fmin_out": 0.0019513806539518397,
+    "fmin_in": 0.6555166429161575,
+    "rH_out": null,
+    "rH_in": null,
+    "out_success": false,
+    "in_success": true
+  }
+]

@@ -1,0 +1,10 @@
+{
+  "input_yaml": "/Users/cyrille/Perso/Mes projets/TCV/REPO/TCV-Phi/TCV-PHI/papers/paper-07/data/tcv_minimal_planck_input.yaml",
+  "packages_path": "/Users/cyrille/Perso/Mes projets/TCV/REPO/TCV-Phi/TCV-PHI/papers/paper-07/external_packages",
+  "output_root": "/Users/cyrille/Perso/Mes projets/TCV/REPO/TCV-Phi/TCV-PHI/papers/paper-07/data/tcv_minimal_planck_chain_v1_lowl",
+  "lowl_enabled": true,
+  "tcv_primordial_source": "/Users/cyrille/Perso/Mes projets/TCV/REPO/TCV-Phi/TCV-PHI/papers/paper-03/data/primordial_observables.json",
+  "A_s_fixed": 2.099999999999998e-09,
+  "n_s_fixed": 0.9643153855726034,
+  "note": "Minimal TCV baseline with fixed primordial pair from Paper III."
+}

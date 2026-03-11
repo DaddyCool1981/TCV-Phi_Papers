@@ -1,0 +1,44 @@
+[
+  {
+    "rho_cc0": 1e-12,
+    "outward_success": true,
+    "outward_message": "The solver successfully reached the end of the integration interval.",
+    "outward_fmin": 0.9991622419590427,
+    "outward_horizon_radius": null,
+    "outward_r_end": 10000.0,
+    "inward_success": true,
+    "inward_message": "The solver successfully reached the end of the integration interval.",
+    "inward_fmin": 0.9991622419590427,
+    "inward_horizon_radius": null,
+    "inward_r_start": 1e-06,
+    "adm_mass_used": 4.188790204786393
+  },
+  {
+    "rho_cc0": 1e-10,
+    "outward_success": true,
+    "outward_message": "The solver successfully reached the end of the integration interval.",
+    "outward_fmin": 0.9162241959042721,
+    "outward_horizon_radius": null,
+    "outward_r_end": 10000.0,
+    "inward_success": true,
+    "inward_message": "The solver successfully reached the end of the integration interval.",
+    "inward_fmin": 0.9162241959042721,
+    "inward_horizon_radius": null,
+    "inward_r_start": 1e-06,
+    "adm_mass_used": 418.8790204786398
+  },
+  {
+    "rho_cc0": 1e-08,
+    "outward_success": false,
+    "outward_message": "Required step size is less than spacing between numbers.",
+    "outward_fmin": 0.0019513806539518397,
+    "outward_horizon_radius": null,
+    "outward_r_end": 3451.5688956070944,
+    "inward_success": true,
+    "inward_message": "The solver successfully reached the end of the integration interval.",
+    "inward_fmin": 0.6555166429161575,
+    "inward_horizon_radius": null,
+    "inward_r_start": 1e-06,
+    "adm_mass_used": 1722.4167854192124
+  }
+]

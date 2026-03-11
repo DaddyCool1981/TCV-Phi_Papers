@@ -1,0 +1,15 @@
+{
+  "command": [
+    "cobaya-install",
+    "-p",
+    "/Users/cyrille/Perso/Mes projets/TCV/REPO/TCV-Phi/TCV-PHI/papers/paper-07/external_packages",
+    "--no-set-global",
+    "--skip-global",
+    "planck_2018_highl_plik.TTTEEE_lite_native",
+    "planck_2018_lensing.native"
+  ],
+  "returncode": 0,
+  "packages_path": "/Users/cyrille/Perso/Mes projets/TCV/REPO/TCV-Phi/TCV-PHI/papers/paper-07/external_packages",
+  "stdout_tail": "[install] Installing external packages at '/Users/cyrille/Perso/Mes projets/TCV/REPO/TCV-Phi/TCV-PHI/papers/paper-07/external_packages'\n\n================================================================================\nplanck_2018_highl_plik.TTTEEE_lite_native\n================================================================================\n\n[install] Checking if dependencies have already been installed...\n[install] Check found no existing installation\n[install] (If you expected this to be already installed, re-run `cobaya-install` with --debug to get more verbose output.)\n[install] Installing...\n[planck_2018_highl_plik.TTTEEE_lite_native] Downloading CobayaSampler/planck_native_data data...\n[planck_2018_highl_plik.TTTEEE_lite_native] Downloaded filename plik_lite_2018_AL.zip\n[planck_2018_highl_plik.TTTEEE_lite_native] plik_lite_2018_AL.zip from planck_native_data v1 downloaded and decompressed correctly.\n[install] Successfully installed! Let's check it...\n[install] Installation check successful.\n\n================================================================================\nplanck_2018_lensing.native\n================================================================================\n\n[install] Checking if dependencies have already been installed...\n[install] Check found no existing installation\n[install] (If you expected this to be already installed, re-run `cobaya-install` with --debug to get more verbose output.)\n[install] Installing...\n[planck_2018_lensing.native] Downloading CobayaSampler/planck_supp_data_and_covmats data...\n[planck_2018_lensing.native] Downloaded filename planck_supp_data_and_covmats-2.1.tar.gz\n[planck_2018_lensing.native] planck_supp_data_and_covmats v2.1 downloaded and decompressed correctly.\n[install] Successfully installed! Let's check it...\n[install] Installation check successful.\n\n================================================================================\n* Summary * \n================================================================================\n\n[install] All requested components' dependencies correctly installed at /Users/cyrille/Perso/Mes projets/TCV/REPO/TCV-Phi/TCV-PHI/papers/paper-07/external_packages",
+  "stderr_tail": "\n  0%|          | 0.00/1.47M [00:00<?, ?iB/s]\n100%|\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588| 1.47M/1.47M [00:00<00:00, 27.7MiB/s]\n\n0.00iB [00:00, ?iB/s]\n224kiB [00:00, 1.86MiB/s]\n2.28MiB [00:00, 11.6MiB/s]\n3.19MiB [00:00, 10.6MiB/s]"
+}

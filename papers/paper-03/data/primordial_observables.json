@@ -1,0 +1,11 @@
+{
+  "k_pivot": 0.05,
+  "A_s_from_local_fit": 2.099999999999998e-09,
+  "n_s_from_local_fit": 0.9643153855726034,
+  "n_s_from_quadratic_fit": 0.9642587567349826,
+  "alpha_s_from_quadratic_fit": -0.0014303853517359994,
+  "fit_window_points": 35,
+  "r": null,
+  "note": "Tensor-to-scalar ratio r is not extracted by this scalar-only script.",
+  "primordial_file_used": "/Users/cyrille/Perso/Mes projets/TCV/REPO/TCV-Phi/TCV-PHI/papers/paper-03/data/PR_tcvphi.dat"
+}

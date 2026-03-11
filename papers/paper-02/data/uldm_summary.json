@@ -1,0 +1,8 @@
+{
+  "m2_GeV": 1e-31,
+  "rho_scaling_slope_late": -3.0645122872136272,
+  "expected_slope": -3.0,
+  "pk_ratio_min": 1.0,
+  "pk_ratio_max": 1.0,
+  "note": "Current ULDM P(k) mode is effective-CDM placeholder; full perturbations are deferred."
+}

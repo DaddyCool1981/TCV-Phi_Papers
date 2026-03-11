@@ -1,0 +1,108 @@
+{
+  "paper": "paper-05",
+  "scope": "QG microstructure CC-Phi1 + exploratory CC-Phi2 flavour bridge",
+  "status_labels": {
+    "ccphi1_spectrum": "phenomenological cluster quantization toy",
+    "ccphi1_curvature_response": "phenomenological scan",
+    "ccphi1_coarse_grain": "toy coarse-graining proxy",
+    "ccphi2_flavour_toy": "exploratory flavour toy"
+  },
+  "artifacts": {
+    "ccphi1_spectrum": {
+      "params": {
+        "m1": 1e-08,
+        "xi0": 0.1,
+        "n_modes": 3
+      },
+      "R_baseline": 0.0,
+      "coherence_length": 100000000.0,
+      "Xi_modes": [
+        1.086960440108936e-15,
+        4.0478417604357435e-15,
+        8.982643960980422e-15
+      ],
+      "E_modes": [
+        1.086960440108936e-15,
+        4.0478417604357435e-15,
+        8.982643960980422e-15
+      ],
+      "omega_modes": [
+        3.296908309475615e-08,
+        6.362265131567329e-08,
+        9.477681130413927e-08
+      ],
+      "gap_Xi2_minus_Xi1": 2.9608813203268076e-15,
+      "gap_E2_minus_E1": 2.9608813203268076e-15,
+      "status": "phenomenological cluster quantization toy aligned with preprint 9"
+    },
+    "ccphi1_curvature_response": {
+      "R_min": 0.0,
+      "R_max": 2e-15,
+      "Xi1_ratio_minmax": [
+        1.0,
+        3.0000000000000004
+      ],
+      "Lc_ratio_minmax": [
+        0.5773502691896257,
+        1.0
+      ],
+      "note": "Curvature range chosen so xi0*R remains comparable to m1^2 in the toy setup."
+    },
+    "ccphi1_coarse_grain": {
+      "n_cc_proxy": 1.0000000000000001e-24,
+      "R_window": [
+        0.0,
+        2e-15
+      ],
+      "rho_cc_eff_minmax": [
+        3.2969083094756155e-32,
+        5.710412699907783e-32
+      ],
+      "pressure_proxy_minmax": [
+        -2.8552063499538914e-32,
+        -1.6484541547378077e-32
+      ],
+      "w_proxy": -0.5,
+      "note": "Toy coarse-graining proxy (not a full QFT derivation). w_proxy is an illustrative closure parameter."
+    },
+    "ccphi2_flavour_toy": {
+      "cluster": {
+        "m2": 0.01,
+        "Lc": 50.0,
+        "N_modes": 5
+      },
+      "masses_input": {
+        "lepton": [
+          0.000511,
+          0.1057,
+          1.777
+        ],
+        "neutrino": [
+          0.001,
+          0.0086,
+          0.05
+        ]
+      },
+      "masses_output": {
+        "lepton": [
+          0.000972888502453324,
+          0.1066409726737013,
+          1.778441638190686
+        ],
+        "neutrino": [
+          0.017247387342739614,
+          0.03806019030660758,
+          0.1206402272257539
+        ]
+      },
+      "pmns_angles_deg": {
+        "theta12": 21.093516867850667,
+        "theta13": 8.725663026434438,
+        "theta23": 30.397839049604578,
+        "delta_cp": 58.95117819255773
+      },
+      "status": "exploratory toy model implemented in-repo for reproducibility"
+    }
+  },
+  "class_camb_note": "No direct CLASS/CAMB call is required by current microstructure and flavour-toy scripts. Bridge to CLASS/CAMB remains through primordial/late-time cosmology pipelines from Papers III-IV."
+}

@@ -1,0 +1,139 @@
+\documentclass[aps,prd,onecolumn,nofootinbib,superscriptaddress]{revtex4-2}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{amsmath,amssymb,amsfonts,bm}
+\usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage{hyperref}
+\usepackage{siunitx}
+\usepackage{enumitem}
+
+\hypersetup{colorlinks=true,linkcolor=blue,citecolor=blue,urlcolor=blue}
+
+\newcommand{\Mpl}{M_{\rm Pl}}
+\newcommand{\Meff}{M_{\rm eff}}
+\newcommand{\dd}{\mathrm{d}}
+\newcommand{\trm}{\mathrm}
+
+\begin{document}
+
+\title{TCV-$\phi$ VI: critical comparison, risk map, and falsification windows}
+
+\author{Cyrille LECROQ}
+\affiliation{Independent Researcher}
+
+\date{\today}
+
+\begin{abstract}
+This sixth paper provides a critical comparison layer for the TCV-$\phi$ program.
+Our objective is to collect the falsifiable diagnostics obtained in Papers~III--V, organize them into explicit exclusion statements, and define a risk map for the next data-level tests.
+The paper does not introduce new fundamental ingredients; it focuses on reproducibility, comparability, and scientific failure modes.
+We provide a compact quantitative matrix (primordial bridge, black-hole branch diagnostics, slow-rotation template shifts, and CC-$\Phi_1$ microstructure indicators) together with explicit criteria under which each current interpretation would be ruled out.
+\end{abstract}
+
+\maketitle
+
+\section{Introduction}
+Papers~I--V established the EFT baseline, cosmological/strong-field pipelines, and first quantum microstructure diagnostics.
+Paper~VI consolidates these outputs into a strict falsification-oriented framework.
+
+\section{Canonical baseline and comparison philosophy}
+We keep the same canonical TCV-$\phi$ definitions as in Papers~I--V.
+The comparison strategy is conservative: same conventions, explicit status labels, and source-linked diagnostics.
+
+\section{Cross-paper comparison matrix}
+The script \texttt{compute\_series\_comparison.py} aggregates key artifacts from Papers~III--V into
+\texttt{series\_comparison.json}.
+Table~\ref{tab:paper6-matrix} summarizes the current numerical anchors and their status labels.
+\begin{table}[t]
+  \centering
+  \begin{tabular}{llll}
+    \hline\hline
+    Sector & Quantity & Current benchmark diagnostic & Status label \\
+    \hline
+    Primordial bridge (Paper~III) &
+    $(n_s,\alpha_s)$ and CLASS bridge ratio &
+    $n_s = 0.9643$, $\alpha_s = -1.43\times 10^{-3}$; $P_{\rm ext}/P_{\rm pl}\in[0.9988,1.0014]$ &
+    Pipeline consistency \\
+    \hline
+    BH branch scan (Paper~IV) &
+    $\min F$ at high-density benchmark &
+    $\rho_{\rm cc,0}=10^{-8}$: $\min F_{\rm out}\simeq1.95\times10^{-3}$, $\min F_{\rm in}\simeq6.56\times10^{-1}$ &
+    Numerical diagnostic \\
+    \hline
+    Slow-rotation template (Paper~IV) &
+    Photon-ring proxy shift &
+    $\Delta r_{\rm ph}/r_{\rm ph}^{\rm Sch}\simeq-9.1\%$ in current template branch &
+    Template-level \\
+    \hline
+    CC-$\Phi_1$ microstructure (Paper~V) &
+    Mode hierarchy and coherence response &
+    $\Xi_2/\Xi_1 \simeq 3.72$ (equivalently $\omega_2/\omega_1\simeq1.93$); $L_c(R)/L_c(0)\in[0.58,1.0]$ &
+    Phenomenological toy \\
+    \hline\hline
+  \end{tabular}
+  \caption{Cross-paper quantitative matrix assembled from \texttt{series\_comparison.json}.}
+  \label{tab:paper6-matrix}
+\end{table}
+
+\section{Falsification windows}
+The script \texttt{compute\_falsification\_table.py} produces explicit exclusion statements.
+A compact operational subset is shown below.
+\begin{table}[t]
+  \centering
+  \begin{tabular}{llll}
+    \hline\hline
+    ID & Sector & Falsification statement (compact form) & Exclusion trigger \\
+    \hline
+    F1 & BH direction scan &
+    High-density branch dependence must survive method-matched scans in the near-horizon regime. &
+    If branch splitting disappears after method matching, the current branch interpretation is rejected. \\
+    F2 & Slow-rotation template &
+    Photon-ring proxy shift must remain non-zero after ODE-level closure. &
+    If ODE-level closure drives the shift to zero over validated priors, the current template branch is disfavored. \\
+    F3 & Primordial bridge &
+    External-spectrum CLASS bridge must remain consistent over validated linear scales. &
+    If improved closure yields persistent bridge mismatch on linear scales after numerical/interface artefacts are controlled, the primordial sector requires revision. \\
+    F4 & CC-$\Phi_1$ microstructure &
+    Microstructure window must preserve finite coherence scales and stable low-mode hierarchy. &
+    If refined microphysics removes this hierarchy in the canonical window, the toy closure is rejected. \\
+    \hline\hline
+  \end{tabular}
+  \caption{Operational falsification windows tracked in Paper~VI.}
+  \label{tab:paper6-falsification}
+\end{table}
+
+\section{Risk map and next-test priorities}
+We rank the next tests by impact and by expected discriminatory power:
+\begin{enumerate}
+  \item \textbf{Priority P1:} method-matched BH direction scans at fixed priors and matched integrators;
+  \item \textbf{Priority P2:} slow-rotation $\omega(r)$ closure beyond template level with explicit ODE diagnostics;
+  \item \textbf{Priority P3:} joint observable windows combining BH proxies and primordial constraints in a single exclusion chart.
+\end{enumerate}
+This ordering is designed to maximize falsifiability per computational cost before broader parameter scans.
+
+\section{Status labels and scientific scope}
+Paper~VI keeps the same discipline as Papers~I--V:
+\begin{itemize}
+  \item derived EFT structure,
+  \item phenomenological closures,
+  \item exploratory templates.
+\end{itemize}
+Its role is methodological: to maximize testability and minimize ambiguity before expanded data-level confrontations.
+
+\section{Conclusion}
+Paper~VI provides a reproducible comparison and falsification framework for the TCV-$\phi$ series.
+It defines explicit failure modes, converts cross-paper diagnostics into operational exclusion rules, and prepares the transition from internally consistent pipelines to high-stakes discriminating tests.
+In this sense, Paper~VI acts as the methodological bridge between the current setup phase and the next targeted strong-gravity stress tests.
+
+\begin{thebibliography}{99}
+\bibitem{TCV1} C.~Lecroq, ``TCV-$\phi$ I,'' preprint (2026).
+\bibitem{TCV2} C.~Lecroq, ``TCV-$\phi$ II,'' preprint (2026).
+\bibitem{TCV3} C.~Lecroq, ``TCV-$\phi$ III,'' preprint (2026).
+\bibitem{TCV4} C.~Lecroq, ``TCV-$\phi$ IV,'' preprint (2026).
+\bibitem{TCV5} C.~Lecroq, ``TCV-$\phi$ V,'' preprint (2026).
+\end{thebibliography}
+
+\end{document}

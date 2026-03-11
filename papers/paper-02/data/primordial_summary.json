@@ -1,0 +1,17 @@
+{
+  "n_s_from_ms": 0.9687514155492284,
+  "A_s_from_file_fit": 2.099999999999998e-09,
+  "n_s_from_file_fit": 0.9649779165902269,
+  "model_used": "cohesive_mix",
+  "A_s_target": 2.1e-09,
+  "A_s_raw_before_rescale": 0.028023466946219974,
+  "powerlaw_used_fallback": false,
+  "external_used_fallback": false,
+  "powerlaw_error": "",
+  "external_error": "",
+  "primordial_file_code_path": "/Users/cyrille/Perso/Mes projets/TCV/REPO/TCV-Phi/TCV-PHI/papers/paper-02/code/data/PR_tcvphi.dat",
+  "primordial_file_data_path": "/Users/cyrille/Perso/Mes projets/TCV/REPO/TCV-Phi/TCV-PHI/papers/paper-02/data/PR_tcvphi.dat",
+  "pk_ratio_min": 0.9961816762097674,
+  "pk_ratio_max": 1.0044655721237319,
+  "note": "external_file mode currently maps table -> effective (A_s, n_s) for CLASS."
+}

@@ -1,0 +1,202 @@
+\documentclass[aps,prd,onecolumn,nofootinbib,superscriptaddress]{revtex4-2}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{amsmath,amssymb,amsfonts,bm}
+\usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage{hyperref}
+\usepackage{siunitx}
+\usepackage{enumitem}
+
+\hypersetup{colorlinks=true,linkcolor=blue,citecolor=blue,urlcolor=blue}
+
+\newcommand{\Mpl}{M_{\rm Pl}}
+\newcommand{\Meff}{M_{\rm eff}}
+\newcommand{\dd}{\mathrm{d}}
+\newcommand{\trm}{\mathrm}
+
+\begin{document}
+
+\title{TCV-$\phi$ V: cohesive quantum microstructure from CC-$\Phi_1$ \\
+and a controlled bridge to CC-$\Phi_2$ flavour templates}
+
+\author{Cyrille LECROQ}
+\affiliation{Independent Researcher}
+
+\date{\today}
+
+\begin{abstract}
+This fifth paper develops the quantum-microstructure layer of the canonical TCV-$\phi$ programme.
+Our scope is to formulate a reproducible CC-$\Phi_1$ cluster framework, quantify its curvature response, and connect it to coarse-grained effective quantities used in previous papers.
+We also include a clearly labelled exploratory bridge to CC-$\Phi_2$ flavour toy models, without claiming a complete theory-level fit of flavour observables.
+All claims are restricted to script-backed diagnostics archived in the Paper~V workspace.
+\end{abstract}
+
+\maketitle
+
+\section{Introduction}
+Paper~V follows Papers~I--IV and keeps the same canonical EFT field content and notation.
+The focus is the microscopic cohesive layer (CC-$\Phi_1$) and its controlled link to exploratory CC-$\Phi_2$ flavour templates.
+
+\section{Canonical EFT baseline}
+We keep exactly the same action and parameter hierarchy as in Papers~I--IV.
+No new fundamental fields or couplings are introduced in this paper.
+
+\section{Local CC-$\Phi_1$ clusters: setup}
+We adopt a minimal cluster quantization toy consistent with the CC-$\Phi_1$ preprint construction of Ref.~\cite{TCV9}:
+\begin{equation}
+L_c(R)\sim \frac{1}{m_{\rm eff}(R)},
+\qquad
+m_{\rm eff}^2(R)=m_1^2+\xi_0 R,
+\end{equation}
+and
+\begin{equation}
+\Xi_n(R)=m_{\rm eff}^2(R)+\left(\frac{n\pi}{L_c(R)}\right)^2.
+\end{equation}
+Here $\Xi_n$ has mass-squared units, while the corresponding mode energy scale is
+\begin{equation}
+\omega_n(R)=\sqrt{\Xi_n(R)}.
+\end{equation}
+The baseline benchmark used by \texttt{compute\_ccphi1\_spectrum.py} is
+$m_1=10^{-8}$, $\xi_0=0.1$, and $n_{\rm modes}=3$.
+
+\section{CC-$\Phi_1$ spectrum and curvature response}
+From \texttt{ccphi1\_spectrum.json}, the baseline values at $R=0$ are
+\begin{equation}
+ \Xi_1\simeq 1.09\times10^{-15},
+\qquad
+\Xi_2-\Xi_1\simeq 2.96\times10^{-15},
+\end{equation}
+which corresponds to $\omega_1(0)\simeq 3.30\times10^{-8}$ and coherence length
+$L_c(0)\simeq 10^8$ in Planck units.
+The curvature scan (\texttt{compute\_ccphi1\_curvature\_response.py}) uses
+$0\le R\le 2\times10^{-15}$ and yields
+\begin{equation}
+\frac{\Xi_1(R)}{\Xi_1(0)}\in[1,3],
+\qquad
+\frac{L_c(R)}{L_c(0)}\in[0.577,1].
+\end{equation}
+
+\begin{figure}[t]
+  \centering
+  \includegraphics[width=0.72\textwidth]{../figs/ccphi1_mode_spectrum.png}
+  \caption{Baseline CC-$\Phi_1$ mode spectrum from \texttt{compute\_ccphi1\_spectrum.py}.}
+  \label{fig:paper5-spectrum}
+\end{figure}
+
+\begin{figure}[t]
+  \centering
+  \includegraphics[width=0.86\textwidth]{../figs/ccphi1_curvature_response.png}
+  \caption{Curvature response of the lowest mode and coherence length from \texttt{compute\_ccphi1\_curvature\_response.py}.}
+  \label{fig:paper5-curvature}
+\end{figure}
+
+\section{Coarse-graining and effective macroscopic consistency}
+At the current toy level we use a proxy density $n_{\rm CC}\sim m_1^3$ and define
+\begin{equation}
+\rho_{\rm cc,eff}\sim n_{\rm CC}\,\omega_1,
+\qquad
+p_{\rm proxy}=w_{\rm proxy}\rho_{\rm cc,eff},
+\end{equation}
+with the illustrative closure choice $w_{\rm proxy}=-1/2$ in the current script benchmark.
+This $w_{\rm proxy}$ is a toy coarse-graining parameter and should not be interpreted as the final EFT vacuum equation of state.
+The script \texttt{compute\_ccphi1\_coarse\_grain.py} gives
+\begin{equation}
+\rho_{\rm cc,eff}\in[3.30,5.71]\times10^{-32},
+\end{equation}
+over the same curvature window.
+These values are used as consistency diagnostics, not as a final microscopic QFT derivation.
+
+\begin{figure}[t]
+  \centering
+  \includegraphics[width=0.86\textwidth]{../figs/ccphi1_coarse_grain.png}
+  \caption{Toy coarse-graining diagnostics from \texttt{compute\_ccphi1\_coarse\_grain.py}.}
+  \label{fig:paper5-coarse}
+\end{figure}
+
+\section{Exploratory bridge to CC-$\Phi_2$ flavour sector}
+We reuse the preprint-X flavour toy logic (\cite{TCV10}) through an in-repo module for full reproducibility in \texttt{compute\_ccphi2\_flavour\_toy.py}.
+The toy mass matrices are
+\begin{equation}
+M_\ell=\mathrm{diag}(m_e,m_\mu,m_\tau)+\epsilon_\ell\,C_\ell^\dagger H_{\rm modes} C_\ell^T,
+\end{equation}
+\begin{equation}
+M_\nu=\mathrm{diag}(m_{\nu_1},m_{\nu_2},m_{\nu_3})+\epsilon_\nu\,C_\nu^\dagger H_{\rm modes} C_\nu^T,
+\end{equation}
+with $U_{\rm PMNS}=U_\ell^\dagger U_\nu$ after diagonalization.
+Here $H_{\rm modes}$ denotes the CC-$\Phi_2$ mode-space Hamiltonian and
+$C_\ell$, $C_\nu$ are flavour-projection coefficient matrices in that mode basis;
+their explicit toy forms are given in Ref.~\cite{TCV10} and mirrored in the in-repo module.
+\begin{table}[t]
+  \centering
+  \begin{tabular}{lc}
+    \hline\hline
+    Parameter & Benchmark value \\
+    \hline
+    $m_2$ & $10^{-2}$ \\
+    $L_c$ & $50$ \\
+    $N_{\rm modes}$ & $5$ \\
+    $\epsilon_\ell$ & $0.007$ \\
+    $\epsilon_\nu$ & $0.20$ \\
+    $\kappa_\nu$ & $1.5$ \\
+    \hline\hline
+  \end{tabular}
+  \caption{Exploratory CC-$\Phi_2$ flavour-toy benchmark used in \texttt{compute\_ccphi2\_flavour\_toy.py}.}
+  \label{tab:paper5-flavour-benchmark}
+\end{table}
+For the representative run we obtain PMNS-like angles
+\begin{equation}
+\theta_{12}\simeq 21.1^\circ,\quad
+\theta_{13}\simeq 8.73^\circ,\quad
+\theta_{23}\simeq 30.4^\circ,
+\end{equation}
+with $\delta_{\rm CP}\simeq 59^\circ$ in the same toy setup.
+Relative to current global-fit central values (roughly $\theta_{12}\sim 33^\circ$, $\theta_{13}\sim 8.6^\circ$, $\theta_{23}\sim 49^\circ$), this toy keeps only an order-of-magnitude flavour hierarchy and is not a precision fit.
+No precision global-fit claim is made at this stage.
+
+\begin{figure}[t]
+  \centering
+  \includegraphics[width=0.68\textwidth]{../figs/ccphi2_flavour_toy_angles.png}
+  \caption{Exploratory CC-$\Phi_2$ flavour toy angles from reused preprint-X code.}
+  \label{fig:paper5-flavour}
+\end{figure}
+
+\begin{table}[t]
+  \centering
+  \begin{tabular}{lcc}
+    \hline\hline
+    Block & Output artifact & Status label \\
+    \hline
+    CC-$\Phi_1$ spectrum & \texttt{ccphi1\_spectrum.json} & phenomenological toy \\
+    Curvature response & \texttt{ccphi1\_curvature\_scan.npz} & phenomenological scan \\
+    Coarse-graining & \texttt{ccphi1\_coarse\_grain.json} & toy proxy \\
+    CC-$\Phi_2$ flavour & \texttt{ccphi2\_flavour\_toy.json} & exploratory toy \\
+    \hline\hline
+  \end{tabular}
+  \caption{Paper-V script-backed outputs and status labels.}
+  \label{tab:paper5-status}
+\end{table}
+
+\section{Status of assumptions}
+\begin{itemize}
+  \item EFT-derived baseline definitions inherited from Papers~I--IV.
+  \item Phenomenological closures used in the CC-$\Phi_1$ cluster pipeline.
+  \item Exploratory templates for CC-$\Phi_2$ flavour mapping.
+\end{itemize}
+
+\section{Conclusion}
+Paper~V is designed as a reproducible and conservative microstructure step in the TCV-$\phi$ series.
+It prepares a falsifiable bridge between cohesive quantum microstructure and later high-level sectors.
+
+\begin{thebibliography}{99}
+\bibitem{TCV1} C.~Lecroq, ``TCV-$\phi$ I,'' preprint (2026).
+\bibitem{TCV2} C.~Lecroq, ``TCV-$\phi$ II,'' preprint (2026).
+\bibitem{TCV3} C.~Lecroq, ``TCV-$\phi$ III,'' preprint (2026).
+\bibitem{TCV4} C.~Lecroq, ``TCV-$\phi$ IV,'' preprint (2026).
+\bibitem{TCV9} C.~Lecroq, ``Cohesive Quantum Gravity and CC-$\Phi_1$ microstructure,'' preprint (2026).
+\bibitem{TCV10} C.~Lecroq, ``From Quantum CC-$\Phi_2$ to flavour structures,'' preprint (2026).
+\end{thebibliography}
+
+\end{document}

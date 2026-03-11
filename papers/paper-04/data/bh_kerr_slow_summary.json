@@ -1,0 +1,13 @@
+{
+  "family_used": "dense_core",
+  "r_ref": 10000.0,
+  "f_min": 0.9999999999999162,
+  "xi0": 0.1,
+  "a_over_m_values": [
+    0.0,
+    0.05,
+    0.1,
+    0.2
+  ],
+  "note": "Slow-rotation template built on static branch; r_ref is the radius where F reaches its minimum."
+}

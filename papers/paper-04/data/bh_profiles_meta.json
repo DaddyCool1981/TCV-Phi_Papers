@@ -1,0 +1,77 @@
+{
+  "regular_core": {
+    "params": {
+      "m1": 1e-08,
+      "phi1_0": 1.0,
+      "C0": -0.0038,
+      "kappa": -3.8e-19,
+      "lam1": 1e-20,
+      "xi0": 0.0,
+      "rho_cc0": 1e-26,
+      "alpha_cc": 0.0,
+      "beta_cc": 0.0,
+      "r0": 100000000.0,
+      "n_grid": 900,
+      "tol": 1e-06,
+      "max_nodes": 50000,
+      "r_min": 1e-06,
+      "r_max": 10000.0,
+      "r_points": 1800,
+      "atol": 1e-09,
+      "rtol": 1e-08
+    },
+    "phi1_center": 1.0,
+    "solver_message": "The solver successfully reached the end of the integration interval.",
+    "n_steps": 1800
+  },
+  "compact_core": {
+    "params": {
+      "m1": 1e-08,
+      "phi1_0": 1.0,
+      "C0": -0.0038,
+      "kappa": -3.8e-19,
+      "lam1": 1e-20,
+      "xi0": 0.0,
+      "rho_cc0": 1e-24,
+      "alpha_cc": 0.0,
+      "beta_cc": 0.0,
+      "r0": 100000000.0,
+      "n_grid": 900,
+      "tol": 1e-06,
+      "max_nodes": 50000,
+      "r_min": 1e-06,
+      "r_max": 10000.0,
+      "r_points": 1800,
+      "atol": 1e-09,
+      "rtol": 1e-08
+    },
+    "phi1_center": 1.0,
+    "solver_message": "The solver successfully reached the end of the integration interval.",
+    "n_steps": 1800
+  },
+  "dense_core": {
+    "params": {
+      "m1": 1e-08,
+      "phi1_0": 1.0,
+      "C0": -0.0038,
+      "kappa": -3.8e-19,
+      "lam1": 1e-20,
+      "xi0": 0.0,
+      "rho_cc0": 1e-22,
+      "alpha_cc": 0.0,
+      "beta_cc": 0.0,
+      "r0": 100000000.0,
+      "n_grid": 900,
+      "tol": 1e-06,
+      "max_nodes": 50000,
+      "r_min": 1e-06,
+      "r_max": 10000.0,
+      "r_points": 1800,
+      "atol": 1e-09,
+      "rtol": 1e-08
+    },
+    "phi1_center": 1.0,
+    "solver_message": "The solver successfully reached the end of the integration interval.",
+    "n_steps": 1800
+  }
+}

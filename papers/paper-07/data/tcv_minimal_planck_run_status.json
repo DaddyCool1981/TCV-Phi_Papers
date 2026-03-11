@@ -1,0 +1,28 @@
+{
+  "dry_run": false,
+  "status": "completed",
+  "packages_path": "/Users/cyrille/Perso/Mes projets/TCV/REPO/TCV-Phi/TCV-PHI/papers/paper-07/external_packages",
+  "output_root": "/Users/cyrille/Perso/Mes projets/TCV/REPO/TCV-Phi/TCV-PHI/papers/paper-07/data/tcv_minimal_planck_chain_v1_lowl",
+  "resume": true,
+  "force": false,
+  "allow_changes": true,
+  "sampler": "<class 'cobaya.samplers.mcmc.mcmc.MCMC'>",
+  "updated_info_keys": [
+    "debug",
+    "force",
+    "likelihood",
+    "output",
+    "packages_path",
+    "params",
+    "resume",
+    "sampler",
+    "theory"
+  ],
+  "convergence_last_progress_row": {
+    "N": 3040.0,
+    "timestamp": "2026-03-10T19:44:44.003720",
+    "acceptance_rate": 0.64027,
+    "Rminus1": 0.044393,
+    "Rminus1_cl": 0.168642
+  }
+}

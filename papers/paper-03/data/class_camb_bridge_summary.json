@@ -1,0 +1,11 @@
+{
+  "primordial_file_used": "/Users/cyrille/Perso/Mes projets/TCV/REPO/TCV-Phi/TCV-PHI/papers/paper-03/data/PR_tcvphi.dat",
+  "powerlaw_used_fallback": false,
+  "external_used_fallback": false,
+  "powerlaw_error": "",
+  "external_error": "",
+  "pk_ratio_min": 0.9987669651972761,
+  "pk_ratio_max": 1.0014380079994243,
+  "camb_status": "not_run_in_this_script",
+  "note": "This bridge script validates CLASS table-mode consistency. CAMB checks can be added in a dedicated follow-up script."
+}

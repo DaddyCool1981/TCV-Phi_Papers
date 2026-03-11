@@ -1,0 +1,24 @@
+{
+  "family_used": "dense_core",
+  "m_adm": 4.1887902047864096e-10,
+  "r_core_proxy": 1e-06,
+  "r_photon": 1.1423973285781117e-09,
+  "r_photon_schwarzschild": 1.256637061435923e-09,
+  "photon_ring_relative_shift": -0.09090909090909097,
+  "photon_ring_model": "effective_coupling_template",
+  "delta_t_echo_template": 5.435521662941069e-09,
+  "f_echo_template": 577974451.8376052,
+  "a_over_m_values": [
+    0.0,
+    0.05,
+    0.1,
+    0.2
+  ],
+  "omega_r_eikonal_template": [
+    875352187.0054204,
+    901612752.6155831,
+    927873318.2257457,
+    980394449.446071
+  ],
+  "note": "Photon-ring and echo outputs are template-level diagnostics in the current slow-rotation branch."
+}

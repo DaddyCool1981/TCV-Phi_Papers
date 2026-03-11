@@ -1,0 +1,35 @@
+{
+  "regular_core": {
+    "solver_success": true,
+    "adm_mass": 4.1887902047863837e-14,
+    "horizon_radius": null,
+    "R_center_max_abs": 1.0053096491487339e-24,
+    "Ricci2_center_max": 1.263309363339438e-49,
+    "Kproxy_center_max": 8.422062422262926e-50,
+    "delta_m_asym_max": 5.098543926451987e-18,
+    "delta_f_asym_max": 0.0,
+    "note": "Kproxy is the Schwarzschild-like 48(m/r^3)^2 diagnostic."
+  },
+  "compact_core": {
+    "solver_success": true,
+    "adm_mass": 4.188790204786384e-12,
+    "horizon_radius": null,
+    "R_center_max_abs": 1.0053096491487337e-22,
+    "Ricci2_center_max": 1.2633093633394376e-45,
+    "Kproxy_center_max": 8.422062422262963e-46,
+    "delta_m_asym_max": 5.098543926451985e-16,
+    "delta_f_asym_max": 4.440892098500626e-16,
+    "note": "Kproxy is the Schwarzschild-like 48(m/r^3)^2 diagnostic."
+  },
+  "dense_core": {
+    "solver_success": true,
+    "adm_mass": 4.1887902047864096e-10,
+    "horizon_radius": null,
+    "R_center_max_abs": 1.0053096491487338e-20,
+    "Ricci2_center_max": 1.263309363339438e-41,
+    "Kproxy_center_max": 8.422062422262947e-42,
+    "delta_m_asym_max": 5.098543926452019e-14,
+    "delta_f_asym_max": 5.10702591327572e-14,
+    "note": "Kproxy is the Schwarzschild-like 48(m/r^3)^2 diagnostic."
+  }
+}

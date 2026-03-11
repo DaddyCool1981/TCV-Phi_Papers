@@ -1,0 +1,24 @@
+{
+  "paper": "paper-07",
+  "scope": "baseline pre-likelihood validation",
+  "canonical_params": {
+    "H0": 67.4,
+    "ombh2": 0.0224,
+    "omch2": 0.12,
+    "As": 2.1e-09,
+    "ns": 0.964,
+    "tau": 0.054,
+    "YHe": 0.245
+  },
+  "k_range_h_Mpc": [
+    0.001,
+    5.011872336272722
+  ],
+  "pk_ratio_external_over_powerlaw_min": 0.9987669651972761,
+  "pk_ratio_external_over_powerlaw_max": 1.0014380079994243,
+  "powerlaw_used_fallback": false,
+  "external_used_fallback": false,
+  "powerlaw_error": "",
+  "external_error": "",
+  "note": "External primordial file from Paper III used."
+}

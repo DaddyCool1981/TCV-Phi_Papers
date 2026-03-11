@@ -1,0 +1,85 @@
+{
+  "lcdm": {
+    "root": "/Users/cyrille/Perso/Mes projets/TCV/REPO/TCV-Phi/TCV-PHI/papers/paper-07/data/lcdm_planck_chain_classnative_v7_lowl",
+    "rows": 6720,
+    "omega_b": {
+      "mean": 0.022496409893737895,
+      "lower_68": 0.022307762297894027,
+      "upper_68": 0.022652199263286307
+    },
+    "omega_cdm": {
+      "mean": 0.11822195858102,
+      "lower_68": 0.11666554426237435,
+      "upper_68": 0.12004817969484305
+    },
+    "h": {
+      "mean": 0.6866751282014202,
+      "lower_68": 0.6782171087333625,
+      "upper_68": 0.693640196334549
+    },
+    "tau_reio": {
+      "mean": 0.0499531871551969,
+      "lower_68": 0.04272448702153982,
+      "upper_68": 0.05857641232801147
+    },
+    "A_planck": {
+      "mean": 1.0267023346662363,
+      "lower_68": 1.005629,
+      "upper_68": 1.0467964
+    },
+    "bestfit": {
+      "chi2__CMB": 1008.8191,
+      "minuslogpost": 489.26224
+    },
+    "n_s": {
+      "mean": 0.9691070253156875,
+      "lower_68": 0.9639774,
+      "upper_68": 0.97423862
+    },
+    "logA": {
+      "mean": 3.0822780169528734,
+      "lower_68": 3.0472781,
+      "upper_68": 3.1171988
+    }
+  },
+  "tcv_minimal": {
+    "root": "/Users/cyrille/Perso/Mes projets/TCV/REPO/TCV-Phi/TCV-PHI/papers/paper-07/data/tcv_minimal_planck_chain_v1_lowl",
+    "rows": 3800,
+    "omega_b": {
+      "mean": 0.022361559154664087,
+      "lower_68": 0.022242997,
+      "upper_68": 0.022487709
+    },
+    "omega_cdm": {
+      "mean": 0.11966383738037698,
+      "lower_68": 0.11887949,
+      "upper_68": 0.12047295
+    },
+    "h": {
+      "mean": 0.6799542627573707,
+      "lower_68": 0.6763204703365524,
+      "upper_68": 0.6833566406590499
+    },
+    "tau_reio": {
+      "mean": 0.04835877130956984,
+      "lower_68": 0.041133015,
+      "upper_68": 0.055838203
+    },
+    "A_planck": {
+      "mean": 1.0071508752609957,
+      "lower_68": 0.99926097,
+      "upper_68": 1.0144081
+    },
+    "bestfit": {
+      "chi2__CMB": 1010.0826,
+      "minuslogpost": 491.50344
+    }
+  },
+  "criteria": {
+    "n_data_proxy": 2500,
+    "delta_chi2_tcv_minus_lcdm": 1.2634999999999081,
+    "delta_AIC_tcv_minus_lcdm": -2.736500000000092,
+    "delta_BIC_tcv_minus_lcdm": -14.384592021712706,
+    "note": "AIC/BIC are reported with an explicit n_data proxy."
+  }
+}

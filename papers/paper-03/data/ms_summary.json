@@ -1,0 +1,32 @@
+{
+  "model_used": "cohesive_mix",
+  "model_parameters": {
+    "w_eff": -0.003,
+    "eta_i": -1000.0,
+    "eta_f": -1.0,
+    "n_eta": 20000,
+    "k_min": 0.001,
+    "k_max": 0.1,
+    "n_k": 60,
+    "dphi_rel": 1e-05,
+    "C0": -0.0038,
+    "eta_c": 50.0,
+    "mode": "lorentzian"
+  },
+  "n_s_from_ms": 0.9784699200473896,
+  "A_s_target": 2.1e-09,
+  "A_s_raw_before_rescale": 0.028027031484181134,
+  "k_pivot": 0.05,
+  "canonical_class_camb_params": {
+    "H0": 67.4,
+    "ombh2": 0.0224,
+    "omch2": 0.12,
+    "As": 2.1e-09,
+    "ns": 0.964,
+    "tau": 0.054,
+    "YHe": 0.245
+  },
+  "primordial_file_code_path": "/Users/cyrille/Perso/Mes projets/TCV/REPO/TCV-Phi/TCV-PHI/papers/paper-03/code/data/PR_tcvphi.dat",
+  "primordial_file_data_path": "/Users/cyrille/Perso/Mes projets/TCV/REPO/TCV-Phi/TCV-PHI/papers/paper-03/data/PR_tcvphi.dat",
+  "canonical_reference": "paper-01 canonical cosmology and notation"
+}

@@ -1,0 +1,11 @@
+{
+  "dry_run": false,
+  "status": "completed",
+  "output_root": "/Users/cyrille/Perso/Mes projets/TCV/REPO/TCV-Phi/TCV-PHI/papers/paper-07/data/lcdm_planck_chain_classnative_v7_lowl",
+  "notes": "Updated after successful low-l run converged with R-1(mean)<0.05 and R-1(bounds)<0.2.",
+  "convergence": {
+    "Rminus1_means": 0.039993,
+    "Rminus1_bounds": 0.13893,
+    "accepted_samples": 6720
+  }
+}

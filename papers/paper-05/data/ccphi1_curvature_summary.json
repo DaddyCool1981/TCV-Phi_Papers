@@ -1,0 +1,13 @@
+{
+  "R_min": 0.0,
+  "R_max": 2e-15,
+  "Xi1_ratio_minmax": [
+    1.0,
+    3.0000000000000004
+  ],
+  "Lc_ratio_minmax": [
+    0.5773502691896257,
+    1.0
+  ],
+  "note": "Curvature range chosen so xi0*R remains comparable to m1^2 in the toy setup."
+}

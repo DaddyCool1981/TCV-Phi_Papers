@@ -1,0 +1,12 @@
+{
+  "Lambda_B_baseline": 1e+19,
+  "Lambda_B_calibrated": 86109961471.99805,
+  "T_B_baseline": 5.1988170122625745e+19,
+  "T_B": 917576730.2262667,
+  "eta_B": 1.4872903693388454e-25,
+  "eta_B_at_TB": 1.4872903693388454e-25,
+  "Gamma_over_H_at_TB": 1.0007518754553317,
+  "T_reh_over_TB": 3.333333333333337,
+  "freezeout_inside_history": true,
+  "eta_at_TB": 36.89737947589518
+}

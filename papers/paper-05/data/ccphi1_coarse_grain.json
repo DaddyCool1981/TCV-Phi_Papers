@@ -1,0 +1,17 @@
+{
+  "n_cc_proxy": 1.0000000000000001e-24,
+  "R_window": [
+    0.0,
+    2e-15
+  ],
+  "rho_cc_eff_minmax": [
+    3.2969083094756155e-32,
+    5.710412699907783e-32
+  ],
+  "pressure_proxy_minmax": [
+    -2.8552063499538914e-32,
+    -1.6484541547378077e-32
+  ],
+  "w_proxy": -0.5,
+  "note": "Toy coarse-graining proxy (not a full QFT derivation). w_proxy is an illustrative closure parameter."
+}

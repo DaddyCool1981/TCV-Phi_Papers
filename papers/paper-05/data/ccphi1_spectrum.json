@@ -1,0 +1,27 @@
+{
+  "params": {
+    "m1": 1e-08,
+    "xi0": 0.1,
+    "n_modes": 3
+  },
+  "R_baseline": 0.0,
+  "coherence_length": 100000000.0,
+  "Xi_modes": [
+    1.086960440108936e-15,
+    4.0478417604357435e-15,
+    8.982643960980422e-15
+  ],
+  "E_modes": [
+    1.086960440108936e-15,
+    4.0478417604357435e-15,
+    8.982643960980422e-15
+  ],
+  "omega_modes": [
+    3.296908309475615e-08,
+    6.362265131567329e-08,
+    9.477681130413927e-08
+  ],
+  "gap_Xi2_minus_Xi1": 2.9608813203268076e-15,
+  "gap_E2_minus_E1": 2.9608813203268076e-15,
+  "status": "phenomenological cluster quantization toy aligned with preprint 9"
+}

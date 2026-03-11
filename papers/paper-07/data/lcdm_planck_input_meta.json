@@ -1,0 +1,7 @@
+{
+  "input_yaml": "/Users/cyrille/Perso/Mes projets/TCV/REPO/TCV-Phi/TCV-PHI/papers/paper-07/data/lcdm_planck_input.yaml",
+  "packages_path": "/Users/cyrille/Perso/Mes projets/TCV/REPO/TCV-Phi/TCV-PHI/papers/paper-07/external_packages",
+  "lowl_enabled": true,
+  "output_root": "/Users/cyrille/Perso/Mes projets/TCV/REPO/TCV-Phi/TCV-PHI/papers/paper-07/data/lcdm_planck_chain_classnative_v7_lowl",
+  "note": "Prepared for Cobaya LCDM baseline with Planck native likelihoods."
+}
