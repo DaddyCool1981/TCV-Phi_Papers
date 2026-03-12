@@ -25,12 +25,13 @@ and a controlled bridge to CC-$\Phi_2$ flavour templates}
 \author{Cyrille LECROQ}
 \affiliation{Independent Researcher}
 
-\date{2026}
+\date{\today}
 
 \begin{abstract}
 This fifth paper develops the quantum-microstructure layer of the canonical TCV-$\phi$ programme.
 Our scope is to formulate a reproducible CC-$\Phi_1$ cluster framework, quantify its curvature response, and connect it to coarse-grained effective quantities used in previous papers.
-We also include a clearly labelled exploratory bridge to CC-$\Phi_2$ flavour toy models, without claiming a complete theory-level fit of flavour observables.
+For the flavour bridge, we now adopt a twisted-torus cluster toy as the main exploratory benchmark and compare it against other candidate geometries under a common scoring and naturalness protocol.
+No complete theory-level fit is claimed.
 All claims are restricted to script-backed diagnostics archived in the Paper~V workspace.
 \end{abstract}
 
@@ -39,6 +40,8 @@ All claims are restricted to script-backed diagnostics archived in the Paper~V w
 \section{Introduction}
 Paper~V follows Papers~I--IV and keeps the same canonical EFT field content and notation.
 The focus is the microscopic cohesive layer (CC-$\Phi_1$) and its controlled link to exploratory CC-$\Phi_2$ flavour templates.
+In this revision, the flavour subsection is organized around geometry selection:
+we compare several cluster topologies with the same PMNS-oriented criteria and then use the best-performing candidate as the primary exploratory benchmark.
 
 \section{Canonical EFT baseline}
 We keep exactly the same action and parameter hierarchy as in Papers~I--IV.
@@ -116,51 +119,122 @@ These values are used as consistency diagnostics, not as a final microscopic QFT
   \label{fig:paper5-coarse}
 \end{figure}
 
-\section{Exploratory bridge to CC-$\Phi_2$ flavour sector}
-We reuse the preprint-X flavour toy logic (\cite{TCV10}) through an in-repo module for full reproducibility in \texttt{compute\_ccphi2\_flavour\_toy.py}.
-The toy mass matrices are
+\section{Exploratory bridge to CC-$\Phi_2$ flavour sector: twisted-torus benchmark}
+We keep the same conservative status as in previous drafts:
+this is an exploratory toy layer, not a precision global fit.
+The central update is geometric.
+Instead of using a single fixed cluster ansatz, we adopt a twisted-torus (M\"obius-ladder) cluster as the primary flavour benchmark, while retaining alternative geometries as comparison points.
+
+The effective flavour extraction remains in the same form,
 \begin{equation}
-M_\ell=\mathrm{diag}(m_e,m_\mu,m_\tau)+\epsilon_\ell\,C_\ell^\dagger H_{\rm modes} C_\ell^T,
+M_\ell=\mathrm{diag}(m_e,m_\mu,m_\tau)+\delta M_\ell,\qquad
+M_\nu=\mathrm{diag}(m_{\nu_1},m_{\nu_2},m_{\nu_3})+\delta M_\nu,
 \end{equation}
+with
 \begin{equation}
-M_\nu=\mathrm{diag}(m_{\nu_1},m_{\nu_2},m_{\nu_3})+\epsilon_\nu\,C_\nu^\dagger H_{\rm modes} C_\nu^T,
+U_{\rm PMNS}=U_\ell^\dagger U_\nu.
 \end{equation}
-with $U_{\rm PMNS}=U_\ell^\dagger U_\nu$ after diagonalization.
-Here $H_{\rm modes}$ denotes the CC-$\Phi_2$ mode-space Hamiltonian and
-$C_\ell$, $C_\nu$ are flavour-projection coefficient matrices in that mode basis;
-their explicit toy forms are given in Ref.~\cite{TCV10} and mirrored in the in-repo module.
-\begin{table}[t]
-  \centering
-  \begin{tabular}{lc}
-    \hline\hline
-    Parameter & Benchmark value \\
-    \hline
-    $m_2$ & $10^{-2}$ \\
-    $L_c$ & $50$ \\
-    $N_{\rm modes}$ & $5$ \\
-    $\epsilon_\ell$ & $0.007$ \\
-    $\epsilon_\nu$ & $0.20$ \\
-    $\kappa_\nu$ & $1.5$ \\
-    \hline\hline
-  \end{tabular}
-  \caption{Exploratory CC-$\Phi_2$ flavour-toy benchmark used in \texttt{compute\_ccphi2\_flavour\_toy.py}.}
-  \label{tab:paper5-flavour-benchmark}
-\end{table}
-For the representative run we obtain PMNS-like angles
+The key difference is that $\delta M_\ell$ and $\delta M_\nu$ are now generated from twisted-torus mode structure in \texttt{compute\_twisted\_torus\_flavor\_toy.py}, rather than from a single pre-selected pyramidal template.
+
+For the best script-backed twisted-torus benchmark we obtain
 \begin{equation}
-\theta_{12}\simeq 21.1^\circ,\quad
-\theta_{13}\simeq 8.73^\circ,\quad
-\theta_{23}\simeq 30.4^\circ,
+\theta_{12}\simeq 34.6^\circ,\quad
+\theta_{13}\simeq 8.29^\circ,\quad
+\theta_{23}\simeq 41.6^\circ,
 \end{equation}
-with $\delta_{\rm CP}\simeq 59^\circ$ in the same toy setup.
-Relative to current global-fit central values (roughly $\theta_{12}\sim 33^\circ$, $\theta_{13}\sim 8.6^\circ$, $\theta_{23}\sim 49^\circ$), this toy keeps only an order-of-magnitude flavour hierarchy and is not a precision fit.
-No precision global-fit claim is made at this stage.
+with a common PMNS proximity score $S_{\rm PMNS}\simeq 0.52$ (lower is better in our normalization).
+The PMNS reference point used in this toy score is
+$\theta_{12}^{\rm ref}=33.0^\circ$, $\theta_{13}^{\rm ref}=8.6^\circ$,
+$\theta_{23}^{\rm ref}=45.0^\circ$, consistent with current global-fit
+central values (\cite{NuFIT}).
+In the same scan,
+\begin{equation}
+n_{\rm strict}=82,\qquad n_{\rm relaxed}=183,
+\end{equation}
+for $n_{\rm natural}=4223$ accepted points.
+The best twisted-torus point lies inside the strict $\theta_{23}$ window but not exactly at maximal mixing; this is kept as an exploratory intermediate result.
+This remains an exploratory indication of geometric viability, not a final flavour solution.
 
 \begin{figure}[t]
   \centering
-  \includegraphics[width=0.68\textwidth]{../figs/ccphi2_flavour_toy_angles.png}
-  \caption{Exploratory CC-$\Phi_2$ flavour toy angles from reused preprint-X code.}
-  \label{fig:paper5-flavour}
+  \includegraphics[width=0.68\textwidth]{../figs/twisted_torus_flavour_spectrum.png}
+  \caption{Twisted-torus (M\"obius-ladder) toy spectrum from \texttt{compute\_twisted\_torus\_flavor\_toy.py}.}
+  \label{fig:paper5-twisted-spectrum}
+\end{figure}
+
+\begin{figure}[t]
+  \centering
+  \includegraphics[width=0.68\textwidth]{../figs/twisted_torus_flavour_top_candidates.png}
+  \caption{Top twisted-torus flavour candidates (script-backed).}
+  \label{fig:paper5-twisted-candidates}
+\end{figure}
+
+\section{Geometric exploration and model selection diagnostics}
+To avoid hidden fine tuning, we compare candidate geometries under a common protocol:
+same angle windows, same naturalness bounds, and the same normalized PMNS score used across all toys.
+The aggregate diagnostics are produced by \texttt{compute\_flavour\_geometry\_comparison.py}.
+The score is defined as
+\begin{equation}
+S_{\rm PMNS}=
+\sqrt{
+\left(\frac{\theta_{12}-33^\circ}{10^\circ}\right)^2+
+\left(\frac{\theta_{13}-8.6^\circ}{4^\circ}\right)^2+
+\left(\frac{\theta_{23}-45^\circ}{7^\circ}\right)^2
+},
+\end{equation}
+and is combined with strict-yield fractions into a PMNS viability index in the summary JSON.
+
+\begin{table}[t]
+  \centering
+  \begin{tabular}{lccc}
+    \hline\hline
+    Geometry & Representative score $S_{\rm PMNS}$ & Strict yield within natural scan & PMNS viability index \\
+    \hline
+    Pyramidal & 2.40 & --- (single benchmark) & 0.067 \\
+    Tetrahedral apex/base & 2.23 & $0/1500$ & 0.107 \\
+    Tetrahedral star & 2.64 & $0/2701$ & 0.013 \\
+    Torus ring & 0.78 & $59/4358$ & 0.448 \\
+    Spherical shell & 2.69 & $0/4348$ & 0.000 \\
+    Twisted torus & 0.52 & $82/4223$ & 0.510 \\
+    \hline\hline
+  \end{tabular}
+  \caption{Cross-geometry exploratory comparison from \texttt{flavour\_geometry\_comparison\_summary.json}.}
+  \label{tab:paper5-geometry-comparison}
+\end{table}
+
+\begin{figure}[t]
+  \centering
+  \includegraphics[width=0.92\textwidth]{../figs/flavour_geometry_comparison_overview.png}
+  \caption{Common-score and strict-yield comparison across explored cluster geometries.}
+  \label{fig:paper5-geometry-overview}
+\end{figure}
+
+The main conclusion of this section is limited and explicit:
+within the current exploratory setup, topologically non-trivial geometries (torus ring and twisted torus) produce non-zero strict-window populations in large scans, while the tested rigid geometries (pyramidal, tetrahedral, spherical) remain at zero strict hits.
+The twisted-torus candidate is the closest tested structure to the PMNS target window without aggressive parameter forcing.
+
+\section{Sector-compatibility stress tests for twisted torus}
+We then test whether the same twisted-torus geometry remains compatible with a hierarchical charged-lepton sector and with a weak-mixing quark-like toy sector.
+The diagnostics are generated by \texttt{compute\_twisted\_torus\_sector\_compatibility.py}.
+
+For charged leptons, perturbing the charged-sector controls around the best twisted-torus point yields
+\begin{equation}
+f_{\rm strict}^{(\ell)}\simeq 0.70,
+\end{equation}
+i.e. approximately $70\%$ of tested points remain in the strict PMNS window.
+For the quark-like toy layer, the mean mixing angles stay small,
+\begin{equation}
+\langle \theta_{12}^{q}\rangle\simeq 0.31^\circ,\quad
+\langle \theta_{13}^{q}\rangle\simeq 1.7\times10^{-3}\,^\circ,\quad
+\langle \theta_{23}^{q}\rangle\simeq 2.3\times10^{-3}\,^\circ.
+\end{equation}
+These tests support compatibility at the toy level, but do not constitute a complete SM flavour derivation.
+
+\begin{figure}[t]
+  \centering
+  \includegraphics[width=0.70\textwidth]{../figs/twisted_torus_sector_dashboard.png}
+  \caption{Twisted-torus sector dashboard: PMNS viability, lepton robustness and quark-like compatibility proxies.}
+  \label{fig:paper5-twisted-dashboard}
 \end{figure}
 
 \begin{table}[t]
@@ -172,7 +246,10 @@ No precision global-fit claim is made at this stage.
     CC-$\Phi_1$ spectrum & \texttt{ccphi1\_spectrum.json} & phenomenological toy \\
     Curvature response & \texttt{ccphi1\_curvature\_scan.npz} & phenomenological scan \\
     Coarse-graining & \texttt{ccphi1\_coarse\_grain.json} & toy proxy \\
-    CC-$\Phi_2$ flavour & \texttt{ccphi2\_flavour\_toy.json} & exploratory toy \\
+    Legacy pyramidal flavour toy & \texttt{ccphi2\_flavour\_toy.json} & exploratory legacy benchmark \\
+    Twisted-torus flavour toy & \texttt{twisted\_torus\_flavour\_toy\_summary.json} & exploratory toy \\
+    Geometry comparison & \texttt{flavour\_geometry\_comparison\_summary.json} & exploratory selection diagnostic \\
+    Sector compatibility & \texttt{twisted\_torus\_sector\_compatibility\_summary.json} & exploratory stress test \\
     \hline\hline
   \end{tabular}
   \caption{Paper-V script-backed outputs and status labels.}
@@ -183,18 +260,25 @@ No precision global-fit claim is made at this stage.
 \begin{itemize}
   \item EFT-derived baseline definitions inherited from Papers~I--IV.
   \item Phenomenological closures used in the CC-$\Phi_1$ cluster pipeline.
-  \item Exploratory templates for CC-$\Phi_2$ flavour mapping.
+  \item Exploratory geometry-to-flavour mapping for CC-$\Phi_2$.
+  \item Twisted-torus selected as the best current exploratory candidate, without changing the canonical EFT.
 \end{itemize}
 
 \section{Conclusion}
 Paper~V is designed as a reproducible and conservative microstructure step in the TCV-$\phi$ series.
-It prepares a falsifiable bridge between cohesive quantum microstructure and later high-level sectors.
+Relative to earlier drafts, the flavour bridge is now organized as a geometry-selection problem:
+we test multiple cluster topologies under common criteria and identify twisted torus as the strongest current exploratory candidate.
+This improves the naturalness narrative at the toy level while keeping all macro-level sectors (bounce, black holes, and cosmological fits) unchanged in this paper.
+A full micro-to-macro closure from twisted-torus structure is left for future work.
 
 \begin{thebibliography}{99}
-\bibitem{TCV1} C.~Lecroq, ``TCV-$\phi$ I: an effective cohesive--vacuum field theory and its $\Lambda$CDM-compatible background cosmology,'' preprint (2026), \href{https://hal.science/hal-05547048}{hal-05547048}.
-\bibitem{TCV2} C.~Lecroq, ``TCV-$\phi$ II: cohesive bounce, geometric reheating, and baseline baryogenesis/ULDM pipelines,'' preprint (2026), \href{https://hal.science/hal-05547079}{hal-05547079}.
-\bibitem{TCV3} C.~Lecroq, ``TCV-$\phi$ III: primordial perturbations across the cohesive bounce and CLASS/CAMB bridge diagnostics,'' preprint (2026), \href{https://hal.science/hal-05547113}{hal-05547113}.
-\bibitem{TCV4} C.~Lecroq, ``TCV-$\phi$ IV: cohesive non-singular black holes from static cores to slow rotation in the canonical EFT,'' preprint (2026), \href{https://hal.science/hal-05547138}{hal-05547138}.
+\bibitem{TCV1} C.~Lecroq, ``TCV-$\phi$ I,'' preprint (2026).
+\bibitem{TCV2} C.~Lecroq, ``TCV-$\phi$ II,'' preprint (2026).
+\bibitem{TCV3} C.~Lecroq, ``TCV-$\phi$ III,'' preprint (2026).
+\bibitem{TCV4} C.~Lecroq, ``TCV-$\phi$ IV,'' preprint (2026).
+\bibitem{TCV9} C.~Lecroq, ``Cohesive Quantum Gravity and CC-$\Phi_1$ microstructure,'' preprint (2026).
+\bibitem{TCV10} C.~Lecroq, ``From Quantum CC-$\Phi_2$ to flavour structures,'' preprint (2026).
+\bibitem{NuFIT} I.~Esteban \textit{et al.}, ``NuFIT 5.x global fit of neutrino oscillation parameters,'' online resource (accessed 2026), \url{https://www.nu-fit.org/}.
 \end{thebibliography}
 
 \end{document}

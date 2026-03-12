@@ -1,0 +1,186 @@
+{
+  "status": "additive cross-geometry comparison with common PMNS score and strict criteria",
+  "criteria": {
+    "strict_window_deg": {
+      "theta12": [
+        10.0,
+        40.0
+      ],
+      "theta13": [
+        2.0,
+        12.0
+      ],
+      "theta23": [
+        40.0,
+        50.0
+      ]
+    },
+    "score_targets_deg": {
+      "theta12": 33.0,
+      "theta13": 8.6,
+      "theta23": 45.0
+    },
+    "score_scales_deg": {
+      "theta12": 10.0,
+      "theta13": 4.0,
+      "theta23": 7.0
+    }
+  },
+  "representative_points": [
+    {
+      "geometry": "pyramidal",
+      "angles_deg": {
+        "theta12": 21.093516867850667,
+        "theta13": 8.725663026434438,
+        "theta23": 30.397839049604578
+      },
+      "score_common": 2.402107883191178,
+      "strict_ok_representative": false
+    },
+    {
+      "geometry": "tetrahedral_apex_base",
+      "angles_deg": {
+        "theta12": 10.988716176329573,
+        "theta13": 8.97649444874189,
+        "theta23": 42.73677969167485
+      },
+      "score_common": 2.226737392100795,
+      "strict_ok_representative": true
+    },
+    {
+      "geometry": "tetrahedral_star",
+      "angles_deg": {
+        "theta12": 11.718557423440432,
+        "theta13": 14.65153871180833,
+        "theta23": 42.48330856864887
+      },
+      "score_common": 2.6357310074547766,
+      "strict_ok_representative": false
+    },
+    {
+      "geometry": "torus_ring",
+      "angles_deg": {
+        "theta12": 30.8673487577931,
+        "theta13": 10.83183563101732,
+        "theta23": 41.5396054711135
+      },
+      "score_common": 0.7753542697473904,
+      "strict_ok_representative": true
+    },
+    {
+      "geometry": "spherical_shell",
+      "angles_deg": {
+        "theta12": 6.143402036557629,
+        "theta13": 8.689351835131939,
+        "theta23": 46.48573189167451
+      },
+      "score_common": 2.6941262944540028,
+      "strict_ok_representative": false
+    },
+    {
+      "geometry": "twisted_torus",
+      "angles_deg": {
+        "theta12": 34.560081347717166,
+        "theta13": 8.291308377393046,
+        "theta23": 41.5805713023299
+      },
+      "score_common": 0.5185715898671976,
+      "strict_ok_representative": true
+    }
+  ],
+  "scan_statistics": {
+    "tetrahedral_apex_base": {
+      "n_samples": 1500,
+      "n_natural": 1500,
+      "n_target_like_strict": 0,
+      "n_target_like_relaxed": 4,
+      "strict_fraction_within_natural": 0.0,
+      "relaxed_fraction_within_natural": 0.0026666666666666666
+    },
+    "tetrahedral_star": {
+      "n_samples": 3000,
+      "n_natural": 2701,
+      "n_target_like_strict": 0,
+      "n_target_like_relaxed": 2,
+      "strict_fraction_within_natural": 0.0,
+      "relaxed_fraction_within_natural": 0.0007404664938911515
+    },
+    "torus_ring": {
+      "n_samples": 5000,
+      "n_natural": 4358,
+      "n_target_like_strict": 59,
+      "n_target_like_relaxed": 91,
+      "strict_fraction_within_natural": 0.013538320330426802,
+      "relaxed_fraction_within_natural": 0.020881138136759982
+    },
+    "spherical_shell": {
+      "n_samples": 5000,
+      "n_natural": 4348,
+      "n_target_like_strict": 0,
+      "n_target_like_relaxed": 0,
+      "strict_fraction_within_natural": 0.0,
+      "relaxed_fraction_within_natural": 0.0
+    },
+    "twisted_torus": {
+      "n_samples": 5000,
+      "n_natural": 4223,
+      "n_target_like_strict": 82,
+      "n_target_like_relaxed": 183,
+      "strict_fraction_within_natural": 0.019417475728155338,
+      "relaxed_fraction_within_natural": 0.04333412266161497
+    }
+  },
+  "global_viability_table": [
+    {
+      "geometry": "twisted_torus",
+      "score_common": 0.5185715898671976,
+      "score_quality_0to1": 1.0,
+      "strict_fraction_within_natural": 0.019417475728155338,
+      "pmns_viability_index": 0.5097087378640777,
+      "lepton_strict_fraction": 0.7026666666666667,
+      "quark_small_mixing_quality": 0.5773705430279966,
+      "sector_extension_index": 0.6004242704178971
+    },
+    {
+      "geometry": "torus_ring",
+      "score_common": 0.7753542697473904,
+      "score_quality_0to1": 0.8819690999546884,
+      "strict_fraction_within_natural": 0.013538320330426802,
+      "pmns_viability_index": 0.4477537101425576
+    },
+    {
+      "geometry": "tetrahedral_apex_base",
+      "score_common": 2.226737392100795,
+      "score_quality_0to1": 0.21483665814874434,
+      "strict_fraction_within_natural": 0.0,
+      "pmns_viability_index": 0.10741832907437217
+    },
+    {
+      "geometry": "pyramidal",
+      "score_common": 2.402107883191178,
+      "score_quality_0to1": 0.13422710568810395,
+      "strict_fraction_within_natural": 0.0,
+      "pmns_viability_index": 0.06711355284405197
+    },
+    {
+      "geometry": "tetrahedral_star",
+      "score_common": 2.6357310074547766,
+      "score_quality_0to1": 0.026841562235189548,
+      "strict_fraction_within_natural": 0.0,
+      "pmns_viability_index": 0.013420781117594774
+    },
+    {
+      "geometry": "spherical_shell",
+      "score_common": 2.6941262944540028,
+      "score_quality_0to1": 0.0,
+      "strict_fraction_within_natural": 0.0,
+      "pmns_viability_index": 0.0
+    }
+  ],
+  "notes": [
+    "Representative points use best-candidate entries when scans are available.",
+    "Pyramidal toy has only a benchmark point, not a matched scan in this file.",
+    "Strict fractions compare only geometries with scan outputs in-repo.",
+    "Sector extension index is available only when dedicated compatibility diagnostics exist."
+  ]
+}

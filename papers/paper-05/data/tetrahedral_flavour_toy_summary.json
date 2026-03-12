@@ -1,0 +1,109 @@
+{
+  "status": "exploratory tetrahedral toy for CC-Phi1/CC-Phi2 flavour geometry",
+  "baseline_symmetric": {
+    "params": {
+      "wt2": 1.35,
+      "wb2": 1.0,
+      "kt": 0.2,
+      "kb": 0.14,
+      "delta_w3": 0.0,
+      "delta_kb12": 0.0,
+      "delta_kb23": 0.0,
+      "delta_kb31": 0.0,
+      "delta_kt1": 0.0,
+      "delta_kt2": 0.0,
+      "delta_kt3": 0.0
+    },
+    "evals_site": [
+      0.566785305655621,
+      1.1399999999999997,
+      1.1400000000000001,
+      1.5032146943443787
+    ],
+    "evals_adapted": [
+      0.5667853056556214,
+      1.1399999999999992,
+      1.1400000000000008,
+      1.503214694344379
+    ],
+    "doublet": {
+      "doublet_split_abs": 6.661338147750939e-16,
+      "doublet_split_rel": 5.843279076974508e-16,
+      "doublet_leakage_norm": 3.1031676915590914e-17
+    },
+    "angles_deg": {
+      "theta12": 0.0,
+      "theta13": 0.0,
+      "theta23": 0.0
+    },
+    "theta23_geometric_deg": 90.0,
+    "natural": true,
+    "angle_targets_ok": false,
+    "angle_targets_relaxed_ok": false,
+    "geometry_targets_ok": false
+  },
+  "baseline_deformed": {
+    "params": {
+      "wt2": 1.35,
+      "wb2": 1.0,
+      "kt": 0.2,
+      "kb": 0.14,
+      "delta_w3": 0.06,
+      "delta_kb12": 0.02,
+      "delta_kb23": -0.04,
+      "delta_kb31": 0.03,
+      "delta_kt1": 0.0,
+      "delta_kt2": 0.0,
+      "delta_kt3": -0.05
+    },
+    "evals_site": [
+      0.58538644854245,
+      1.141916062002002,
+      1.1805457857389103,
+      1.5021517037166365
+    ],
+    "evals_adapted": [
+      0.5853864485424501,
+      1.1419160620020024,
+      1.1805457857389112,
+      1.5021517037166365
+    ],
+    "doublet": {
+      "doublet_split_abs": 0.037101182970059376,
+      "doublet_split_rel": 0.031970916559481276,
+      "doublet_leakage_norm": 0.03128464302000088
+    },
+    "angles_deg": {
+      "theta12": 0.3130357471001207,
+      "theta13": 11.297173500221518,
+      "theta23": 8.04957629328256
+    },
+    "theta23_geometric_deg": 81.12075226457846,
+    "natural": true,
+    "angle_targets_ok": false,
+    "angle_targets_relaxed_ok": false,
+    "geometry_targets_ok": false
+  },
+  "scan_summary": {
+    "n_samples": 500,
+    "n_natural": 498,
+    "n_target_like": 0,
+    "n_target_like_relaxed": 2,
+    "n_geometry_target_like": 1,
+    "fractions": {
+      "natural": 0.996,
+      "target_like_within_natural": 0.0,
+      "target_like_relaxed_within_natural": 0.004016064257028112,
+      "geometry_target_like_within_natural": 0.002008032128514056
+    },
+    "theta12_mean": 4.558763431199992,
+    "theta13_mean": 8.162357607599711,
+    "theta23_mean": 38.45836707127359,
+    "theta23_natural_mean": 38.41748018642578
+  },
+  "notes": [
+    "Symmetric tetrahedron exhibits a singlet+doublet pattern in adapted basis.",
+    "Mild deformations lift D1-D2 degeneracy and move theta23 away from exact maximal mixing.",
+    "This is a geometric viability test, not a precision PMNS fit."
+  ]
+}

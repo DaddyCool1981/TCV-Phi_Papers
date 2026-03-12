@@ -1,0 +1,51 @@
+{
+  "status": "twisted-torus sector compatibility check (exploratory)",
+  "reference_candidate": {
+    "params": {
+      "w0": 0.954381109946143,
+      "k_ring": 0.21056432597153638,
+      "k_rung": 0.15277856174503437,
+      "d0": -0.08194773702789414,
+      "d1": 0.03630368205591661,
+      "d2": -0.10798638267635985,
+      "d3": 0.07584564612204901,
+      "d4": -0.11166260965886271,
+      "d5": -0.0023176366001410376,
+      "d6": -0.10379660110920313,
+      "d7": -0.06739945230941835,
+      "ring_scale": -0.052595778173341136,
+      "rung_scale": -0.08201480863889761
+    },
+    "controls": {
+      "bridge": 2.043531412983388,
+      "epsilon_l": 0.012672723203691921,
+      "anchor": 1.7434972420523673
+    }
+  },
+  "lepton_robustness": {
+    "n_samples": 3000,
+    "n_strict_ok": 2108,
+    "strict_fraction": 0.7026666666666667,
+    "theta12_mean": 36.65344162241992,
+    "theta13_mean": 6.416423730576089,
+    "theta23_mean": 41.6827406823157,
+    "theta12_std": 4.014901609625697,
+    "theta13_std": 3.5756002428796254,
+    "theta23_std": 0.43690502969373907
+  },
+  "quark_like_compatibility": {
+    "n_samples": 3000,
+    "theta12_mean": 0.3078686420842841,
+    "theta13_mean": 0.0016520945449953561,
+    "theta23_mean": 0.0022534972592883062,
+    "theta12_p95": 0.7247560413845754,
+    "theta13_p95": 0.0030602389799703296,
+    "theta23_p95": 0.0041737078249109785,
+    "note": "Small angles indicate compatibility with a weak-mixing quark-like sector in this toy layer."
+  },
+  "notes": [
+    "This does not prove full SM flavour unification.",
+    "It checks whether twisted-torus neutrino success is stable against charged-lepton perturbations.",
+    "And whether a small-mixing quark-like toy can coexist on the same geometry."
+  ]
+}
