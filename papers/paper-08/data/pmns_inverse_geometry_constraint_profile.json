@@ -1,0 +1,90 @@
+{
+  "target_pmns_deg": {
+    "theta12": 33.0,
+    "theta13": 8.6,
+    "theta23": 45.0
+  },
+  "target_windows_deg": {
+    "theta12": [
+      10.0,
+      40.0
+    ],
+    "theta13": [
+      2.0,
+      12.0
+    ],
+    "theta23": [
+      40.0,
+      50.0
+    ]
+  },
+  "observational_features": {
+    "large_theta23": 1.0,
+    "small_nonzero_theta13": 0.76,
+    "moderate_theta12": 0.9
+  },
+  "constraints": {
+    "requires_doublet": 0.95,
+    "requires_singlet_doublet_split": 0.9,
+    "requires_small_singlet_doublet_mixing": 0.8,
+    "requires_controlled_symmetry_breaking": 0.85,
+    "requires_closed_geometry": 0.75,
+    "requires_nontrivial_topology": 0.7,
+    "requires_hierarchical_companion_sector": 0.65,
+    "requires_collective_branch_sector": 0.8
+  },
+  "constraint_table": [
+    {
+      "constraint": "requires_doublet",
+      "weight": 0.95,
+      "status": "required",
+      "explanation": "Large theta23 suggests a quasi-degenerate 2-3 modal sector."
+    },
+    {
+      "constraint": "requires_singlet_doublet_split",
+      "weight": 0.9,
+      "status": "required",
+      "explanation": "Moderate theta12 is easier to obtain from a one-plus-two modal decomposition than from a fully rigid hierarchy."
+    },
+    {
+      "constraint": "requires_small_singlet_doublet_mixing",
+      "weight": 0.8,
+      "status": "required",
+      "explanation": "Small but nonzero theta13 points to weak singlet-doublet coupling rather than exact decoupling."
+    },
+    {
+      "constraint": "requires_controlled_symmetry_breaking",
+      "weight": 0.85,
+      "status": "required",
+      "explanation": "Exact degeneracy must be lifted, but only moderately, to avoid destroying the atmospheric sector."
+    },
+    {
+      "constraint": "requires_closed_geometry",
+      "weight": 0.75,
+      "status": "likely",
+      "explanation": "Closed geometries naturally support shared branch modes and coherent recirculation."
+    },
+    {
+      "constraint": "requires_nontrivial_topology",
+      "weight": 0.7,
+      "status": "likely",
+      "explanation": "A twisted or nontrivial closed topology is a plausible way to keep theta23 large while preventing theta13 from blowing up."
+    },
+    {
+      "constraint": "requires_hierarchical_companion_sector",
+      "weight": 0.65,
+      "status": "likely",
+      "explanation": "Charged leptons remain more hierarchical than neutrinos in the toy layer."
+    },
+    {
+      "constraint": "requires_collective_branch_sector",
+      "weight": 0.8,
+      "status": "required",
+      "explanation": "The atmospheric sector is naturally read as a collective branch/doublet effect."
+    }
+  ],
+  "notes": [
+    "This is an inverse-structure inference, not a proof of uniqueness.",
+    "Weights rank how strongly a PMNS-like target suggests each structural feature."
+  ]
+}

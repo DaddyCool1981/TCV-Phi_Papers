@@ -1,0 +1,79 @@
+{
+  "status": "hypothetical_naming_pass1",
+  "baseline": "/Users/cyrille/Perso/Mes projets/TCV/REPO/TCV-Phi/TCV-PHI/papers/sm-exploration/data/qsp_conditional_correspondence_summary.json",
+  "verdict": "hypothetical_naming_supported_as_working_label_set",
+  "names": [
+    {
+      "candidate_label": "OBS_01",
+      "source_class": "Q_minus|L2_moderate|A1_offset",
+      "hypothesis_label": "HYP_LIGHT_PAIR::OBS_01",
+      "hypothesis_scope": "light_family_level",
+      "confidence_score": 0.78,
+      "support_level": "moderate_internal_support",
+      "caveats": [
+        "temporary family label only",
+        "no exact gauge charge",
+        "no exact observed-mass assignment",
+        "not an identified particle name"
+      ]
+    },
+    {
+      "candidate_label": "OBS_02",
+      "source_class": "Q_minus|L1_weak|A1_offset",
+      "hypothesis_label": "HYP_LIGHT_PAIR::OBS_02",
+      "hypothesis_scope": "light_family_level",
+      "confidence_score": 0.78,
+      "support_level": "moderate_internal_support",
+      "caveats": [
+        "temporary family label only",
+        "no exact gauge charge",
+        "no exact observed-mass assignment",
+        "not an identified particle name"
+      ]
+    },
+    {
+      "candidate_label": "OBS_03",
+      "source_class": "Q_plus|L1_weak|A2_shifted",
+      "hypothesis_label": "HYP_HEAVY_TRIPLET::heavy_shifted_branch::OBS_03",
+      "hypothesis_scope": "heavy_family_branch_level",
+      "confidence_score": 0.74,
+      "support_level": "moderate_internal_support",
+      "caveats": [
+        "temporary branch label only",
+        "branch-to-particle mapping remains open",
+        "no exact gauge charge",
+        "not an identified particle name"
+      ]
+    },
+    {
+      "candidate_label": "OBS_04",
+      "source_class": "Q_plus|L1_weak|A1_offset",
+      "hypothesis_label": "HYP_HEAVY_TRIPLET::heavy_offset_branch::OBS_04",
+      "hypothesis_scope": "heavy_family_branch_level",
+      "confidence_score": 0.82,
+      "support_level": "moderate_internal_support",
+      "caveats": [
+        "temporary branch label only",
+        "branch-to-particle mapping remains open",
+        "no exact gauge charge",
+        "not an identified particle name"
+      ]
+    },
+    {
+      "candidate_label": "OBS_05",
+      "source_class": "Q_plus|L1_weak|A0_aligned",
+      "hypothesis_label": "HYP_HEAVY_TRIPLET::heavy_aligned_branch::OBS_05",
+      "hypothesis_scope": "heavy_family_branch_level",
+      "confidence_score": 0.82,
+      "support_level": "moderate_internal_support",
+      "caveats": [
+        "temporary branch label only",
+        "branch-to-particle mapping remains open",
+        "no exact gauge charge",
+        "not an identified particle name"
+      ]
+    }
+  ],
+  "naming_supported": true,
+  "exact_identification_forbidden": true
+}

@@ -1,0 +1,322 @@
+{
+  "assumptions": {
+    "mass_model": "m2_pred = Lambda_coh * sqrt(m2_proxy)",
+    "lambda_prior_eV": [
+      1e-23,
+      1e-18
+    ],
+    "uldm_window_eV": [
+      1e-23,
+      1e-21
+    ],
+    "best_v21_params": {
+      "edge_aniso": 0.06,
+      "drop_prob": 0.005,
+      "onsite_noise": 0.03
+    }
+  },
+  "size_scaling": {
+    "rows": [
+      {
+        "N": 64,
+        "m2_proxy_mean": 0.0010689483620486507,
+        "m2_proxy_p16_p84": [
+          0.0008111971799086777,
+          0.0013526655492414933
+        ],
+        "sqrt_proxy_mean": 0.03239144395941366,
+        "joint_fraction": 1.0
+      },
+      {
+        "N": 96,
+        "m2_proxy_mean": 0.0004794026355508714,
+        "m2_proxy_p16_p84": [
+          0.00023071541792754594,
+          0.0007294816435786623
+        ],
+        "sqrt_proxy_mean": 0.021233640790213722,
+        "joint_fraction": 1.0
+      },
+      {
+        "N": 128,
+        "m2_proxy_mean": 0.0003453530716115788,
+        "m2_proxy_p16_p84": [
+          0.00012618578838786285,
+          0.0005518083671669599
+        ],
+        "sqrt_proxy_mean": 0.017754033846148248,
+        "joint_fraction": 0.9222222222222223
+      },
+      {
+        "N": 160,
+        "m2_proxy_mean": 0.00028001312882600565,
+        "m2_proxy_p16_p84": [
+          0.00011323701078554142,
+          0.0004601948006016397
+        ],
+        "sqrt_proxy_mean": 0.015756947267020444,
+        "joint_fraction": 0.7222222222222222
+      },
+      {
+        "N": 192,
+        "m2_proxy_mean": 0.000266105335116683,
+        "m2_proxy_p16_p84": [
+          7.616923994292505e-05,
+          0.00045431291891493623
+        ],
+        "sqrt_proxy_mean": 0.015004980507047917,
+        "joint_fraction": 0.46111111111111114
+      },
+      {
+        "N": 256,
+        "m2_proxy_mean": 0.0002555433714774876,
+        "m2_proxy_p16_p84": [
+          5.3801828066286996e-05,
+          0.0004354132228211244
+        ],
+        "sqrt_proxy_mean": 0.014588462165787032,
+        "joint_fraction": 0.16111111111111112
+      }
+    ],
+    "fit_model": "sqrt(m2_proxy) ~ A * N^{-alpha}",
+    "alpha": 0.5781734496488212
+  },
+  "local_sensitivity": {
+    "rows": [
+      {
+        "param": "edge_aniso",
+        "delta_log_sensitivity": 0.41219883823206727,
+        "s_up": 0.017521994897069675,
+        "s_dn": 0.016130964979344378
+      },
+      {
+        "param": "drop_prob",
+        "delta_log_sensitivity": 0.04670342299598144,
+        "s_up": 0.017735839941970033,
+        "s_dn": 0.017570395983584897
+      },
+      {
+        "param": "onsite_noise",
+        "delta_log_sensitivity": 0.017401505822920767,
+        "s_up": 0.017490680288967334,
+        "s_dn": 0.01742970983384227
+      },
+      {
+        "param": "k_link",
+        "delta_log_sensitivity": 0.49730607572189756,
+        "s_up": 0.018346479809406027,
+        "s_dn": 0.016603988938992887
+      },
+      {
+        "param": "eps_pin",
+        "delta_log_sensitivity": 0.2448490359103963,
+        "s_up": 0.018973297372361933,
+        "s_dn": 0.018063594566780843
+      },
+      {
+        "param": "n",
+        "delta_log_sensitivity": 0.5357366064294382,
+        "s_up": 0.01633588249357531,
+        "s_dn": 0.018189976592515877
+      }
+    ],
+    "max_delta_log_sensitivity": 0.5357366064294382,
+    "base_sqrt_proxy": 0.018274790899147686
+  },
+  "uldm_overlap": {
+    "go_points_evaluated": 17,
+    "rows": [
+      {
+        "params": {
+          "edge_aniso": 0.06,
+          "drop_prob": 0.005,
+          "onsite_noise": 0.03
+        },
+        "sqrt_proxy_mean": 0.017515250417596207,
+        "joint_fraction": 0.9181818181818182,
+        "uldm_prior_overlap_fraction": 0.4
+      },
+      {
+        "params": {
+          "edge_aniso": 0.06,
+          "drop_prob": 0.015,
+          "onsite_noise": 0.03
+        },
+        "sqrt_proxy_mean": 0.017346220496244034,
+        "joint_fraction": 0.9090909090909091,
+        "uldm_prior_overlap_fraction": 0.4
+      },
+      {
+        "params": {
+          "edge_aniso": 0.08,
+          "drop_prob": 0.005,
+          "onsite_noise": 0.01
+        },
+        "sqrt_proxy_mean": 0.019185979876039573,
+        "joint_fraction": 0.8272727272727273,
+        "uldm_prior_overlap_fraction": 0.4
+      },
+      {
+        "params": {
+          "edge_aniso": 0.06,
+          "drop_prob": 0.005,
+          "onsite_noise": 0.05
+        },
+        "sqrt_proxy_mean": 0.018943202919113982,
+        "joint_fraction": 0.8454545454545455,
+        "uldm_prior_overlap_fraction": 0.4
+      },
+      {
+        "params": {
+          "edge_aniso": 0.06,
+          "drop_prob": 0.025,
+          "onsite_noise": 0.03
+        },
+        "sqrt_proxy_mean": 0.01784937956817622,
+        "joint_fraction": 0.8818181818181818,
+        "uldm_prior_overlap_fraction": 0.4
+      },
+      {
+        "params": {
+          "edge_aniso": 0.08,
+          "drop_prob": 0.005,
+          "onsite_noise": 0.03
+        },
+        "sqrt_proxy_mean": 0.02093649911307538,
+        "joint_fraction": 0.7636363636363637,
+        "uldm_prior_overlap_fraction": 0.4
+      },
+      {
+        "params": {
+          "edge_aniso": 0.08,
+          "drop_prob": 0.015,
+          "onsite_noise": 0.01
+        },
+        "sqrt_proxy_mean": 0.01873243095648477,
+        "joint_fraction": 0.8090909090909091,
+        "uldm_prior_overlap_fraction": 0.4
+      },
+      {
+        "params": {
+          "edge_aniso": 0.08,
+          "drop_prob": 0.015,
+          "onsite_noise": 0.03
+        },
+        "sqrt_proxy_mean": 0.019189899521621586,
+        "joint_fraction": 0.7636363636363637,
+        "uldm_prior_overlap_fraction": 0.4
+      },
+      {
+        "params": {
+          "edge_aniso": 0.06,
+          "drop_prob": 0.015,
+          "onsite_noise": 0.05
+        },
+        "sqrt_proxy_mean": 0.01983380753449934,
+        "joint_fraction": 0.7636363636363637,
+        "uldm_prior_overlap_fraction": 0.4
+      },
+      {
+        "params": {
+          "edge_aniso": 0.08,
+          "drop_prob": 0.005,
+          "onsite_noise": 0.05
+        },
+        "sqrt_proxy_mean": 0.023389396776369836,
+        "joint_fraction": 0.7,
+        "uldm_prior_overlap_fraction": 0.4
+      },
+      {
+        "params": {
+          "edge_aniso": 0.08,
+          "drop_prob": 0.025,
+          "onsite_noise": 0.01
+        },
+        "sqrt_proxy_mean": 0.01854948069701671,
+        "joint_fraction": 0.8272727272727273,
+        "uldm_prior_overlap_fraction": 0.4
+      },
+      {
+        "params": {
+          "edge_aniso": 0.1,
+          "drop_prob": 0.005,
+          "onsite_noise": 0.01
+        },
+        "sqrt_proxy_mean": 0.022825709881647855,
+        "joint_fraction": 0.6727272727272727,
+        "uldm_prior_overlap_fraction": 0.4
+      },
+      {
+        "params": {
+          "edge_aniso": 0.06,
+          "drop_prob": 0.025,
+          "onsite_noise": 0.05
+        },
+        "sqrt_proxy_mean": 0.020581918215012814,
+        "joint_fraction": 0.7545454545454545,
+        "uldm_prior_overlap_fraction": 0.4
+      },
+      {
+        "params": {
+          "edge_aniso": 0.1,
+          "drop_prob": 0.005,
+          "onsite_noise": 0.03
+        },
+        "sqrt_proxy_mean": 0.022859332509073103,
+        "joint_fraction": 0.6818181818181818,
+        "uldm_prior_overlap_fraction": 0.4
+      },
+      {
+        "params": {
+          "edge_aniso": 0.08,
+          "drop_prob": 0.025,
+          "onsite_noise": 0.03
+        },
+        "sqrt_proxy_mean": 0.02032992472962881,
+        "joint_fraction": 0.8090909090909091,
+        "uldm_prior_overlap_fraction": 0.4
+      },
+      {
+        "params": {
+          "edge_aniso": 0.08,
+          "drop_prob": 0.015,
+          "onsite_noise": 0.05
+        },
+        "sqrt_proxy_mean": 0.022825756632616215,
+        "joint_fraction": 0.5454545454545454,
+        "uldm_prior_overlap_fraction": 0.4
+      },
+      {
+        "params": {
+          "edge_aniso": 0.1,
+          "drop_prob": 0.015,
+          "onsite_noise": 0.01
+        },
+        "sqrt_proxy_mean": 0.024588255573767207,
+        "joint_fraction": 0.6545454545454545,
+        "uldm_prior_overlap_fraction": 0.4
+      }
+    ],
+    "summary": {
+      "median": 0.4,
+      "p16_p84": [
+        0.4,
+        0.4
+      ],
+      "fraction_above_0p10": 1.0
+    }
+  },
+  "gates": {
+    "alpha_min": 0.5,
+    "max_delta_max": 5.0,
+    "overlap_median_min": 0.1,
+    "overlap_fraction_above_0p10_min": 0.5
+  },
+  "checks": {
+    "size_scaling_present": true,
+    "no_extreme_fine_tuning": true,
+    "uldm_overlap_median_ok": true,
+    "uldm_overlap_volume_ok": true
+  },
+  "verdict": "naturalness_supported"
+}

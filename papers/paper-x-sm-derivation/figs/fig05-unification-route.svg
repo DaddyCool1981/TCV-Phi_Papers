@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1450" height="470" viewBox="0 0 1450 470">
+<rect x="0" y="0" width="1450" height="470" fill="#fffdfa"/>
+<text x="50" y="48" font-family="Helvetica, Arial, sans-serif" font-size="30" fill="#222" font-weight="bold" text-anchor="start">Stage 29 conditional unification route</text>
+<text x="50" y="78" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#5f6b7a" font-weight="normal" text-anchor="start">This is a candidate meeting route plus a conditional 3/8 upgrade path, not a licensed unification claim.</text>
+<rect x="50" y="120" width="560" height="280" rx="16" ry="16" fill="#f7f4ee" stroke="#b45f06" stroke-width="2.2"/>
+<text x="70" y="152" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#b45f06" font-weight="bold" text-anchor="start">Low-scale effective family</text>
+<rect x="120" y="323" width="70" height="37" rx="8" ry="8" fill="#b45f06" stroke="#b45f06" stroke-width="1.0"/>
+<text x="155" y="388" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#222" font-weight="normal" text-anchor="middle">g1</text>
+<text x="155" y="313" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#b45f06" font-weight="normal" text-anchor="middle">0.30</text>
+<rect x="260" y="279" width="70" height="81" rx="8" ry="8" fill="#b45f06" stroke="#b45f06" stroke-width="1.0"/>
+<text x="295" y="388" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#222" font-weight="normal" text-anchor="middle">g2</text>
+<text x="295" y="269" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#b45f06" font-weight="normal" text-anchor="middle">0.65</text>
+<rect x="400" y="209" width="70" height="151" rx="8" ry="8" fill="#b45f06" stroke="#b45f06" stroke-width="1.0"/>
+<text x="435" y="388" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#222" font-weight="normal" text-anchor="middle">g3</text>
+<text x="435" y="199" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#b45f06" font-weight="normal" text-anchor="middle">1.20</text>
+<text x="360" y="210" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#222" font-weight="normal" text-anchor="start">family: mixed_ew_strong_like</text>
+<text x="360" y="228" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#222" font-weight="normal" text-anchor="start">variance: 0.137222</text>
+<rect x="700" y="120" width="700" height="280" rx="16" ry="16" fill="#f7f4ee" stroke="#8a3b12" stroke-width="2.2"/>
+<text x="720" y="152" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#8a3b12" font-weight="bold" text-anchor="start">High-scale target near Lambda_TCV</text>
+<text x="720" y="190" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#222" font-weight="normal" text-anchor="start">matching scale: 7.700e+18 GeV</text>
+<text x="720" y="208" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#222" font-weight="normal" text-anchor="start">target window: [0.85, 1.15]</text>
+<text x="720" y="226" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#222" font-weight="normal" text-anchor="start">conditional sin^2(theta_W) anchor: 0.375</text>
+<line x1="760" y1="330" x2="1340" y2="330" stroke="#d7d2c8" stroke-width="2" stroke-dasharray="6,6"/>
+<rect x="900" y="280" width="260" height="70" rx="10" ry="10" fill="#d9ead3" stroke="#7aa86f" stroke-width="1.5"/>
+<text x="1030" y="322" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#305c2f" font-weight="bold" text-anchor="middle">candidate meeting window</text>
+</svg>

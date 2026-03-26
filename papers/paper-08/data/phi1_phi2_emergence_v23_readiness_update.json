@@ -1,0 +1,11 @@
+{
+  "status": "B_promising_but_incomplete",
+  "checks": {
+    "analytic_local_model_ready": true,
+    "canonical_reduction_ready": true,
+    "canonical_mode_capture_good": false,
+    "strict_homogeneous_ready": true,
+    "canonical_mode_capture_good_topology_aware": true
+  },
+  "note": "Topology-aware source bank recovers strong low-mode capture; one-scalar route now has strong internal consistency, but mass naturalness remains calibration-linked."
+}

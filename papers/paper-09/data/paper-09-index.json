@@ -1,0 +1,44 @@
+{
+  "paper": "paper-09",
+  "status": "documented_workspace",
+  "canonical": {
+    "manuscript_tex": "../tex/paper-09.tex",
+    "manuscript_pdf": "../tex/paper-09.pdf",
+    "workspace_readme": "../README.md",
+    "workspace_index": "../PAPER-09-INDEX.md"
+  },
+  "canonical_data": [
+    "./qsp_master_milestone_stage2.json",
+    "./qsp_charge_reconstruction_summary.json",
+    "./qsp_charge_reconstruction_robustness_summary.json",
+    "./qsp_spectrum_bridge_robustness_summary.json",
+    "./qsp_charge_spectrum_cross_summary.json",
+    "./qsp_observable_mapping_rule_summary.json",
+    "./qsp_effective_observable_analogy_summary.json",
+    "./qsp_family_correspondence_summary.json",
+    "./qsp_conditional_correspondence_summary.json",
+    "./qsp_hypothetical_naming_summary.json",
+    "./qsp_sm_family_rapprochement_summary.json"
+  ],
+  "canonical_figures": [
+    "../figs/paper-09-fig-01-mesoscopic-scale-hierarchy.png",
+    "../figs/paper-09-fig-02-qsp-identity-diagnostics.png",
+    "../figs/paper-09-fig-03-collision-channels.png",
+    "../figs/paper-09-fig-04-attractor-reduction.png",
+    "../figs/paper-09-fig-05-sector-projection.png",
+    "../figs/paper-09-fig-06-effective-family-reading.png"
+  ],
+  "support": {
+    "promotion_script": "../code/promote_paper09_figures.py",
+    "bib": "../tex/paper-09Notes.bib"
+  },
+  "build_products": [
+    "../tex/paper-09.aux",
+    "../tex/paper-09.bbl",
+    "../tex/paper-09.blg",
+    "../tex/paper-09.fdb_latexmk",
+    "../tex/paper-09.fls",
+    "../tex/paper-09.log",
+    "../tex/paper-09.out"
+  ]
+}

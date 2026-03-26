@@ -1,0 +1,9 @@
+{
+  "verdict": "uv_compact_consistency_supported",
+  "checks": {
+    "lambda_scaling_power_law_good": true,
+    "z0_collective_plateau_good": true,
+    "twist_reduces_soft_mode_scale": true,
+    "uv_closure_band_not_too_wide": true
+  }
+}

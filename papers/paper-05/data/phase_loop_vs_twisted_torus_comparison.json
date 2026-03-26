@@ -1,0 +1,25 @@
+{
+  "phase_loop_best": {
+    "angles_deg": {
+      "theta12": 23.190599809797686,
+      "theta13": 10.72150367631071,
+      "theta23": 37.70623145474669
+    },
+    "score_common": 1.5261838127046194,
+    "strict_fraction_within_natural": 0.0,
+    "phase_over_pi": 0.34592534413860776
+  },
+  "twisted_torus_best": {
+    "angles_deg": {
+      "theta12": 34.560081347717166,
+      "theta13": 8.291308377393046,
+      "theta23": 41.5805713023299
+    },
+    "score_common": 0.5185715898671976,
+    "strict_fraction_within_natural": 0.019417475728155338
+  },
+  "notes": [
+    "This is a direct PMNS-level comparison only.",
+    "Phi2 bridge and micro-closure for phase_loop still need a dedicated follow-up if the flavour results remain competitive."
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "status": "charge_reconstruction_robustness_pass1",
+  "baseline": "/Users/cyrille/Perso/Mes projets/TCV/REPO/TCV-Phi/TCV-PHI/papers/sm-exploration/data/qsp_charge_reconstruction_summary.json",
+  "fixed_candidate": {
+    "weights": {
+      "mean_qsp_retention": 0.4,
+      "mean_coherence_post": 0.6
+    },
+    "score": 1.3349206110972525,
+    "sign_gap": 0.9662513648496918,
+    "negative_support_mean": 0.31140010731680395,
+    "class_spread": 0.5575869868422177,
+    "robustness_correlation": 0.9877454087882385
+  },
+  "scans": [
+    {
+      "label": "low",
+      "amplitude": 0.03,
+      "sign_separation_supported": true,
+      "resolved_level_count": 4,
+      "order_retention": 0.6,
+      "level_retention": 0.8,
+      "signed_coordinates": {
+        "Q_plus|L1_weak|A1_offset": 0.8958274971102469,
+        "Q_plus|L1_weak|A2_shifted": 0.7703873385209499,
+        "Q_plus|L1_weak|A0_aligned": 0.7174681822716289,
+        "Q_minus|L1_weak|A1_offset": -0.12946005133278465,
+        "Q_minus|L2_moderate|A1_offset": -0.4
+      }
+    },
+    {
+      "label": "mid",
+      "amplitude": 0.06,
+      "sign_separation_supported": true,
+      "resolved_level_count": 4,
+      "order_retention": 0.6,
+      "level_retention": 0.8,
+      "signed_coordinates": {
+        "Q_plus|L1_weak|A1_offset": 0.9093591981745597,
+        "Q_plus|L1_weak|A2_shifted": 0.7791987328736651,
+        "Q_plus|L1_weak|A0_aligned": 0.5762083908056665,
+        "Q_minus|L1_weak|A1_offset": -0.03159593684232909,
+        "Q_minus|L2_moderate|A1_offset": -0.4
+      }
+    },
+    {
+      "label": "high",
+      "amplitude": 0.1,
+      "sign_separation_supported": true,
+      "resolved_level_count": 4,
+      "order_retention": 0.6,
+      "level_retention": 0.8,
+      "signed_coordinates": {
+        "Q_plus|L1_weak|A1_offset": 0.9224693423747644,
+        "Q_plus|L1_weak|A2_shifted": 0.809673793951591,
+        "Q_plus|L1_weak|A0_aligned": 0.45128275162857995,
+        "Q_minus|L1_weak|A1_offset": -0.0,
+        "Q_minus|L2_moderate|A1_offset": -0.48136348587970934
+      }
+    }
+  ],
+  "verdict": "charge_ladder_robust"
+}

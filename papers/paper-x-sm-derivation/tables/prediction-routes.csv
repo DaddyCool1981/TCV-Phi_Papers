@@ -1,0 +1,8 @@
+item,value,category,boundary
+Lambda_TCV,7.700146e+18 GeV,candidate calibration,benchmark-dependent
+m_Phi2,1.000e-22 eV,candidate prediction,anchor-dependent normalization
+sin^2(theta_W),0.375 +/- 0.050,external matching anchor,not internally derived
+Generation family,muon/strange anchor,candidate route,not theorem-level
+CKM-like route,hierarchy margin = 0.150482,candidate route,not precision CKM
+Neutrino route,2nd-gen neutrino-like,candidate route,not quantitative spectrum
+Unification route,"[0.85, 1.15]",candidate route,no RG closure

@@ -1,0 +1,69 @@
+{
+  "status": "effective_observable_analogy_pass1",
+  "baseline": "/Users/cyrille/Perso/Mes projets/TCV/REPO/TCV-Phi/TCV-PHI/papers/sm-exploration/data/qsp_observable_mapping_rule_summary.json",
+  "verdict": "effective_observable_analogy_supported",
+  "roles": [
+    {
+      "slot_label": "OBS_01",
+      "reduced_class": "Q_minus|L2_moderate|A1_offset",
+      "abstract_role": "light_pair_member",
+      "sector_role": "light_recombined_observable",
+      "rationale": [
+        "negative pole",
+        "formation dominated",
+        "low_rank spectral placement"
+      ]
+    },
+    {
+      "slot_label": "OBS_02",
+      "reduced_class": "Q_minus|L1_weak|A1_offset",
+      "abstract_role": "light_pair_member",
+      "sector_role": "light_recombined_observable",
+      "rationale": [
+        "negative pole",
+        "formation dominated",
+        "low_rank spectral placement"
+      ]
+    },
+    {
+      "slot_label": "OBS_03",
+      "reduced_class": "Q_plus|L1_weak|A2_shifted",
+      "abstract_role": "heavy_triplet_member",
+      "sector_role": "heavy_shifted_observable",
+      "rationale": [
+        "positive transport pole",
+        "heavy_shifted_branch",
+        "high_transport_support",
+        "mid_rank spectral placement"
+      ]
+    },
+    {
+      "slot_label": "OBS_04",
+      "reduced_class": "Q_plus|L1_weak|A1_offset",
+      "abstract_role": "heavy_triplet_member",
+      "sector_role": "heavy_offset_observable",
+      "rationale": [
+        "positive transport pole",
+        "heavy_offset_branch",
+        "high_transport_support",
+        "high_rank spectral placement"
+      ]
+    },
+    {
+      "slot_label": "OBS_05",
+      "reduced_class": "Q_plus|L1_weak|A0_aligned",
+      "abstract_role": "heavy_triplet_member",
+      "sector_role": "heavy_aligned_observable",
+      "rationale": [
+        "positive transport pole",
+        "heavy_aligned_branch",
+        "supported_transport",
+        "high_rank spectral placement"
+      ]
+    }
+  ],
+  "heavy_triplet_supported": true,
+  "light_pair_supported": true,
+  "polarity_split_supported": true,
+  "rank_hierarchy_supported": true
+}

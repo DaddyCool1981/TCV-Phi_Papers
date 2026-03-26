@@ -1,0 +1,9 @@
+{
+  "verdict": "micro_closure_partial",
+  "checks": {
+    "exact_generalized_diagonalization": true,
+    "twisted_capture_mode13_high": true,
+    "twisted_lowmode_projection_good": true,
+    "twisted_vs_ring_m0sq_lower": false
+  }
+}

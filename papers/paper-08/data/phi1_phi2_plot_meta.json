@@ -1,0 +1,10 @@
+{
+  "selected_family": "twisted_ring",
+  "classification": "B_promising_but_incomplete",
+  "families": [
+    "twisted_ring",
+    "ring",
+    "ladder",
+    "modular"
+  ]
+}

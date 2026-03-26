@@ -1,0 +1,146 @@
+{
+  "status": "completed",
+  "baseline": {
+    "flavour_index": 0.9059391311700663,
+    "bridge_index": 0.8695312500000001,
+    "micro_closure_index": 0.5198214295137118,
+    "micro_closure_status": "micro_closure_partial_supported"
+  },
+  "results": [
+    {
+      "scheme": "baseline_single_scale",
+      "label": "baseline single-scale",
+      "description": "Reference single-scale coupling without explicit coarse-grained layer.",
+      "multiscale_descriptors": {
+        "scheme": "baseline_single_scale",
+        "coarse_block": 2,
+        "coarse_strength": 0.0,
+        "cross_level_mix": 0.0,
+        "twist_shift": 1
+      },
+      "flavour_index_raw": 0.8003105071075178,
+      "strict_fraction": 0.8833333333333333,
+      "best_candidate": {
+        "angles_deg": {
+          "theta12": 32.800585657638905,
+          "theta13": 8.371736237545264,
+          "theta23": 45.0088323166649
+        },
+        "score": 0.060463000377196575,
+        "strict_ok": true
+      },
+      "bridge_index_raw": 0.395555677269915,
+      "joint_fraction": 0.0,
+      "robustness_pass_fraction": 0.0,
+      "flavour_index": 0.9059391311700662,
+      "bridge_index": 0.8695312500000001,
+      "micro_closure_index": 0.0,
+      "projection13_err_mean": 0.9970297219166875,
+      "micro_closure_status": "open",
+      "overall_index": 0.6398974948446252,
+      "classification": "A_multiscale_does_not_help"
+    },
+    {
+      "scheme": "hierarchical_renorm",
+      "label": "hierarchical renormalized",
+      "description": "Coarse blocks renormalize local links with a mild hierarchy across scales.",
+      "multiscale_descriptors": {
+        "scheme": "hierarchical_renorm",
+        "coarse_block": 2,
+        "coarse_strength": 0.4,
+        "cross_level_mix": 0.26,
+        "twist_shift": 1
+      },
+      "flavour_index_raw": 0.0,
+      "strict_fraction": 0.0,
+      "best_candidate": {
+        "angles_deg": {
+          "theta12": 3.2062116964307643,
+          "theta13": 14.17115492857334,
+          "theta23": 45.14615182332672
+        },
+        "score": 3.288919973606244,
+        "strict_ok": false
+      },
+      "bridge_index_raw": 0.39529275140032494,
+      "joint_fraction": 0.0,
+      "robustness_pass_fraction": 0.0,
+      "flavour_index": 0.0,
+      "bridge_index": 0.868953272554145,
+      "micro_closure_index": null,
+      "projection13_err_mean": null,
+      "micro_closure_status": "not_tested",
+      "overall_index": 0.44099411293224866,
+      "classification": "A_multiscale_does_not_help"
+    },
+    {
+      "scheme": "three_scale_feedback",
+      "label": "three-scale feedback",
+      "description": "Adds a broader mesoscopic feedback channel across larger blocks.",
+      "multiscale_descriptors": {
+        "scheme": "three_scale_feedback",
+        "coarse_block": 4,
+        "coarse_strength": 0.34,
+        "cross_level_mix": 0.32,
+        "twist_shift": 1
+      },
+      "flavour_index_raw": 0.003170177942015462,
+      "strict_fraction": 0.0,
+      "best_candidate": {
+        "angles_deg": {
+          "theta12": 20.636925029670767,
+          "theta13": 8.494146739379278,
+          "theta23": 45.594359542568974
+        },
+        "score": 1.2395023149126303,
+        "strict_ok": false
+      },
+      "bridge_index_raw": 0.3922420472666963,
+      "joint_fraction": 0.0,
+      "robustness_pass_fraction": 0.0,
+      "flavour_index": 0.003588592458724472,
+      "bridge_index": 0.8622470546153638,
+      "micro_closure_index": null,
+      "projection13_err_mean": null,
+      "micro_closure_status": "not_tested",
+      "overall_index": 0.44007766396737835,
+      "classification": "A_multiscale_does_not_help"
+    },
+    {
+      "scheme": "two_scale_block",
+      "label": "two-scale block",
+      "description": "Nearest coarse blocks are coupled in addition to site-level links.",
+      "multiscale_descriptors": {
+        "scheme": "two_scale_block",
+        "coarse_block": 2,
+        "coarse_strength": 0.28,
+        "cross_level_mix": 0.18,
+        "twist_shift": 1
+      },
+      "flavour_index_raw": 0.0,
+      "strict_fraction": 0.0,
+      "best_candidate": {
+        "angles_deg": {
+          "theta12": 8.809265325862269,
+          "theta13": 10.882687912464865,
+          "theta23": 44.3803834423374
+        },
+        "score": 2.48705008893536,
+        "strict_ok": false
+      },
+      "bridge_index_raw": 0.3957171604220431,
+      "joint_fraction": 0.0,
+      "robustness_pass_fraction": 0.0,
+      "flavour_index": 0.0,
+      "bridge_index": 0.8698862307402413,
+      "micro_closure_index": 0.0,
+      "projection13_err_mean": 0.9924500490638974,
+      "micro_closure_status": "open",
+      "overall_index": 0.2957613184516821,
+      "classification": "A_multiscale_does_not_help"
+    }
+  ],
+  "best_scheme": "baseline_single_scale",
+  "final_classification": "A_multiscale_does_not_help",
+  "seed": 20260316
+}

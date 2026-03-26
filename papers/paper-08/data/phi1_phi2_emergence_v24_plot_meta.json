@@ -1,0 +1,19 @@
+{
+  "verdict": "naturalness_supported",
+  "checks": {
+    "size_scaling_present": true,
+    "no_extreme_fine_tuning": true,
+    "uldm_overlap_median_ok": true,
+    "uldm_overlap_volume_ok": true
+  },
+  "alpha": 0.5781734496488212,
+  "max_delta": 0.5357366064294382,
+  "overlap_summary": {
+    "median": 0.4,
+    "p16_p84": [
+      0.4,
+      0.4
+    ],
+    "fraction_above_0p10": 1.0
+  }
+}

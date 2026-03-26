@@ -1,0 +1,29 @@
+{
+  "status": "paper_x_workspace_initialized",
+  "workspace": "/Users/cyrille/Perso/Mes projets/TCV/REPO/TCV-Phi/TCV-PHI/papers/paper-x-sm-derivation",
+  "subdirs": [
+    "build",
+    "code",
+    "data",
+    "figs",
+    "manifest",
+    "repro",
+    "tables",
+    "tex"
+  ],
+  "primary_sources": [
+    "/Users/cyrille/Perso/Mes projets/TCV/REPO/TCV-Phi/TCV-PHI/papers/sm-stage3-exploration/data/stage25_full_sm_derivation_assessment.json",
+    "/Users/cyrille/Perso/Mes projets/TCV/REPO/TCV-Phi/TCV-PHI/papers/sm-stage3-exploration/data/stage26_final_assessment.json",
+    "/Users/cyrille/Perso/Mes projets/TCV/REPO/TCV-Phi/TCV-PHI/papers/sm-stage3-exploration/data/stage27_hard_prediction_assessment.json",
+    "/Users/cyrille/Perso/Mes projets/TCV/REPO/TCV-Phi/TCV-PHI/papers/sm-stage3-exploration/data/stage27_prediction_falsification_map.json",
+    "/Users/cyrille/Perso/Mes projets/TCV/REPO/TCV-Phi/TCV-PHI/papers/sm-stage3-exploration/data/stage28_generation_route_assessment.json",
+    "/Users/cyrille/Perso/Mes projets/TCV/REPO/TCV-Phi/TCV-PHI/papers/sm-stage3-exploration/data/stage28_generation_falsification_map.json",
+    "/Users/cyrille/Perso/Mes projets/TCV/REPO/TCV-Phi/TCV-PHI/papers/sm-stage3-exploration/data/stage29_unification_route_assessment.json",
+    "/Users/cyrille/Perso/Mes projets/TCV/REPO/TCV-Phi/TCV-PHI/papers/sm-stage3-exploration/data/stage29_unification_falsification_map.json",
+    "/Users/cyrille/Perso/Mes projets/TCV/REPO/TCV-Phi/TCV-PHI/papers/sm-stage3-exploration/data/stage3_to_stage29_prepaper_assessment.json"
+  ],
+  "notes": [
+    "/Users/cyrille/Perso/Mes projets/TCV/REPO/TCV-Phi/TCV-PHI/papers/sm-stage3-exploration/STAGE27-SIN2-THETA-W-AUDIT-NOTE.md",
+    "/Users/cyrille/Perso/Mes projets/TCV/REPO/TCV-Phi/TCV-PHI/papers/sm-stage3-exploration/STAGE3-TO-STAGE29-PREPAPER-ASSESSMENT.md"
+  ]
+}

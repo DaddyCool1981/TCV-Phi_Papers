@@ -1,19 +1,19 @@
 # Fdb version 4
-["bibtex paper-03"] 1773148822.56276 "paper-03.aux" "paper-03.bbl" "paper-03" 1773221782.61963 0
-  "./paper-03Notes.bib" 1773221782.2079 104 4d8bb863c86f3d7b03a471e9d4707f34 ""
+["bibtex paper-03"] 1773148822.56276 "paper-03.aux" "paper-03.bbl" "paper-03" 1774529796.9837 0
+  "./paper-03Notes.bib" 1774529796.79043 104 4d8bb863c86f3d7b03a471e9d4707f34 ""
   "/usr/local/texlive/2025/texmf-dist/bibtex/bst/revtex/apsrev4-2.bst" 1601932770 69609 e9dea59f0e753ccda3ddc8f5806d846d ""
-  "paper-03.aux" 1773221782.20666 4186 699668d1e001faabdeecc146ed6b092c "pdflatex"
+  "paper-03.aux" 1774529796.78992 4186 699668d1e001faabdeecc146ed6b092c "pdflatex"
   (generated)
   "paper-03.bbl"
   "paper-03.blg"
   (rewritten before read)
-["pdflatex"] 1773221780.79572 "/Users/cyrille/Perso/Mes projets/TCV-Phi_Papers/papers/paper-03/tex/paper-03.tex" "paper-03.pdf" "paper-03" 1773221782.61992 0
+["pdflatex"] 1774529796.07059 "/Users/cyrille/Perso/Mes projets/TCV-Phi_Papers/papers/paper-03/tex/paper-03.tex" "paper-03.pdf" "paper-03" 1774529796.98383 0
   "../figs/class_bridge_pk_comparison.png" 1773140580.25753 117391 df23765c232838cfb0bd81608867b16c ""
   "../figs/class_bridge_pk_ratio.png" 1773140580.52261 85178 8193f70826d43ee715067d91fa30f1ed ""
   "../figs/primordial_ms_spectrum.png" 1773140824.47244 78780 85c4a2bf5e30140f42946c72161b6efa ""
   "../figs/primordial_observables_diagnostics.png" 1773141823.58039 80833 123e5ef16cc30cc5f51504ae2dc4a8c2 ""
   "/Users/cyrille/Perso/Mes" 1770370310.07885 0 d41d8cd98f00b204e9800998ecf8427e ""
-  "/Users/cyrille/Perso/Mes projets/TCV-Phi_Papers/papers/paper-03/tex/paper-03.tex" 1773221780.55986 10356 746b38544b1df856108b178610824b41 ""
+  "/Users/cyrille/Perso/Mes projets/TCV-Phi_Papers/papers/paper-03/tex/paper-03.tex" 1774529795.79667 10376 e830017e50e214e376dd7cc279096dfb ""
   "/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc" 1254269338 2375 baa924870cfb487815765f9094cf3728 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc" 1202520719 3486 c7eadf5dcc57b3b2d11736679f6636ba ""
   "/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc" 1202520719 2405 5dcf2c1b967ee25cc46c58cd52244aed ""
@@ -173,10 +173,10 @@
   "/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1769006903 5467155 19efa205003f9ecad95fbbaa6ff24da1 ""
   "/usr/local/texlive/2025/texmf-var/web2c/pdftex/pdflatex.fmt" 1769006826 3345740 df4bf6da6a887d91e4f0d78fac6548e0 ""
   "/usr/local/texlive/2025/texmf.cnf" 1741450484 577 418a7058ec8e006d8704f60ecd22c938 ""
-  "paper-03.aux" 1773221782.20666 4186 699668d1e001faabdeecc146ed6b092c "pdflatex"
+  "paper-03.aux" 1774529796.78992 4186 699668d1e001faabdeecc146ed6b092c "pdflatex"
   "paper-03.bbl" 1773148822.68131 1982 35453d3875d823f0ec9445e740a573d9 "bibtex paper-03"
-  "paper-03.out" 1773221782.20764 2523 98b5577fa5c2a2c314916959265b02c1 "pdflatex"
-  "paper-03.tex" 1773221780.55986 10356 746b38544b1df856108b178610824b41 ""
+  "paper-03.out" 1774529796.79031 2523 98b5577fa5c2a2c314916959265b02c1 "pdflatex"
+  "paper-03.tex" 1774529795.79667 10376 e830017e50e214e376dd7cc279096dfb ""
   (generated)
   "paper-03.aux"
   "paper-03.log"

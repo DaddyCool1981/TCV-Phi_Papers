@@ -1,0 +1,46 @@
+{
+  "assumptions": {
+    "anchor_family": "twisted_ring",
+    "m2_ref_eV": 1e-22,
+    "alpha_eV_per_proxy": 9.953893719227761e-20,
+    "normalization_uncertainty_factor": 3.0
+  },
+  "mapped_families": [
+    {
+      "family": "twisted_ring",
+      "support_index": 0.051666666666666666,
+      "m2_eV_mean_calibrated": 1e-22,
+      "m2_eV_window_norm_only": [
+        3.3333333333333333e-23,
+        3e-22
+      ]
+    },
+    {
+      "family": "ladder",
+      "support_index": 0.021328125000000003,
+      "m2_eV_mean_calibrated": 1.3059050541170112e-22,
+      "m2_eV_window_norm_only": [
+        4.353016847056704e-23,
+        3.9177151623510335e-22
+      ]
+    },
+    {
+      "family": "modular",
+      "support_index": 0.0043391927083333325,
+      "m2_eV_mean_calibrated": 3.494438967171738e-21,
+      "m2_eV_window_norm_only": [
+        1.164812989057246e-21,
+        1.0483316901515215e-20
+      ]
+    },
+    {
+      "family": "ring",
+      "support_index": 0.0,
+      "m2_eV_mean_calibrated": 1.8827102166042604e-22,
+      "m2_eV_window_norm_only": [
+        6.275700722014201e-23,
+        5.648130649812781e-22
+      ]
+    }
+  ]
+}

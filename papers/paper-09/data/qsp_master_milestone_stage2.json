@@ -1,0 +1,727 @@
+{
+  "status": "master_milestone_stage2",
+  "baseline": "/Users/cyrille/Perso/Mes projets/TCV/REPO/TCV-Phi/TCV-PHI/papers/sm-exploration/data/qsp_consolidated_milestone.json",
+  "frozen_claims": [
+    "The collective mesoscopic patch picture is the default effective particle-level description.",
+    "Q_SP is the best current transport-level quasiparticle identity observable.",
+    "The present internal grammar separates transported heavy branches from light recombined branches.",
+    "This snapshot is internal and does not identify exact Standard Model particles."
+  ],
+  "milestone_chain": [
+    {
+      "step": "families_effectives",
+      "verdict": "effective_family_reading_supported",
+      "score": 0.9260812870730011
+    },
+    {
+      "step": "charge_reconstruction",
+      "verdict": "charge_ladder_robust",
+      "candidate": {
+        "weights": {
+          "mean_qsp_retention": 0.4,
+          "mean_coherence_post": 0.6
+        },
+        "score": 1.3349206110972525,
+        "sign_gap": 0.9662513648496918,
+        "negative_support_mean": 0.31140010731680395,
+        "class_spread": 0.5575869868422177,
+        "robustness_correlation": 0.9877454087882385
+      }
+    },
+    {
+      "step": "spectrum_bridge",
+      "verdict": "spectrum_bridge_robust",
+      "candidate": {
+        "weights": {
+          "mean_mass_proxy_post": 0.4,
+          "mean_transport_robustness": 0.6
+        },
+        "score": 1.2,
+        "average_order_retention": 1.0,
+        "baseline_mass_match": 1.0
+      }
+    },
+    {
+      "step": "charge_spectrum_cross",
+      "verdict": "charge_spectrum_cross_supported",
+      "gate": {
+        "charge_ladder": "charge_ladder_robust",
+        "spectrum_bridge": "spectrum_bridge_robust",
+        "observable_mapping_rule": "ready_to_open"
+      }
+    },
+    {
+      "step": "observable_mapping_rule",
+      "verdict": "observable_mapping_rule_supported"
+    },
+    {
+      "step": "effective_observable_analogy",
+      "verdict": "effective_observable_analogy_supported"
+    },
+    {
+      "step": "family_correspondence",
+      "verdict": "family_correspondence_supported"
+    },
+    {
+      "step": "conditional_correspondence",
+      "verdict": "conditional_particle_family_reading_supported"
+    },
+    {
+      "step": "hypothetical_naming",
+      "verdict": "hypothetical_naming_supported_as_working_label_set"
+    },
+    {
+      "step": "sm_family_rapprochement",
+      "verdict": "sm_family_rapprochement_supported_as_speculative_pattern"
+    }
+  ],
+  "core_results": {
+    "charge_candidate": {
+      "weights": {
+        "mean_qsp_retention": 0.4,
+        "mean_coherence_post": 0.6
+      },
+      "score": 1.3349206110972525,
+      "sign_gap": 0.9662513648496918,
+      "negative_support_mean": 0.31140010731680395,
+      "class_spread": 0.5575869868422177,
+      "robustness_correlation": 0.9877454087882385
+    },
+    "charge_states": [
+      {
+        "reduced_class": "Q_plus|L1_weak|A1_offset",
+        "sign_band": "Q_plus",
+        "sector_type": "heavy_multi_branch",
+        "support_value": 0.8569156998503613,
+        "signed_coordinate": 0.8569156998503613,
+        "charge_level": "C_plus_strong",
+        "dominant_metrics": [
+          "mean_coherence_post",
+          "mean_qsp_retention"
+        ],
+        "mean_mass_proxy_post": 6.891973910836144,
+        "mean_transport_robustness": 0.9985972695850823,
+        "mean_qsp_retention": 0.49451028097262245,
+        "mean_coherence_post": 0.6500426806746825,
+        "effective_family_score": 0.7117857257323004,
+        "mean_family_mismatch": 0.17180379797025705,
+        "dominant_channel": "asymmetric_merge"
+      },
+      {
+        "reduced_class": "Q_plus|L1_weak|A0_aligned",
+        "sign_band": "Q_plus",
+        "sector_type": "heavy_multi_branch",
+        "support_value": 0.8534496467669478,
+        "signed_coordinate": 0.8534496467669478,
+        "charge_level": "C_plus_strong",
+        "dominant_metrics": [
+          "mean_coherence_post",
+          "mean_qsp_retention"
+        ],
+        "mean_mass_proxy_post": 7.315175642505977,
+        "mean_transport_robustness": 0.9617894741474843,
+        "mean_qsp_retention": 0.4913827833415565,
+        "mean_coherence_post": 0.653939098882198,
+        "effective_family_score": 0.6063948455539454,
+        "mean_family_mismatch": 0.20987169026991162,
+        "dominant_channel": "asymmetric_merge"
+      },
+      {
+        "reduced_class": "Q_plus|L1_weak|A2_shifted",
+        "sign_band": "Q_plus",
+        "sector_type": "heavy_multi_branch",
+        "support_value": 0.7434511502160839,
+        "signed_coordinate": 0.7434511502160839,
+        "charge_level": "C_plus_supported",
+        "dominant_metrics": [
+          "mean_coherence_post",
+          "mean_qsp_retention"
+        ],
+        "mean_mass_proxy_post": 6.44392161243167,
+        "mean_transport_robustness": 0.9940418938990265,
+        "mean_qsp_retention": 0.5001814171155199,
+        "mean_coherence_post": 0.6198531689061663,
+        "effective_family_score": 0.5210808154430067,
+        "mean_family_mismatch": 0.043082393315371156,
+        "dominant_channel": "coherent_merge"
+      },
+      {
+        "reduced_class": "Q_minus|L1_weak|A1_offset",
+        "sign_band": "Q_minus",
+        "sector_type": "light_recombined",
+        "support_value": 0.22280021463360786,
+        "signed_coordinate": -0.22280021463360786,
+        "charge_level": "C_minus_weak",
+        "dominant_metrics": [
+          "mean_coherence_post",
+          "mean_qsp_retention"
+        ],
+        "mean_mass_proxy_post": 0.1287863493306268,
+        "mean_transport_robustness": 0.0,
+        "mean_qsp_retention": 0.4578577434009674,
+        "mean_coherence_post": 0.5811004516717179,
+        "effective_family_score": 0.41543666180625527,
+        "mean_family_mismatch": 0.2694249009884278,
+        "dominant_channel": "residual_recombination"
+      },
+      {
+        "reduced_class": "Q_minus|L2_moderate|A1_offset",
+        "sign_band": "Q_minus",
+        "sector_type": "light_recombined",
+        "support_value": 0.4,
+        "signed_coordinate": -0.4,
+        "charge_level": "C_minus_moderate",
+        "dominant_metrics": [
+          "mean_coherence_post",
+          "mean_qsp_retention"
+        ],
+        "mean_mass_proxy_post": 0.08366642655201104,
+        "mean_transport_robustness": 0.0,
+        "mean_qsp_retention": 0.5107677243273422,
+        "mean_coherence_post": 0.5380769218031811,
+        "effective_family_score": 0.40841396303308686,
+        "mean_family_mismatch": 0.2706410179631524,
+        "dominant_channel": "residual_recombination"
+      }
+    ],
+    "charge_robustness": [
+      {
+        "label": "low",
+        "amplitude": 0.03,
+        "sign_separation_supported": true,
+        "resolved_level_count": 4,
+        "order_retention": 0.6,
+        "level_retention": 0.8,
+        "signed_coordinates": {
+          "Q_plus|L1_weak|A1_offset": 0.8958274971102469,
+          "Q_plus|L1_weak|A2_shifted": 0.7703873385209499,
+          "Q_plus|L1_weak|A0_aligned": 0.7174681822716289,
+          "Q_minus|L1_weak|A1_offset": -0.12946005133278465,
+          "Q_minus|L2_moderate|A1_offset": -0.4
+        }
+      },
+      {
+        "label": "mid",
+        "amplitude": 0.06,
+        "sign_separation_supported": true,
+        "resolved_level_count": 4,
+        "order_retention": 0.6,
+        "level_retention": 0.8,
+        "signed_coordinates": {
+          "Q_plus|L1_weak|A1_offset": 0.9093591981745597,
+          "Q_plus|L1_weak|A2_shifted": 0.7791987328736651,
+          "Q_plus|L1_weak|A0_aligned": 0.5762083908056665,
+          "Q_minus|L1_weak|A1_offset": -0.03159593684232909,
+          "Q_minus|L2_moderate|A1_offset": -0.4
+        }
+      },
+      {
+        "label": "high",
+        "amplitude": 0.1,
+        "sign_separation_supported": true,
+        "resolved_level_count": 4,
+        "order_retention": 0.6,
+        "level_retention": 0.8,
+        "signed_coordinates": {
+          "Q_plus|L1_weak|A1_offset": 0.9224693423747644,
+          "Q_plus|L1_weak|A2_shifted": 0.809673793951591,
+          "Q_plus|L1_weak|A0_aligned": 0.45128275162857995,
+          "Q_minus|L1_weak|A1_offset": -0.0,
+          "Q_minus|L2_moderate|A1_offset": -0.48136348587970934
+        }
+      }
+    ],
+    "spectrum_candidate": {
+      "weights": {
+        "mean_mass_proxy_post": 0.4,
+        "mean_transport_robustness": 0.6
+      },
+      "score": 1.2,
+      "average_order_retention": 1.0,
+      "baseline_mass_match": 1.0
+    },
+    "spectrum_states": [
+      {
+        "reduced_class": "Q_minus|L2_moderate|A1_offset",
+        "sector_label": "Q_minus|M0_light|T0_formation_only|A1_offset",
+        "mass_band": "M0_light",
+        "transport_band": "T0_formation_only",
+        "alignment_band": "A1_offset",
+        "spectral_support": 0.0,
+        "spectral_rank": 1,
+        "mean_mass_proxy_post": 0.08366642655201104
+      },
+      {
+        "reduced_class": "Q_minus|L1_weak|A1_offset",
+        "sector_label": "Q_minus|M0_light|T0_formation_only|A1_offset",
+        "mass_band": "M0_light",
+        "transport_band": "T0_formation_only",
+        "alignment_band": "A1_offset",
+        "spectral_support": 0.0024957403181661373,
+        "spectral_rank": 2,
+        "mean_mass_proxy_post": 0.1287863493306268
+      },
+      {
+        "reduced_class": "Q_plus|L1_weak|A2_shifted",
+        "sector_label": "Q_plus|M2_heavy|T2_high|A2_shifted",
+        "mass_band": "M2_heavy",
+        "transport_band": "T2_high",
+        "alignment_band": "A2_shifted",
+        "spectral_support": 0.9490708356746724,
+        "spectral_rank": 3,
+        "mean_mass_proxy_post": 6.44392161243167
+      },
+      {
+        "reduced_class": "Q_plus|L1_weak|A1_offset",
+        "sector_label": "Q_plus|M2_heavy|T2_high|A1_offset",
+        "mass_band": "M2_heavy",
+        "transport_band": "T2_high",
+        "alignment_band": "A1_offset",
+        "spectral_support": 0.9765912359906186,
+        "spectral_rank": 4,
+        "mean_mass_proxy_post": 6.891973910836144
+      },
+      {
+        "reduced_class": "Q_plus|L1_weak|A0_aligned",
+        "sector_label": "Q_plus|M2_heavy|T1_supported|A0_aligned",
+        "mass_band": "M2_heavy",
+        "transport_band": "T1_supported",
+        "alignment_band": "A0_aligned",
+        "spectral_support": 0.9778843003729271,
+        "spectral_rank": 5,
+        "mean_mass_proxy_post": 7.315175642505977
+      }
+    ],
+    "spectrum_robustness": [
+      {
+        "label": "low",
+        "amplitude": 0.03,
+        "order_retention": 1.0,
+        "light_heavy_separation_margin": 6.413725882527477,
+        "lightest": "Q_minus|L2_moderate|A1_offset",
+        "heaviest": "Q_plus|L1_weak|A0_aligned"
+      },
+      {
+        "label": "mid",
+        "amplitude": 0.06,
+        "order_retention": 1.0,
+        "light_heavy_separation_margin": 6.512316501953912,
+        "lightest": "Q_minus|L2_moderate|A1_offset",
+        "heaviest": "Q_plus|L1_weak|A0_aligned"
+      },
+      {
+        "label": "high",
+        "amplitude": 0.1,
+        "order_retention": 1.0,
+        "light_heavy_separation_margin": 6.6437706611891585,
+        "lightest": "Q_minus|L2_moderate|A1_offset",
+        "heaviest": "Q_plus|L1_weak|A0_aligned"
+      }
+    ],
+    "charge_spectrum_rows": [
+      {
+        "reduced_class": "Q_plus|L1_weak|A1_offset",
+        "charge_level": "C_plus_strong",
+        "signed_coordinate": 0.8569156998503613,
+        "mass_band": "M2_heavy",
+        "transport_band": "T2_high",
+        "alignment_band": "A1_offset",
+        "spectral_rank": 4,
+        "spectral_support": 0.9765912359906186,
+        "mean_mass_proxy_post": 6.891973910836144,
+        "effective_cross_label": "C_plus_strong|R04|M2_heavy|T2_high|A1_offset",
+        "charge_rank": 1
+      },
+      {
+        "reduced_class": "Q_plus|L1_weak|A0_aligned",
+        "charge_level": "C_plus_strong",
+        "signed_coordinate": 0.8534496467669478,
+        "mass_band": "M2_heavy",
+        "transport_band": "T1_supported",
+        "alignment_band": "A0_aligned",
+        "spectral_rank": 5,
+        "spectral_support": 0.9778843003729271,
+        "mean_mass_proxy_post": 7.315175642505977,
+        "effective_cross_label": "C_plus_strong|R05|M2_heavy|T1_supported|A0_aligned",
+        "charge_rank": 2
+      },
+      {
+        "reduced_class": "Q_plus|L1_weak|A2_shifted",
+        "charge_level": "C_plus_supported",
+        "signed_coordinate": 0.7434511502160839,
+        "mass_band": "M2_heavy",
+        "transport_band": "T2_high",
+        "alignment_band": "A2_shifted",
+        "spectral_rank": 3,
+        "spectral_support": 0.9490708356746724,
+        "mean_mass_proxy_post": 6.44392161243167,
+        "effective_cross_label": "C_plus_supported|R03|M2_heavy|T2_high|A2_shifted",
+        "charge_rank": 3
+      },
+      {
+        "reduced_class": "Q_minus|L1_weak|A1_offset",
+        "charge_level": "C_minus_weak",
+        "signed_coordinate": -0.22280021463360786,
+        "mass_band": "M0_light",
+        "transport_band": "T0_formation_only",
+        "alignment_band": "A1_offset",
+        "spectral_rank": 2,
+        "spectral_support": 0.0024957403181661373,
+        "mean_mass_proxy_post": 0.1287863493306268,
+        "effective_cross_label": "C_minus_weak|R02|M0_light|T0_formation_only|A1_offset",
+        "charge_rank": 4
+      },
+      {
+        "reduced_class": "Q_minus|L2_moderate|A1_offset",
+        "charge_level": "C_minus_moderate",
+        "signed_coordinate": -0.4,
+        "mass_band": "M0_light",
+        "transport_band": "T0_formation_only",
+        "alignment_band": "A1_offset",
+        "spectral_rank": 1,
+        "spectral_support": 0.0,
+        "mean_mass_proxy_post": 0.08366642655201104,
+        "effective_cross_label": "C_minus_moderate|R01|M0_light|T0_formation_only|A1_offset",
+        "charge_rank": 5
+      }
+    ],
+    "observable_slots": [
+      {
+        "reduced_class": "Q_minus|L2_moderate|A1_offset",
+        "slot_label": "OBS_01",
+        "family_group": "light_offset_branch",
+        "polarity_group": "negative_recombination_pole",
+        "transport_group": "formation_dominated",
+        "rank_group": "low_rank",
+        "charge_level": "C_minus_moderate",
+        "spectral_rank": 1,
+        "signed_coordinate": -0.4,
+        "spectral_support": 0.0
+      },
+      {
+        "reduced_class": "Q_minus|L1_weak|A1_offset",
+        "slot_label": "OBS_02",
+        "family_group": "light_offset_branch",
+        "polarity_group": "negative_recombination_pole",
+        "transport_group": "formation_dominated",
+        "rank_group": "low_rank",
+        "charge_level": "C_minus_weak",
+        "spectral_rank": 2,
+        "signed_coordinate": -0.22280021463360786,
+        "spectral_support": 0.0024957403181661373
+      },
+      {
+        "reduced_class": "Q_plus|L1_weak|A2_shifted",
+        "slot_label": "OBS_03",
+        "family_group": "heavy_shifted_branch",
+        "polarity_group": "positive_transport_pole",
+        "transport_group": "high_transport_support",
+        "rank_group": "mid_rank",
+        "charge_level": "C_plus_supported",
+        "spectral_rank": 3,
+        "signed_coordinate": 0.7434511502160839,
+        "spectral_support": 0.9490708356746724
+      },
+      {
+        "reduced_class": "Q_plus|L1_weak|A1_offset",
+        "slot_label": "OBS_04",
+        "family_group": "heavy_offset_branch",
+        "polarity_group": "positive_transport_pole",
+        "transport_group": "high_transport_support",
+        "rank_group": "high_rank",
+        "charge_level": "C_plus_strong",
+        "spectral_rank": 4,
+        "signed_coordinate": 0.8569156998503613,
+        "spectral_support": 0.9765912359906186
+      },
+      {
+        "reduced_class": "Q_plus|L1_weak|A0_aligned",
+        "slot_label": "OBS_05",
+        "family_group": "heavy_aligned_branch",
+        "polarity_group": "positive_transport_pole",
+        "transport_group": "supported_transport",
+        "rank_group": "high_rank",
+        "charge_level": "C_plus_strong",
+        "spectral_rank": 5,
+        "signed_coordinate": 0.8534496467669478,
+        "spectral_support": 0.9778843003729271
+      }
+    ],
+    "conditional_correspondences": [
+      {
+        "candidate_label": "OBS_01",
+        "source_class": "Q_minus|L2_moderate|A1_offset",
+        "candidate_reading": "possible_light_paired_family",
+        "correspondence_scope": "family_level_only",
+        "support_level": "moderate_internal_support",
+        "confidence_score": 0.78,
+        "supporting_features": [
+          "negative recombination pole",
+          "low-rank spectral placement",
+          "formation-dominated transport",
+          "low_rank_member"
+        ],
+        "unresolved_items": [
+          "no exact gauge-charge reconstruction",
+          "no direct observed-mass calibration",
+          "no explicit particle naming rule yet"
+        ]
+      },
+      {
+        "candidate_label": "OBS_02",
+        "source_class": "Q_minus|L1_weak|A1_offset",
+        "candidate_reading": "possible_light_paired_family",
+        "correspondence_scope": "family_level_only",
+        "support_level": "moderate_internal_support",
+        "confidence_score": 0.78,
+        "supporting_features": [
+          "negative recombination pole",
+          "low-rank spectral placement",
+          "formation-dominated transport",
+          "low_rank_member"
+        ],
+        "unresolved_items": [
+          "no exact gauge-charge reconstruction",
+          "no direct observed-mass calibration",
+          "no explicit particle naming rule yet"
+        ]
+      },
+      {
+        "candidate_label": "OBS_03",
+        "source_class": "Q_plus|L1_weak|A2_shifted",
+        "candidate_reading": "possible_heavy_triplet_family::heavy_shifted_branch",
+        "correspondence_scope": "family_and_branch_level",
+        "support_level": "moderate_internal_support",
+        "confidence_score": 0.74,
+        "supporting_features": [
+          "positive transport pole",
+          "heavy_shifted_branch",
+          "high_transport_support",
+          "mid_rank",
+          "entry_heavy_member"
+        ],
+        "unresolved_items": [
+          "no exact gauge-charge reconstruction",
+          "no direct observed-mass calibration",
+          "branch-to-particle assignment still conditional"
+        ]
+      },
+      {
+        "candidate_label": "OBS_04",
+        "source_class": "Q_plus|L1_weak|A1_offset",
+        "candidate_reading": "possible_heavy_triplet_family::heavy_offset_branch",
+        "correspondence_scope": "family_and_branch_level",
+        "support_level": "moderate_internal_support",
+        "confidence_score": 0.82,
+        "supporting_features": [
+          "positive transport pole",
+          "heavy_offset_branch",
+          "high_transport_support",
+          "high_rank",
+          "upper_heavy_member"
+        ],
+        "unresolved_items": [
+          "no exact gauge-charge reconstruction",
+          "no direct observed-mass calibration",
+          "branch-to-particle assignment still conditional"
+        ]
+      },
+      {
+        "candidate_label": "OBS_05",
+        "source_class": "Q_plus|L1_weak|A0_aligned",
+        "candidate_reading": "possible_heavy_triplet_family::heavy_aligned_branch",
+        "correspondence_scope": "family_and_branch_level",
+        "support_level": "moderate_internal_support",
+        "confidence_score": 0.82,
+        "supporting_features": [
+          "positive transport pole",
+          "heavy_aligned_branch",
+          "supported_transport",
+          "high_rank",
+          "upper_heavy_member"
+        ],
+        "unresolved_items": [
+          "no exact gauge-charge reconstruction",
+          "no direct observed-mass calibration",
+          "branch-to-particle assignment still conditional"
+        ]
+      }
+    ],
+    "hypothetical_names": [
+      {
+        "candidate_label": "OBS_01",
+        "source_class": "Q_minus|L2_moderate|A1_offset",
+        "hypothesis_label": "HYP_LIGHT_PAIR::OBS_01",
+        "hypothesis_scope": "light_family_level",
+        "confidence_score": 0.78,
+        "support_level": "moderate_internal_support",
+        "caveats": [
+          "temporary family label only",
+          "no exact gauge charge",
+          "no exact observed-mass assignment",
+          "not an identified particle name"
+        ]
+      },
+      {
+        "candidate_label": "OBS_02",
+        "source_class": "Q_minus|L1_weak|A1_offset",
+        "hypothesis_label": "HYP_LIGHT_PAIR::OBS_02",
+        "hypothesis_scope": "light_family_level",
+        "confidence_score": 0.78,
+        "support_level": "moderate_internal_support",
+        "caveats": [
+          "temporary family label only",
+          "no exact gauge charge",
+          "no exact observed-mass assignment",
+          "not an identified particle name"
+        ]
+      },
+      {
+        "candidate_label": "OBS_03",
+        "source_class": "Q_plus|L1_weak|A2_shifted",
+        "hypothesis_label": "HYP_HEAVY_TRIPLET::heavy_shifted_branch::OBS_03",
+        "hypothesis_scope": "heavy_family_branch_level",
+        "confidence_score": 0.74,
+        "support_level": "moderate_internal_support",
+        "caveats": [
+          "temporary branch label only",
+          "branch-to-particle mapping remains open",
+          "no exact gauge charge",
+          "not an identified particle name"
+        ]
+      },
+      {
+        "candidate_label": "OBS_04",
+        "source_class": "Q_plus|L1_weak|A1_offset",
+        "hypothesis_label": "HYP_HEAVY_TRIPLET::heavy_offset_branch::OBS_04",
+        "hypothesis_scope": "heavy_family_branch_level",
+        "confidence_score": 0.82,
+        "support_level": "moderate_internal_support",
+        "caveats": [
+          "temporary branch label only",
+          "branch-to-particle mapping remains open",
+          "no exact gauge charge",
+          "not an identified particle name"
+        ]
+      },
+      {
+        "candidate_label": "OBS_05",
+        "source_class": "Q_plus|L1_weak|A0_aligned",
+        "hypothesis_label": "HYP_HEAVY_TRIPLET::heavy_aligned_branch::OBS_05",
+        "hypothesis_scope": "heavy_family_branch_level",
+        "confidence_score": 0.82,
+        "support_level": "moderate_internal_support",
+        "caveats": [
+          "temporary branch label only",
+          "branch-to-particle mapping remains open",
+          "no exact gauge charge",
+          "not an identified particle name"
+        ]
+      }
+    ],
+    "sm_family_patterns": [
+      {
+        "hypothesis_label": "HYP_LIGHT_PAIR::OBS_01",
+        "source_class": "Q_minus|L2_moderate|A1_offset",
+        "speculative_sm_like_reading": "possible_light_fermion-like_pair_pattern",
+        "correspondence_scope": "coarse_family_pattern_only",
+        "support_level": "moderate_internal_support",
+        "confidence_score": 0.72,
+        "support_basis": [
+          "paired low-rank light sector",
+          "negative recombination pole",
+          "shared light-family correspondence"
+        ],
+        "blockers": [
+          "no charge-sign calibration to SM quantum numbers",
+          "no spin/statistics derivation",
+          "no exact mass-spectrum fit"
+        ]
+      },
+      {
+        "hypothesis_label": "HYP_LIGHT_PAIR::OBS_02",
+        "source_class": "Q_minus|L1_weak|A1_offset",
+        "speculative_sm_like_reading": "possible_light_fermion-like_pair_pattern",
+        "correspondence_scope": "coarse_family_pattern_only",
+        "support_level": "moderate_internal_support",
+        "confidence_score": 0.72,
+        "support_basis": [
+          "paired low-rank light sector",
+          "negative recombination pole",
+          "shared light-family correspondence"
+        ],
+        "blockers": [
+          "no charge-sign calibration to SM quantum numbers",
+          "no spin/statistics derivation",
+          "no exact mass-spectrum fit"
+        ]
+      },
+      {
+        "hypothesis_label": "HYP_HEAVY_TRIPLET::heavy_shifted_branch::OBS_03",
+        "source_class": "Q_plus|L1_weak|A2_shifted",
+        "speculative_sm_like_reading": "possible_heavy_multibranch_family_pattern::heavy_shifted_branch",
+        "correspondence_scope": "coarse_family_and_branch_pattern",
+        "support_level": "moderate_internal_support",
+        "confidence_score": 0.76,
+        "support_basis": [
+          "heavy triplet family correspondence",
+          "positive transport pole",
+          "branch pattern `heavy_shifted_branch`"
+        ],
+        "blockers": [
+          "no gauge-charge reconstruction",
+          "no observed-family calibration",
+          "no exact branch-to-particle assignment"
+        ]
+      },
+      {
+        "hypothesis_label": "HYP_HEAVY_TRIPLET::heavy_offset_branch::OBS_04",
+        "source_class": "Q_plus|L1_weak|A1_offset",
+        "speculative_sm_like_reading": "possible_heavy_multibranch_family_pattern::heavy_offset_branch",
+        "correspondence_scope": "coarse_family_and_branch_pattern",
+        "support_level": "moderate_internal_support",
+        "confidence_score": 0.81,
+        "support_basis": [
+          "heavy triplet family correspondence",
+          "positive transport pole",
+          "branch pattern `heavy_offset_branch`"
+        ],
+        "blockers": [
+          "no gauge-charge reconstruction",
+          "no observed-family calibration",
+          "no exact branch-to-particle assignment"
+        ]
+      },
+      {
+        "hypothesis_label": "HYP_HEAVY_TRIPLET::heavy_aligned_branch::OBS_05",
+        "source_class": "Q_plus|L1_weak|A0_aligned",
+        "speculative_sm_like_reading": "possible_heavy_multibranch_family_pattern::heavy_aligned_branch",
+        "correspondence_scope": "coarse_family_and_branch_pattern",
+        "support_level": "moderate_internal_support",
+        "confidence_score": 0.81,
+        "support_basis": [
+          "heavy triplet family correspondence",
+          "positive transport pole",
+          "branch pattern `heavy_aligned_branch`"
+        ],
+        "blockers": [
+          "no gauge-charge reconstruction",
+          "no observed-family calibration",
+          "no exact branch-to-particle assignment"
+        ]
+      }
+    ]
+  },
+  "guardrails": {
+    "exact_identification_blocked": true,
+    "exact_sm_identification_blocked": true,
+    "exact_identification_forbidden_in_naming": true,
+    "remaining_blockers": [
+      "exact gauge-charge reconstruction",
+      "observed-mass calibration",
+      "spin/statistics derivation",
+      "non-arbitrary branch-to-particle assignment",
+      "observable identification rule validated beyond internal toys"
+    ]
+  }
+}

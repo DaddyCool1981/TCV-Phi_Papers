@@ -1,0 +1,132 @@
+{
+  "candidate": {
+    "weights": {
+      "mean_qsp_retention": 0.4,
+      "mean_coherence_post": 0.6
+    },
+    "score": 1.3349206110972525,
+    "sign_gap": 0.9662513648496918,
+    "negative_support_mean": 0.31140010731680395,
+    "class_spread": 0.5575869868422177,
+    "robustness_correlation": 0.9877454087882385
+  },
+  "resolved_states": [
+    {
+      "reduced_class": "Q_plus|L1_weak|A1_offset",
+      "sign_band": "Q_plus",
+      "sector_type": "heavy_multi_branch",
+      "support_value": 0.8569156998503613,
+      "signed_coordinate": 0.8569156998503613,
+      "charge_level": "C_plus_strong",
+      "dominant_metrics": [
+        "mean_coherence_post",
+        "mean_qsp_retention"
+      ],
+      "mean_mass_proxy_post": 6.891973910836144,
+      "mean_transport_robustness": 0.9985972695850823,
+      "mean_qsp_retention": 0.49451028097262245,
+      "mean_coherence_post": 0.6500426806746825,
+      "effective_family_score": 0.7117857257323004,
+      "mean_family_mismatch": 0.17180379797025705,
+      "dominant_channel": "asymmetric_merge"
+    },
+    {
+      "reduced_class": "Q_plus|L1_weak|A0_aligned",
+      "sign_band": "Q_plus",
+      "sector_type": "heavy_multi_branch",
+      "support_value": 0.8534496467669478,
+      "signed_coordinate": 0.8534496467669478,
+      "charge_level": "C_plus_strong",
+      "dominant_metrics": [
+        "mean_coherence_post",
+        "mean_qsp_retention"
+      ],
+      "mean_mass_proxy_post": 7.315175642505977,
+      "mean_transport_robustness": 0.9617894741474843,
+      "mean_qsp_retention": 0.4913827833415565,
+      "mean_coherence_post": 0.653939098882198,
+      "effective_family_score": 0.6063948455539454,
+      "mean_family_mismatch": 0.20987169026991162,
+      "dominant_channel": "asymmetric_merge"
+    },
+    {
+      "reduced_class": "Q_plus|L1_weak|A2_shifted",
+      "sign_band": "Q_plus",
+      "sector_type": "heavy_multi_branch",
+      "support_value": 0.7434511502160839,
+      "signed_coordinate": 0.7434511502160839,
+      "charge_level": "C_plus_supported",
+      "dominant_metrics": [
+        "mean_coherence_post",
+        "mean_qsp_retention"
+      ],
+      "mean_mass_proxy_post": 6.44392161243167,
+      "mean_transport_robustness": 0.9940418938990265,
+      "mean_qsp_retention": 0.5001814171155199,
+      "mean_coherence_post": 0.6198531689061663,
+      "effective_family_score": 0.5210808154430067,
+      "mean_family_mismatch": 0.043082393315371156,
+      "dominant_channel": "coherent_merge"
+    },
+    {
+      "reduced_class": "Q_minus|L1_weak|A1_offset",
+      "sign_band": "Q_minus",
+      "sector_type": "light_recombined",
+      "support_value": 0.22280021463360786,
+      "signed_coordinate": -0.22280021463360786,
+      "charge_level": "C_minus_weak",
+      "dominant_metrics": [
+        "mean_coherence_post",
+        "mean_qsp_retention"
+      ],
+      "mean_mass_proxy_post": 0.1287863493306268,
+      "mean_transport_robustness": 0.0,
+      "mean_qsp_retention": 0.4578577434009674,
+      "mean_coherence_post": 0.5811004516717179,
+      "effective_family_score": 0.41543666180625527,
+      "mean_family_mismatch": 0.2694249009884278,
+      "dominant_channel": "residual_recombination"
+    },
+    {
+      "reduced_class": "Q_minus|L2_moderate|A1_offset",
+      "sign_band": "Q_minus",
+      "sector_type": "light_recombined",
+      "support_value": 0.4,
+      "signed_coordinate": -0.4,
+      "charge_level": "C_minus_moderate",
+      "dominant_metrics": [
+        "mean_coherence_post",
+        "mean_qsp_retention"
+      ],
+      "mean_mass_proxy_post": 0.08366642655201104,
+      "mean_transport_robustness": 0.0,
+      "mean_qsp_retention": 0.5107677243273422,
+      "mean_coherence_post": 0.5380769218031811,
+      "effective_family_score": 0.40841396303308686,
+      "mean_family_mismatch": 0.2706410179631524,
+      "dominant_channel": "residual_recombination"
+    }
+  ],
+  "positive_levels": [
+    "C_plus_strong",
+    "C_plus_strong",
+    "C_plus_supported"
+  ],
+  "negative_levels": [
+    "C_minus_weak",
+    "C_minus_moderate"
+  ],
+  "positive_order": [
+    "Q_plus|L1_weak|A1_offset",
+    "Q_plus|L1_weak|A0_aligned",
+    "Q_plus|L1_weak|A2_shifted"
+  ],
+  "negative_order": [
+    "Q_minus|L1_weak|A1_offset",
+    "Q_minus|L2_moderate|A1_offset"
+  ],
+  "resolved_level_count": 4,
+  "sign_separation_supported": true,
+  "status": "charge_reconstruction_stage2_pass1",
+  "baseline": "/Users/cyrille/Perso/Mes projets/TCV/REPO/TCV-Phi/TCV-PHI/papers/sm-exploration/data/qsp_consolidated_milestone.json"
+}

@@ -1,0 +1,109 @@
+{
+  "status": "conditional_correspondence_pass1",
+  "baseline": "/Users/cyrille/Perso/Mes projets/TCV/REPO/TCV-Phi/TCV-PHI/papers/sm-exploration/data/qsp_family_correspondence_summary.json",
+  "verdict": "conditional_particle_family_reading_supported",
+  "correspondences": [
+    {
+      "candidate_label": "OBS_01",
+      "source_class": "Q_minus|L2_moderate|A1_offset",
+      "candidate_reading": "possible_light_paired_family",
+      "correspondence_scope": "family_level_only",
+      "support_level": "moderate_internal_support",
+      "confidence_score": 0.78,
+      "supporting_features": [
+        "negative recombination pole",
+        "low-rank spectral placement",
+        "formation-dominated transport",
+        "low_rank_member"
+      ],
+      "unresolved_items": [
+        "no exact gauge-charge reconstruction",
+        "no direct observed-mass calibration",
+        "no explicit particle naming rule yet"
+      ]
+    },
+    {
+      "candidate_label": "OBS_02",
+      "source_class": "Q_minus|L1_weak|A1_offset",
+      "candidate_reading": "possible_light_paired_family",
+      "correspondence_scope": "family_level_only",
+      "support_level": "moderate_internal_support",
+      "confidence_score": 0.78,
+      "supporting_features": [
+        "negative recombination pole",
+        "low-rank spectral placement",
+        "formation-dominated transport",
+        "low_rank_member"
+      ],
+      "unresolved_items": [
+        "no exact gauge-charge reconstruction",
+        "no direct observed-mass calibration",
+        "no explicit particle naming rule yet"
+      ]
+    },
+    {
+      "candidate_label": "OBS_03",
+      "source_class": "Q_plus|L1_weak|A2_shifted",
+      "candidate_reading": "possible_heavy_triplet_family::heavy_shifted_branch",
+      "correspondence_scope": "family_and_branch_level",
+      "support_level": "moderate_internal_support",
+      "confidence_score": 0.74,
+      "supporting_features": [
+        "positive transport pole",
+        "heavy_shifted_branch",
+        "high_transport_support",
+        "mid_rank",
+        "entry_heavy_member"
+      ],
+      "unresolved_items": [
+        "no exact gauge-charge reconstruction",
+        "no direct observed-mass calibration",
+        "branch-to-particle assignment still conditional"
+      ]
+    },
+    {
+      "candidate_label": "OBS_04",
+      "source_class": "Q_plus|L1_weak|A1_offset",
+      "candidate_reading": "possible_heavy_triplet_family::heavy_offset_branch",
+      "correspondence_scope": "family_and_branch_level",
+      "support_level": "moderate_internal_support",
+      "confidence_score": 0.82,
+      "supporting_features": [
+        "positive transport pole",
+        "heavy_offset_branch",
+        "high_transport_support",
+        "high_rank",
+        "upper_heavy_member"
+      ],
+      "unresolved_items": [
+        "no exact gauge-charge reconstruction",
+        "no direct observed-mass calibration",
+        "branch-to-particle assignment still conditional"
+      ]
+    },
+    {
+      "candidate_label": "OBS_05",
+      "source_class": "Q_plus|L1_weak|A0_aligned",
+      "candidate_reading": "possible_heavy_triplet_family::heavy_aligned_branch",
+      "correspondence_scope": "family_and_branch_level",
+      "support_level": "moderate_internal_support",
+      "confidence_score": 0.82,
+      "supporting_features": [
+        "positive transport pole",
+        "heavy_aligned_branch",
+        "supported_transport",
+        "high_rank",
+        "upper_heavy_member"
+      ],
+      "unresolved_items": [
+        "no exact gauge-charge reconstruction",
+        "no direct observed-mass calibration",
+        "branch-to-particle assignment still conditional"
+      ]
+    }
+  ],
+  "light_family_reading_supported": true,
+  "heavy_family_reading_supported": true,
+  "split_family_reading_supported": true,
+  "exact_identification_blocked": true
+}

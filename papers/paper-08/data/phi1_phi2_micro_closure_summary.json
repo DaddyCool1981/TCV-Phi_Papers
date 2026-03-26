@@ -1,0 +1,84 @@
+{
+  "assumptions": {
+    "micro_action": "L=1/2 du^T K du - [1/2 u^T H u + lambda4/4 sum u_i^4]",
+    "phi2_emergent_mode": "first non-trivial generalized mode",
+    "best_v21_params": {
+      "edge_aniso": 0.06,
+      "drop_prob": 0.005,
+      "onsite_noise": 0.03
+    }
+  },
+  "twisted_ring": {
+    "family": "twisted_ring",
+    "orth_err_max": 1.7763568394002505e-15,
+    "h_reconstruction_rel_err": 2.1805060116843986e-15,
+    "lambda1": 0.009673149218371738,
+    "effective_mode1": {
+      "z0": 1.0,
+      "m0_sq": 0.00967314921837157,
+      "g4": 2.9131618060690405e-05
+    },
+    "capture_mode1": {
+      "uniform": 2.32262466071661e-11,
+      "rail_antisym": 1.575141089756847e-07,
+      "k1_cos_sym": 0.07315819286956102,
+      "k1_sin_antisym": 3.536496454522392e-08
+    },
+    "capture_mode13": {
+      "uniform": 3.014662567141509e-11,
+      "rail_antisym": 4.326667712986147e-07,
+      "k1_cos_sym": 0.999991772445416,
+      "k1_sin_antisym": 1.5086156760384408e-07
+    },
+    "best_source": "k1_cos_sym",
+    "projection_error_mode1": {
+      "n_keep": 2,
+      "rel_err_mean": 0.9410703301740763,
+      "rel_err_p90": 0.9830215193826131,
+      "rel_err_max": 0.9999997440648312
+    },
+    "projection_error_mode13": {
+      "n_keep": 4,
+      "rel_err_mean": 0.0062531068130125015,
+      "rel_err_p90": 0.012670379108777644,
+      "rel_err_max": 0.1823045135680938
+    }
+  },
+  "ring": {
+    "family": "ring",
+    "orth_err_max": 1.4432899320127035e-15,
+    "h_reconstruction_rel_err": 2.3178003144985395e-15,
+    "lambda1": 0.002490333967245178,
+    "effective_mode1": {
+      "z0": 1.0,
+      "m0_sq": 0.0024903339672456967,
+      "g4": 2.918090322486639e-05
+    },
+    "capture_mode1": {
+      "uniform": 7.71156342188694e-10
+    },
+    "capture_mode13": {
+      "uniform": 1.6810117161565365e-09
+    },
+    "best_source": "uniform",
+    "projection_error_mode1": {
+      "n_keep": 2,
+      "rel_err_mean": 0.00014837725859335058,
+      "rel_err_p90": 0.00012680963790529735,
+      "rel_err_max": 0.0769119486343736
+    },
+    "projection_error_mode13": {
+      "n_keep": 4,
+      "rel_err_mean": 9.429638222331292e-05,
+      "rel_err_p90": 3.0984366928423504e-05,
+      "rel_err_max": 0.05972860593788661
+    }
+  },
+  "checks": {
+    "exact_generalized_diagonalization": true,
+    "twisted_capture_mode13_high": true,
+    "twisted_lowmode_projection_good": true,
+    "twisted_vs_ring_m0sq_lower": false
+  },
+  "verdict": "micro_closure_partial"
+}

@@ -1,0 +1,17 @@
+level,claim,status
+Level_A,exact gauge-product derivation,allowed
+Level_A,exact representation-side capstone,allowed
+Level_A,guarded theorem-style internal anomaly-dynamics package,allowed
+Level_B,windowed full-SM crossing package,allowed
+Level_B,candidate hard-prediction package,allowed
+Level_B,candidate generation-structure package,allowed
+Level_B,candidate gauge-coupling unification route package,allowed
+Level_C,conditional 3/8 electroweak upgrade route,allowed
+Level_C,CKM-like route,allowed
+Level_C,transport-driven neutrino-spectrum route,allowed
+Blocked,fully unconditional internal anomaly-cancellation theorem,blocked
+Blocked,internally derived exact electroweak-angle theorem value,blocked
+Blocked,licensed gauge-coupling unification claim,blocked
+Blocked,theorem-level derivation of three generations,blocked
+Blocked,precision CKM prediction,blocked
+Blocked,precision neutrino-spectrum prediction,blocked

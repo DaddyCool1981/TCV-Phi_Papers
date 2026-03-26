@@ -1,0 +1,146 @@
+{
+  "status": "completed",
+  "baseline": {
+    "flavour_index": 0.9059391311700663,
+    "bridge_index": 0.8695312500000001,
+    "micro_closure_index": 0.5198214295137118,
+    "micro_closure_status": "micro_closure_partial_supported"
+  },
+  "results": [
+    {
+      "rule": "inertia_link_coupled",
+      "label": "inertia-link coupled",
+      "description": "Inter-ring strength is coupled to a local inertial profile.",
+      "dynamic_descriptors": {
+        "rule": "inertia_link_coupled",
+        "gamma_dyn": 0.36,
+        "sat_dyn": 1.2,
+        "phase_dyn": 0.55,
+        "twist_shift": 1
+      },
+      "flavour_index_raw": 0.6714149235758096,
+      "strict_fraction": 0.5222222222222223,
+      "best_candidate": {
+        "angles_deg": {
+          "theta12": 33.29693810968687,
+          "theta13": 8.614778211718946,
+          "theta23": 46.15355713017802
+        },
+        "score": 0.1674884879999583,
+        "strict_ok": true
+      },
+      "bridge_index_raw": 0.38296257879160917,
+      "joint_fraction": 0.0,
+      "robustness_pass_fraction": 0.0,
+      "flavour_index": 0.7600313217394364,
+      "bridge_index": 0.841848439992593,
+      "micro_closure_index": null,
+      "projection13_err_mean": null,
+      "micro_closure_status": "not_tested",
+      "overall_index": 0.7205903721223068,
+      "classification": "A_dynamics_do_not_help"
+    },
+    {
+      "rule": "baseline_linear",
+      "label": "baseline linear",
+      "description": "Reference linear inter-ring coupling.",
+      "dynamic_descriptors": {
+        "rule": "baseline_linear",
+        "gamma_dyn": 0.0,
+        "sat_dyn": 1.0,
+        "phase_dyn": 0.0,
+        "twist_shift": 1
+      },
+      "flavour_index_raw": 0.8003105071075178,
+      "strict_fraction": 0.8833333333333333,
+      "best_candidate": {
+        "angles_deg": {
+          "theta12": 32.800585657638905,
+          "theta13": 8.371736237545264,
+          "theta23": 45.0088323166649
+        },
+        "score": 0.060463000377196575,
+        "strict_ok": true
+      },
+      "bridge_index_raw": 0.395555677269915,
+      "joint_fraction": 0.0,
+      "robustness_pass_fraction": 0.0,
+      "flavour_index": 0.9059391311700662,
+      "bridge_index": 0.8695312500000001,
+      "micro_closure_index": 0.0,
+      "projection13_err_mean": 0.9970330219172514,
+      "micro_closure_status": "open",
+      "overall_index": 0.6398974948446252,
+      "classification": "A_dynamics_do_not_help"
+    },
+    {
+      "rule": "mode_weighted",
+      "label": "mode-weighted",
+      "description": "Inter-ring links are weighted by a coherent k=1 mode profile.",
+      "dynamic_descriptors": {
+        "rule": "mode_weighted",
+        "gamma_dyn": 0.3,
+        "sat_dyn": 1.0,
+        "phase_dyn": 0.35,
+        "twist_shift": 1
+      },
+      "flavour_index_raw": 0.7694698421644651,
+      "strict_fraction": 0.6888888888888889,
+      "best_candidate": {
+        "angles_deg": {
+          "theta12": 32.662472301291274,
+          "theta13": 8.591122717792333,
+          "theta23": 44.74269922479576
+        },
+        "score": 0.04995268311039476,
+        "strict_ok": true
+      },
+      "bridge_index_raw": 0.3882615145035788,
+      "joint_fraction": 0.0,
+      "robustness_pass_fraction": 0.0,
+      "flavour_index": 0.8710279748687499,
+      "bridge_index": 0.8534968385823938,
+      "micro_closure_index": 0.0,
+      "projection13_err_mean": 0.9970030250317915,
+      "micro_closure_status": "open",
+      "overall_index": 0.621179555568139,
+      "classification": "A_dynamics_do_not_help"
+    },
+    {
+      "rule": "saturating_nonlinear",
+      "label": "saturating nonlinear",
+      "description": "Inter-ring response saturates through a tanh-like local rule.",
+      "dynamic_descriptors": {
+        "rule": "saturating_nonlinear",
+        "gamma_dyn": 0.42,
+        "sat_dyn": 1.45,
+        "phase_dyn": 0.25,
+        "twist_shift": 1
+      },
+      "flavour_index_raw": 0.3971033023676106,
+      "strict_fraction": 0.08333333333333333,
+      "best_candidate": {
+        "angles_deg": {
+          "theta12": 32.68672967880853,
+          "theta13": 8.269863553432911,
+          "theta23": 44.75805990044646
+        },
+        "score": 0.0948042963312827,
+        "strict_ok": true
+      },
+      "bridge_index_raw": 0.37993882446231614,
+      "joint_fraction": 0.0,
+      "robustness_pass_fraction": 0.0,
+      "flavour_index": 0.4495148039876308,
+      "bridge_index": 0.8352014645281275,
+      "micro_closure_index": null,
+      "projection13_err_mean": null,
+      "micro_closure_status": "not_tested",
+      "overall_index": 0.6003341237187024,
+      "classification": "A_dynamics_do_not_help"
+    }
+  ],
+  "best_rule": "inertia_link_coupled",
+  "final_classification": "A_dynamics_do_not_help",
+  "seed": 20260316
+}

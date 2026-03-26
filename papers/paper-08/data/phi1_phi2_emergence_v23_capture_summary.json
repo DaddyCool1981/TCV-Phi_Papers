@@ -1,0 +1,136 @@
+{
+  "best_v21_params": {
+    "edge_aniso": 0.06,
+    "drop_prob": 0.005,
+    "onsite_noise": 0.03
+  },
+  "source_bank": [
+    "uniform",
+    "rail_antisym",
+    "k1_cos_sym",
+    "k1_sin_sym",
+    "k1_cos_antisym",
+    "k1_sin_antisym"
+  ],
+  "eta_scan": [
+    {
+      "eta": 0.0,
+      "n_samples": 120,
+      "mode1_capture_best_mean": 0.5589111777119233,
+      "mode1_capture_best_p16_p84": [
+        0.4216481727900417,
+        0.7070936352434497
+      ],
+      "mode13_capture_best_mean": 0.8534293981978176,
+      "mode13_capture_best_p16_p84": [
+        0.7773942346489965,
+        0.9301344291047904
+      ],
+      "mode1_capture_uniform_mean": 0.18176221944987245,
+      "pass_flags": {
+        "mode1_good": true,
+        "mode13_good": true
+      }
+    },
+    {
+      "eta": 0.1,
+      "n_samples": 120,
+      "mode1_capture_best_mean": 0.5823214231476903,
+      "mode1_capture_best_p16_p84": [
+        0.4337964549229087,
+        0.7514466961419597
+      ],
+      "mode13_capture_best_mean": 0.8644674753956039,
+      "mode13_capture_best_p16_p84": [
+        0.7698968085172081,
+        0.9382419642463379
+      ],
+      "mode1_capture_uniform_mean": 0.20172384006586,
+      "pass_flags": {
+        "mode1_good": true,
+        "mode13_good": true
+      }
+    },
+    {
+      "eta": 0.2,
+      "n_samples": 120,
+      "mode1_capture_best_mean": 0.5514073028212837,
+      "mode1_capture_best_p16_p84": [
+        0.4300319086870739,
+        0.6766241212570746
+      ],
+      "mode13_capture_best_mean": 0.8476166174153897,
+      "mode13_capture_best_p16_p84": [
+        0.7523834595436546,
+        0.9349268090770941
+      ],
+      "mode1_capture_uniform_mean": 0.23008806563260908,
+      "pass_flags": {
+        "mode1_good": true,
+        "mode13_good": true
+      }
+    },
+    {
+      "eta": 0.3,
+      "n_samples": 120,
+      "mode1_capture_best_mean": 0.5785912276874854,
+      "mode1_capture_best_p16_p84": [
+        0.42451863443464577,
+        0.7224037545323547
+      ],
+      "mode13_capture_best_mean": 0.8579693487204527,
+      "mode13_capture_best_p16_p84": [
+        0.7733734409157196,
+        0.9395612412396901
+      ],
+      "mode1_capture_uniform_mean": 0.18240908223410018,
+      "pass_flags": {
+        "mode1_good": true,
+        "mode13_good": true
+      }
+    },
+    {
+      "eta": 0.4,
+      "n_samples": 120,
+      "mode1_capture_best_mean": 0.5563014710512391,
+      "mode1_capture_best_p16_p84": [
+        0.4022601543789422,
+        0.7116564702042867
+      ],
+      "mode13_capture_best_mean": 0.8472343461995464,
+      "mode13_capture_best_p16_p84": [
+        0.7533121768053544,
+        0.9391452355015344
+      ],
+      "mode1_capture_uniform_mean": 0.2026237591632718,
+      "pass_flags": {
+        "mode1_good": true,
+        "mode13_good": true
+      }
+    }
+  ],
+  "best_eta_record": {
+    "eta": 0.1,
+    "n_samples": 120,
+    "mode1_capture_best_mean": 0.5823214231476903,
+    "mode1_capture_best_p16_p84": [
+      0.4337964549229087,
+      0.7514466961419597
+    ],
+    "mode13_capture_best_mean": 0.8644674753956039,
+    "mode13_capture_best_p16_p84": [
+      0.7698968085172081,
+      0.9382419642463379
+    ],
+    "mode1_capture_uniform_mean": 0.20172384006586,
+    "pass_flags": {
+      "mode1_good": true,
+      "mode13_good": true
+    }
+  },
+  "readout": {
+    "mode1_capture_recovered": true,
+    "mode13_capture_recovered": true,
+    "note": "Topology-aware source coupling resolves underestimation from uniform-source-only capture."
+  }
+}

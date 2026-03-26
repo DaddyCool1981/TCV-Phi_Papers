@@ -1,0 +1,36 @@
+{
+  "go_count": 17,
+  "grid_size": 27,
+  "best_record": {
+    "params": {
+      "edge_aniso": 0.06,
+      "drop_prob": 0.005,
+      "onsite_noise": 0.03
+    },
+    "twisted_joint_mean": 0.9152777777777779,
+    "twisted_joint_p16_p84": [
+      0.8916666666666667,
+      0.9333333333333333
+    ],
+    "twisted_robust_mean": 0.3050925925925926,
+    "twisted_robust_p16_p84": [
+      0.2927777777777778,
+      0.31722222222222224
+    ],
+    "twisted_m2_mean_eV": 3.505261219008403e-23,
+    "twisted_m2_p16_p84_eV": [
+      3.4257249360144796e-23,
+      3.627137594090108e-23
+    ],
+    "ring_joint_mean": 0.004166666666666667,
+    "ring_robust_mean": 0.0,
+    "criteria": {
+      "joint_pass": true,
+      "robust_pass": true,
+      "m2_pass": true,
+      "ring_control_passive": true,
+      "m2_log10_dev": 0.4552796120063944
+    },
+    "overall_go": true
+  }
+}

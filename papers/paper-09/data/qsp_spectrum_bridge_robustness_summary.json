@@ -1,0 +1,123 @@
+{
+  "status": "spectrum_bridge_robustness_pass2",
+  "baseline": "/Users/cyrille/Perso/Mes projets/TCV/REPO/TCV-Phi/TCV-PHI/papers/sm-exploration/data/qsp_consolidated_milestone.json",
+  "raw_mass_summary": {
+    "n_levels": 5,
+    "lightest": {
+      "reduced_class": "Q_minus|L2_moderate|A1_offset",
+      "sector_label": "Q_minus|M0_light|T0_formation_only|A1_offset",
+      "mass_band": "M0_light",
+      "transport_band": "T0_formation_only",
+      "alignment_band": "A1_offset",
+      "mean_mass_proxy_post": 0.08366642655201104
+    },
+    "heaviest": {
+      "reduced_class": "Q_plus|L1_weak|A0_aligned",
+      "sector_label": "Q_plus|M2_heavy|T1_supported|A0_aligned",
+      "mass_band": "M2_heavy",
+      "transport_band": "T1_supported",
+      "alignment_band": "A0_aligned",
+      "mean_mass_proxy_post": 7.315175642505977
+    },
+    "mass_bands": [
+      "M0_light",
+      "M2_heavy"
+    ]
+  },
+  "candidate": {
+    "weights": {
+      "mean_mass_proxy_post": 0.4,
+      "mean_transport_robustness": 0.6
+    },
+    "score": 1.2,
+    "average_order_retention": 1.0,
+    "baseline_mass_match": 1.0
+  },
+  "baseline_states": [
+    {
+      "reduced_class": "Q_minus|L2_moderate|A1_offset",
+      "sector_label": "Q_minus|M0_light|T0_formation_only|A1_offset",
+      "mass_band": "M0_light",
+      "transport_band": "T0_formation_only",
+      "alignment_band": "A1_offset",
+      "spectral_support": 0.0,
+      "spectral_rank": 1,
+      "mean_mass_proxy_post": 0.08366642655201104
+    },
+    {
+      "reduced_class": "Q_minus|L1_weak|A1_offset",
+      "sector_label": "Q_minus|M0_light|T0_formation_only|A1_offset",
+      "mass_band": "M0_light",
+      "transport_band": "T0_formation_only",
+      "alignment_band": "A1_offset",
+      "spectral_support": 0.0024957403181661373,
+      "spectral_rank": 2,
+      "mean_mass_proxy_post": 0.1287863493306268
+    },
+    {
+      "reduced_class": "Q_plus|L1_weak|A2_shifted",
+      "sector_label": "Q_plus|M2_heavy|T2_high|A2_shifted",
+      "mass_band": "M2_heavy",
+      "transport_band": "T2_high",
+      "alignment_band": "A2_shifted",
+      "spectral_support": 0.9490708356746724,
+      "spectral_rank": 3,
+      "mean_mass_proxy_post": 6.44392161243167
+    },
+    {
+      "reduced_class": "Q_plus|L1_weak|A1_offset",
+      "sector_label": "Q_plus|M2_heavy|T2_high|A1_offset",
+      "mass_band": "M2_heavy",
+      "transport_band": "T2_high",
+      "alignment_band": "A1_offset",
+      "spectral_support": 0.9765912359906186,
+      "spectral_rank": 4,
+      "mean_mass_proxy_post": 6.891973910836144
+    },
+    {
+      "reduced_class": "Q_plus|L1_weak|A0_aligned",
+      "sector_label": "Q_plus|M2_heavy|T1_supported|A0_aligned",
+      "mass_band": "M2_heavy",
+      "transport_band": "T1_supported",
+      "alignment_band": "A0_aligned",
+      "spectral_support": 0.9778843003729271,
+      "spectral_rank": 5,
+      "mean_mass_proxy_post": 7.315175642505977
+    }
+  ],
+  "baseline_order": [
+    "Q_minus|L2_moderate|A1_offset",
+    "Q_minus|L1_weak|A1_offset",
+    "Q_plus|L1_weak|A2_shifted",
+    "Q_plus|L1_weak|A1_offset",
+    "Q_plus|L1_weak|A0_aligned"
+  ],
+  "baseline_light_heavy_separation_margin": 6.315135263101044,
+  "scans": [
+    {
+      "label": "low",
+      "amplitude": 0.03,
+      "order_retention": 1.0,
+      "light_heavy_separation_margin": 6.413725882527477,
+      "lightest": "Q_minus|L2_moderate|A1_offset",
+      "heaviest": "Q_plus|L1_weak|A0_aligned"
+    },
+    {
+      "label": "mid",
+      "amplitude": 0.06,
+      "order_retention": 1.0,
+      "light_heavy_separation_margin": 6.512316501953912,
+      "lightest": "Q_minus|L2_moderate|A1_offset",
+      "heaviest": "Q_plus|L1_weak|A0_aligned"
+    },
+    {
+      "label": "high",
+      "amplitude": 0.1,
+      "order_retention": 1.0,
+      "light_heavy_separation_margin": 6.6437706611891585,
+      "lightest": "Q_minus|L2_moderate|A1_offset",
+      "heaviest": "Q_plus|L1_weak|A0_aligned"
+    }
+  ],
+  "verdict": "spectrum_bridge_robust"
+}

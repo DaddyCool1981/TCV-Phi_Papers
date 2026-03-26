@@ -1,0 +1,44 @@
+{
+  "paper": "paper-09",
+  "title": "TCV-phi IX: Mesoscopic quasiparticle families from cohesive vacuum microstructure",
+  "status": "core_artifacts_frozen",
+  "upstream_notes": [
+    "../../notes/qsp_master_milestone_stage2.md",
+    "../../notes/qsp_cleanup_index.md"
+  ],
+  "upstream_data": [
+    "../sm-exploration/data/qsp_master_milestone_stage2.json",
+    "../sm-exploration/data/qsp_charge_reconstruction_summary.json",
+    "../sm-exploration/data/qsp_charge_reconstruction_robustness_summary.json",
+    "../sm-exploration/data/qsp_spectrum_bridge_robustness_summary.json",
+    "../sm-exploration/data/qsp_charge_spectrum_cross_summary.json",
+    "../sm-exploration/data/qsp_observable_mapping_rule_summary.json",
+    "../sm-exploration/data/qsp_effective_observable_analogy_summary.json",
+    "../sm-exploration/data/qsp_family_correspondence_summary.json",
+    "../sm-exploration/data/qsp_conditional_correspondence_summary.json",
+    "../sm-exploration/data/qsp_hypothetical_naming_summary.json",
+    "../sm-exploration/data/qsp_sm_family_rapprochement_summary.json"
+  ],
+  "local_frozen_data": [
+    "./qsp_master_milestone_stage2.json",
+    "./qsp_charge_reconstruction_summary.json",
+    "./qsp_charge_reconstruction_robustness_summary.json",
+    "./qsp_spectrum_bridge_robustness_summary.json",
+    "./qsp_charge_spectrum_cross_summary.json",
+    "./qsp_observable_mapping_rule_summary.json",
+    "./qsp_effective_observable_analogy_summary.json",
+    "./qsp_family_correspondence_summary.json",
+    "./qsp_conditional_correspondence_summary.json",
+    "./qsp_hypothetical_naming_summary.json",
+    "./qsp_sm_family_rapprochement_summary.json",
+    "./figure_manifest.json"
+  ],
+  "gates": {
+    "effective_family_reading": "supported",
+    "charge_ladder": "robust",
+    "spectrum_bridge": "robust",
+    "charge_spectrum_cross": "supported",
+    "observable_mapping": "supported",
+    "sm_family_rapprochement": "speculative_pattern_only"
+  }
+}

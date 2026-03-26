@@ -1,0 +1,145 @@
+{
+  "status": "heavier twisted_multi_ring non-proxy bridge",
+  "config": {
+    "loops": 3,
+    "n_per_loop": 32,
+    "inter_loop": 0.13,
+    "intra_loop": 1.0,
+    "twist_shift": 1,
+    "edge_aniso": 0.06,
+    "onsite_noise": 0.03,
+    "eps_pin": 0.0001,
+    "disorder_levels": [
+      0.05,
+      0.1,
+      0.2
+    ],
+    "inertia_eta": 0.2,
+    "inertia_twist": 0.12
+  },
+  "emergence": {
+    "n_samples": 320,
+    "joint_fraction": 0.99375,
+    "robustness_pass_fraction": 0.7177083333333333,
+    "m2_proxy_mean": 0.0009002506346740549,
+    "epsilon_soft_mean": 0.026152836489523552,
+    "gap_ratio_p50": 0.003181346303948577,
+    "participation_mean": 62.3513423224894,
+    "best_sample_by_m2_proxy": {
+      "light_mode": {
+        "lambda0": 0.04741848567862193,
+        "lambda_med": 2.1458525917315967,
+        "epsilon_soft": 0.02209773675104009,
+        "gap_ratio_12": 0.011104331079477227,
+        "participation_ratio": 60.95018675395365,
+        "inverse_participation_ratio": 0.01640684062276697,
+        "support_index": 0.6348977786870172,
+        "z0_proxy": 60.95018675395365,
+        "m2_proxy": 0.0007779875371021081
+      },
+      "joint_ok": true,
+      "robustness_pass_fraction": 0.6666666666666666
+    }
+  },
+  "canonical": {
+    "settings": {
+      "n_samples": 96,
+      "seed": 20260332,
+      "inertia_eta": 0.2
+    },
+    "metrics": {
+      "first_mode_weight_mean": 0.807846154589637,
+      "mode13_weight_mean": 0.9879337404752168,
+      "orthogonality_error_max_p90": 2.942091015256665e-15,
+      "canonical_norm_error_p90": 1.609823385706477e-15,
+      "m2_generalized_mean": 0.05666534377305613,
+      "z0_mean": 0.9999999999999997
+    },
+    "pass_flags": {
+      "orthogonality_good": true,
+      "canonical_norm_good": true,
+      "mode_capture_good": true,
+      "mode13_capture_good": true
+    }
+  },
+  "homogeneous": {
+    "diagnostics": {
+      "samples_in_late_window": 515,
+      "measured_log_slope_rho_vs_a": -3.0001313514792196,
+      "target_log_slope": -3.0,
+      "rho_a3_relative_std_late": 0.026482710173295735
+    },
+    "pass_flags": {
+      "slope_close_to_minus3": true,
+      "rho_a3_quasi_constant": true
+    }
+  },
+  "size_scaling": {
+    "rows": [
+      {
+        "n_per_loop": 16,
+        "n_total": 48,
+        "joint_fraction": 0.0,
+        "robustness_pass_fraction": 0.0,
+        "m2_proxy_mean": 0.007245597956853039
+      },
+      {
+        "n_per_loop": 24,
+        "n_total": 72,
+        "joint_fraction": 0.0,
+        "robustness_pass_fraction": 0.06041666666666666,
+        "m2_proxy_mean": 0.0021252159277390646
+      },
+      {
+        "n_per_loop": 32,
+        "n_total": 96,
+        "joint_fraction": 0.9875,
+        "robustness_pass_fraction": 0.6958333333333334,
+        "m2_proxy_mean": 0.0009010345813121948
+      },
+      {
+        "n_per_loop": 40,
+        "n_total": 120,
+        "joint_fraction": 1.0,
+        "robustness_pass_fraction": 0.7375,
+        "m2_proxy_mean": 0.000461148658619007
+      },
+      {
+        "n_per_loop": 48,
+        "n_total": 144,
+        "joint_fraction": 1.0,
+        "robustness_pass_fraction": 0.7208333333333334,
+        "m2_proxy_mean": 0.0002664845687963118
+      }
+    ],
+    "fit": {
+      "slope": -3.0041524297820175,
+      "exponent_positive": 3.0041524297820175,
+      "amplitude": 811.8649298429953,
+      "r2_logfit": 0.999993963888495,
+      "y_fit": [
+        0.007224018230084932,
+        0.002136849076721278,
+        0.000900406953752819,
+        0.0004605813933817511,
+        0.00026633844302708856
+      ]
+    }
+  },
+  "calibrated_m2_eV": 8.979642674209008e-23,
+  "m2_log10_dev_from_1e-22": 0.04674094481452746,
+  "checks": {
+    "joint_pass": true,
+    "robust_pass": true,
+    "m2_pass": true,
+    "canonical_pass": true,
+    "capture_pass": true,
+    "homogeneous_pass": true,
+    "scaling_pass": true
+  },
+  "overall_support": true,
+  "notes": [
+    "This is the stronger bridge layer for twisted_multi_ring.",
+    "It is still internal and additive, but it goes well beyond the first dedicated bridge proxy."
+  ]
+}

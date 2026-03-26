@@ -1,0 +1,33 @@
+{
+  "best_point": {
+    "edge_aniso": 0.06,
+    "drop_prob": 0.005,
+    "onsite_noise": 0.03
+  },
+  "n_local_points": 6,
+  "model": "local_linear",
+  "features": [
+    "1",
+    "edge_aniso",
+    "drop_prob",
+    "onsite_noise"
+  ],
+  "coeff_joint": [
+    1.0095023655580655,
+    0.06057014193348337,
+    -1.15740740740742,
+    -4.010416666666669
+  ],
+  "coeff_robust": [
+    0.35032063583445283,
+    0.021019238150068065,
+    -1.8364197530864195,
+    -1.5162037037037055
+  ],
+  "r2_joint": 0.925955898389522,
+  "r2_robust": 0.9609947407717362,
+  "interpretation": {
+    "joint": "negative coeff => increasing parameter tends to reduce joint score locally",
+    "robust": "negative coeff => increasing parameter tends to reduce robustness locally"
+  }
+}

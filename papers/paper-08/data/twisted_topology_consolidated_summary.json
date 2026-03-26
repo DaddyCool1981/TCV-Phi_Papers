@@ -1,0 +1,127 @@
+{
+  "status": "consolidated twisted topology comparison",
+  "scope": {
+    "historical_baseline": "twisted_torus",
+    "current_main_candidate": "twisted_multi_ring",
+    "comparison_rule": "Twisted torus is kept as the verified historical baseline. Twisted multi ring uses the latest dedicated PMNS, full bridge, sector robustness, and full micro-closure outputs."
+  },
+  "twisted_torus": {
+    "provenance": {
+      "pmns_bridge": "/Users/cyrille/Perso/Mes projets/TCV/REPO/TCV-Phi/TCV-PHI/papers/paper-08/data/twisted_topology_headtohead_summary.json",
+      "note": "Best verified historical baseline available in the current consolidated stack."
+    },
+    "pmns": {
+      "angles_deg": {
+        "theta12": 34.560081347717166,
+        "theta13": 8.291308377393046,
+        "theta23": 41.5805713023299
+      },
+      "score_common": 0.5185715898671976,
+      "strict_fraction_within_natural": 0.019417475728155338
+    },
+    "bridge": {
+      "joint_fraction": 0.9152777777777779,
+      "robustness_pass_fraction": 0.3050925925925926,
+      "m2_eV": 3.505261219008403e-23,
+      "m2_log10_dev": 0.4552796120063944,
+      "micro_status": "structured_but_open",
+      "micro_projection_good": true
+    },
+    "indices": {
+      "flavour_index": 0.7359774251977197,
+      "bridge_index": 0.6145085255678127,
+      "overall_index": 0.6752429753827662
+    },
+    "position": "historical_baseline"
+  },
+  "twisted_multi_ring": {
+    "provenance": {
+      "pmns_bridge_headtohead": "/Users/cyrille/Perso/Mes projets/TCV/REPO/TCV-Phi/TCV-PHI/papers/paper-08/data/twisted_topology_headtohead_summary.json",
+      "full_bridge": "/Users/cyrille/Perso/Mes projets/TCV/REPO/TCV-Phi/TCV-PHI/papers/paper-08/data/twisted_multi_ring_full_bridge_summary.json",
+      "sector_compatibility": "/Users/cyrille/Perso/Mes projets/TCV/REPO/TCV-Phi/TCV-PHI/papers/paper-05/data/twisted_multi_ring_sector_compatibility_summary.json",
+      "full_micro_closure": "/Users/cyrille/Perso/Mes projets/TCV/REPO/TCV-Phi/TCV-PHI/papers/paper-08/data/twisted_multi_ring_micro_closure_full_summary.json"
+    },
+    "pmns": {
+      "angles_deg": {
+        "theta12": 32.05496080624638,
+        "theta13": 7.761072010827432,
+        "theta23": 45.34135624458359
+      },
+      "score_common": 0.23515217207483413,
+      "strict_fraction_within_natural": 0.041529501139528996
+    },
+    "bridge_headtohead": {
+      "joint_fraction": 0.9961538461538462,
+      "robustness_pass_fraction": 0.7025641025641025,
+      "m2_eV": 9.024108209492967e-23,
+      "m2_log10_dev": 0.04459570563645067,
+      "micro_status": "good_proxy",
+      "micro_projection_good": true
+    },
+    "full_bridge": {
+      "joint_fraction": 0.99375,
+      "robustness_pass_fraction": 0.7177083333333333,
+      "calibrated_m2_eV": 8.979642674209008e-23,
+      "m2_log10_dev_from_1e-22": 0.04674094481452746,
+      "first_mode_weight_mean": 0.807846154589637,
+      "mode13_weight_mean": 0.9879337404752168,
+      "homogeneous_slope": -3.0001313514792196,
+      "size_scaling_exponent": 3.0041524297820175,
+      "checks": {
+        "joint_pass": true,
+        "robust_pass": true,
+        "m2_pass": true,
+        "canonical_pass": true,
+        "capture_pass": true,
+        "homogeneous_pass": true,
+        "scaling_pass": true
+      },
+      "overall_support": true
+    },
+    "sector_compatibility": {
+      "lepton_strict_fraction": 0.8743333333333333,
+      "theta23_std_deg": 0.3502159579572098,
+      "quark_theta12_mean_deg": 0.34612046748429554,
+      "quark_theta13_mean_deg": 0.0012440672590596465,
+      "quark_theta23_mean_deg": 0.0020363814359344746
+    },
+    "micro_closure": {
+      "verdict": "micro_closure_partial_supported",
+      "n_all_pass": 20,
+      "best_record": {
+        "inertia_eta": 0.1,
+        "inertia_twist": 0.12,
+        "orth_err_max": 5.10702591327572e-15,
+        "h_reconstruction_rel_err": 7.736467946123764e-15,
+        "lambda1": 0.055449435897935065,
+        "m0_sq": 0.05544943589793447,
+        "projection13_err_mean": 0.02881071422917729,
+        "checks": {
+          "diag_exact": true,
+          "projection_good": true
+        },
+        "all_pass": true
+      }
+    },
+    "indices": {
+      "flavour_index": 0.9491337936719066,
+      "bridge_index": 0.9064565895402916,
+      "overall_index": 0.9277951916060991
+    },
+    "position": "current_main_candidate"
+  },
+  "decision": {
+    "winner": "twisted_multi_ring",
+    "reason": [
+      "better dedicated PMNS benchmark and strict-yield fraction",
+      "better charged-lepton robustness",
+      "full bridge support now passes all gates",
+      "dedicated micro-closure reaches partial_supported with multiple passing records"
+    ],
+    "recommendation": "Keep twisted_torus as the historical geometry that revealed the topological direction, but use twisted_multi_ring as the main working candidate for future PMNS and Phi2-emergence work.",
+    "paper_positioning": {
+      "paper_05": "Present twisted_torus as the historical trigger, then show that systematic geometry testing identifies twisted_multi_ring as the strongest current PMNS candidate.",
+      "paper_08_future": "State that multiple geometries were tested for Phi2 emergence and one-field support, with twisted_multi_ring giving the strongest current combined signal."
+    }
+  }
+}

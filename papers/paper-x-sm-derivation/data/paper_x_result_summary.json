@@ -1,0 +1,11 @@
+{
+  "status": "paper_x_result_summary_export",
+  "sources": [
+    "stage25_full_sm_derivation_assessment.json",
+    "stage26_final_assessment.json",
+    "stage27_hard_prediction_assessment.json",
+    "stage28_generation_route_assessment.json",
+    "stage29_unification_route_assessment.json"
+  ],
+  "row_count": 5
+}

@@ -1,0 +1,77 @@
+{
+  "status": "dedicated twisted_multi_ring Phi2 bridge",
+  "config": {
+    "loops": 3,
+    "n_per_loop": 32,
+    "inter_loop": 0.13,
+    "intra_loop": 1.0,
+    "twist_shift": 1,
+    "edge_aniso": 0.06,
+    "onsite_noise": 0.03,
+    "eps_pin": 0.0001,
+    "disorder_levels": [
+      0.05,
+      0.1,
+      0.2
+    ],
+    "inertia_eta": 0.2,
+    "inertia_twist": 0.12
+  },
+  "emergence": {
+    "n_samples": 260,
+    "joint_fraction": 0.9961538461538462,
+    "robustness_pass_fraction": 0.7025641025641025,
+    "m2_proxy_mean": 0.0009047085098716368,
+    "epsilon_soft_mean": 0.026309685459564896,
+    "gap_ratio_p50": 0.002942841249824391,
+    "participation_mean": 62.41633228913345,
+    "best_sample_by_m2_proxy": {
+      "light_mode": {
+        "lambda0": 0.04763618821217436,
+        "lambda_med": 2.154167492601042,
+        "epsilon_soft": 0.022113502490308315,
+        "gap_ratio_12": 0.010778036046893858,
+        "participation_ratio": 61.4192506922379,
+        "inverse_participation_ratio": 0.01628154021303257,
+        "support_index": 0.6397838613774781,
+        "z0_proxy": 61.4192506922379,
+        "m2_proxy": 0.0007755905139721049
+      },
+      "joint_ok": true,
+      "robustness_pass_fraction": 0.6666666666666666
+    }
+  },
+  "calibrated_m2_eV": 9.024108209492967e-23,
+  "m2_log10_dev_from_1e-22": 0.04459570563645067,
+  "micro_closure_proxy": {
+    "orth_err_max": 3.774758283725532e-15,
+    "h_reconstruction_rel_err": 7.779403467400924e-15,
+    "lambda1": 0.05462280919961481,
+    "effective_mode1": {
+      "z0": 1.0,
+      "m0_sq": 0.05462280919961472,
+      "g4": 3.799063731478302e-05
+    },
+    "projection_error_mode13": {
+      "n_keep": 4,
+      "rel_err_mean": 0.028661736542524296,
+      "rel_err_p90": 0.03252671335934841,
+      "rel_err_max": 0.04064029483385697
+    },
+    "checks": {
+      "diag_exact": true,
+      "projection_good": true
+    }
+  },
+  "checks": {
+    "joint_pass": true,
+    "robust_pass": true,
+    "m2_pass": true,
+    "micro_projection_good": true
+  },
+  "overall_bridge_support": true,
+  "notes": [
+    "This is the dedicated bridge follow-up for the flavour-leading twisted_multi_ring toy.",
+    "Micro-closure here is still a proxy-level generalized-mode check, not a full dedicated closure program."
+  ]
+}

@@ -1,0 +1,1854 @@
+{
+  "v2_settings": {
+    "priority": [
+      "twisted_ring",
+      "ring",
+      "scale"
+    ],
+    "baseline_seed": 20260312,
+    "baseline_samples": 320,
+    "alpha_ref_eV_per_proxy": 9.953893719227761e-20
+  },
+  "baseline": {
+    "twisted_ring": {
+      "family": "twisted_ring",
+      "N": 128,
+      "n_samples": 320,
+      "joint_hits": 128,
+      "joint_fraction": 0.4,
+      "robustness_pass_fraction": 0.12916666666666665,
+      "epsilon_soft_mean": 0.009442431167009999,
+      "epsilon_soft_p50": 0.007824252651562266,
+      "gap_ratio_p50": 0.006359626197450898,
+      "participation_mean": 30.97631734098163,
+      "m2_proxy_mean": 0.0010046319844347119,
+      "best_sample_by_m2_proxy": {
+        "family": "twisted_ring",
+        "N": 128,
+        "config": {
+          "family": "twisted_ring",
+          "n": 128,
+          "modular_n1": 64,
+          "modular_n2": 64,
+          "modular_p_in": 0.06,
+          "modular_p_out": 0.01,
+          "k_link": 1.0,
+          "eps_pin": 0.0001,
+          "edge_aniso": 0.12,
+          "drop_prob": 0.03,
+          "onsite_noise": 0.05
+        },
+        "light_mode": {
+          "lambda0": 0.0007637012055505265,
+          "lambda_med": 2.9325212330538393,
+          "epsilon_soft": 0.00026042478292824875,
+          "gap_ratio_12": 0.01214940540955403,
+          "participation_ratio": 46.454022796265235,
+          "inverse_participation_ratio": 0.021526660982316412,
+          "support_index": 0.36292205309582215,
+          "z0_proxy": 46.454022796265235,
+          "m2_proxy": 1.6439936943672525e-05
+        },
+        "flags": {
+          "soft_ok": true,
+          "gap_ok": true,
+          "collective_ok": true
+        },
+        "joint_ok": true,
+        "robustness_pass_fraction": 0.3333333333333333
+      }
+    },
+    "ring": {
+      "family": "ring",
+      "N": 128,
+      "n_samples": 320,
+      "joint_hits": 1,
+      "joint_fraction": 0.003125,
+      "robustness_pass_fraction": 0.0,
+      "epsilon_soft_mean": 0.011031178813126569,
+      "epsilon_soft_p50": 0.008849275894650479,
+      "gap_ratio_p50": 0.006163879719405983,
+      "participation_mean": 13.504071558730095,
+      "m2_proxy_mean": 0.0018914309010226442,
+      "best_sample_by_m2_proxy": {
+        "family": "ring",
+        "N": 128,
+        "config": {
+          "family": "ring",
+          "n": 128,
+          "modular_n1": 64,
+          "modular_n2": 64,
+          "modular_p_in": 0.06,
+          "modular_p_out": 0.01,
+          "k_link": 1.0,
+          "eps_pin": 0.0001,
+          "edge_aniso": 0.12,
+          "drop_prob": 0.03,
+          "onsite_noise": 0.05
+        },
+        "light_mode": {
+          "lambda0": 3.9441749649417036e-05,
+          "lambda_med": 2.042408141611557,
+          "epsilon_soft": 1.9311394645291427e-05,
+          "gap_ratio_12": 0.003389322499608599,
+          "participation_ratio": 15.569982162444237,
+          "inverse_participation_ratio": 0.06422614936657166,
+          "support_index": 0.1216404856440956,
+          "z0_proxy": 15.569982162444237,
+          "m2_proxy": 2.533191704262384e-06
+        },
+        "flags": {
+          "soft_ok": true,
+          "gap_ok": true,
+          "collective_ok": false
+        },
+        "joint_ok": false,
+        "robustness_pass_fraction": 0.0
+      }
+    }
+  },
+  "local_sensitivity": {
+    "points": [
+      {
+        "label": "baseline",
+        "vary": "none",
+        "value": null,
+        "twisted_ring": {
+          "family": "twisted_ring",
+          "N": 128,
+          "n_samples": 320,
+          "joint_hits": 128,
+          "joint_fraction": 0.4,
+          "robustness_pass_fraction": 0.12916666666666665,
+          "epsilon_soft_mean": 0.009442431167009999,
+          "epsilon_soft_p50": 0.007824252651562266,
+          "gap_ratio_p50": 0.006359626197450898,
+          "participation_mean": 30.97631734098163,
+          "m2_proxy_mean": 0.0010046319844347119,
+          "best_sample_by_m2_proxy": {
+            "family": "twisted_ring",
+            "N": 128,
+            "config": {
+              "family": "twisted_ring",
+              "n": 128,
+              "modular_n1": 64,
+              "modular_n2": 64,
+              "modular_p_in": 0.06,
+              "modular_p_out": 0.01,
+              "k_link": 1.0,
+              "eps_pin": 0.0001,
+              "edge_aniso": 0.12,
+              "drop_prob": 0.03,
+              "onsite_noise": 0.05
+            },
+            "light_mode": {
+              "lambda0": 0.0007637012055505265,
+              "lambda_med": 2.9325212330538393,
+              "epsilon_soft": 0.00026042478292824875,
+              "gap_ratio_12": 0.01214940540955403,
+              "participation_ratio": 46.454022796265235,
+              "inverse_participation_ratio": 0.021526660982316412,
+              "support_index": 0.36292205309582215,
+              "z0_proxy": 46.454022796265235,
+              "m2_proxy": 1.6439936943672525e-05
+            },
+            "flags": {
+              "soft_ok": true,
+              "gap_ok": true,
+              "collective_ok": true
+            },
+            "joint_ok": true,
+            "robustness_pass_fraction": 0.3333333333333333
+          }
+        },
+        "ring": {
+          "family": "ring",
+          "N": 128,
+          "n_samples": 320,
+          "joint_hits": 1,
+          "joint_fraction": 0.003125,
+          "robustness_pass_fraction": 0.0,
+          "epsilon_soft_mean": 0.011031178813126569,
+          "epsilon_soft_p50": 0.008849275894650479,
+          "gap_ratio_p50": 0.006163879719405983,
+          "participation_mean": 13.504071558730095,
+          "m2_proxy_mean": 0.0018914309010226442,
+          "best_sample_by_m2_proxy": {
+            "family": "ring",
+            "N": 128,
+            "config": {
+              "family": "ring",
+              "n": 128,
+              "modular_n1": 64,
+              "modular_n2": 64,
+              "modular_p_in": 0.06,
+              "modular_p_out": 0.01,
+              "k_link": 1.0,
+              "eps_pin": 0.0001,
+              "edge_aniso": 0.12,
+              "drop_prob": 0.03,
+              "onsite_noise": 0.05
+            },
+            "light_mode": {
+              "lambda0": 3.9441749649417036e-05,
+              "lambda_med": 2.042408141611557,
+              "epsilon_soft": 1.9311394645291427e-05,
+              "gap_ratio_12": 0.003389322499608599,
+              "participation_ratio": 15.569982162444237,
+              "inverse_participation_ratio": 0.06422614936657166,
+              "support_index": 0.1216404856440956,
+              "z0_proxy": 15.569982162444237,
+              "m2_proxy": 2.533191704262384e-06
+            },
+            "flags": {
+              "soft_ok": true,
+              "gap_ok": true,
+              "collective_ok": false
+            },
+            "joint_ok": false,
+            "robustness_pass_fraction": 0.0
+          }
+        },
+        "twisted_m2_eV_calibrated": 1e-22
+      },
+      {
+        "label": "edge_aniso=0.08",
+        "vary": "edge_aniso",
+        "value": 0.08,
+        "twisted_ring": {
+          "family": "twisted_ring",
+          "N": 128,
+          "n_samples": 240,
+          "joint_hits": 150,
+          "joint_fraction": 0.625,
+          "robustness_pass_fraction": 0.1847222222222222,
+          "epsilon_soft_mean": 0.006975809821392647,
+          "epsilon_soft_p50": 0.006399694074893717,
+          "gap_ratio_p50": 0.004900799320358977,
+          "participation_mean": 38.58163010923319,
+          "m2_proxy_mean": 0.0005952127746031655,
+          "best_sample_by_m2_proxy": {
+            "family": "twisted_ring",
+            "N": 128,
+            "config": {
+              "family": "twisted_ring",
+              "n": 128,
+              "modular_n1": 64,
+              "modular_n2": 64,
+              "modular_p_in": 0.06,
+              "modular_p_out": 0.01,
+              "k_link": 1.0,
+              "eps_pin": 0.0001,
+              "edge_aniso": 0.08,
+              "drop_prob": 0.03,
+              "onsite_noise": 0.05
+            },
+            "light_mode": {
+              "lambda0": 0.0005251088273472175,
+              "lambda_med": 2.9099644522910912,
+              "epsilon_soft": 0.0001804519731963686,
+              "gap_ratio_12": 0.006388504220618822,
+              "participation_ratio": 35.451181653574814,
+              "inverse_participation_ratio": 0.028207804461128937,
+              "support_index": 0.27696235666855323,
+              "z0_proxy": 35.451181653574814,
+              "m2_proxy": 1.4812167122623027e-05
+            },
+            "flags": {
+              "soft_ok": true,
+              "gap_ok": true,
+              "collective_ok": true
+            },
+            "joint_ok": true,
+            "robustness_pass_fraction": 0.0
+          }
+        },
+        "ring": {
+          "family": "ring",
+          "N": 128,
+          "n_samples": 240,
+          "joint_hits": 2,
+          "joint_fraction": 0.008333333333333333,
+          "robustness_pass_fraction": 0.0027777777777777775,
+          "epsilon_soft_mean": 0.010437726351049281,
+          "epsilon_soft_p50": 0.008369162100379166,
+          "gap_ratio_p50": 0.00571877252085019,
+          "participation_mean": 13.864382760074218,
+          "m2_proxy_mean": 0.0017807957484592136,
+          "best_sample_by_m2_proxy": {
+            "family": "ring",
+            "N": 128,
+            "config": {
+              "family": "ring",
+              "n": 128,
+              "modular_n1": 64,
+              "modular_n2": 64,
+              "modular_p_in": 0.06,
+              "modular_p_out": 0.01,
+              "k_link": 1.0,
+              "eps_pin": 0.0001,
+              "edge_aniso": 0.12,
+              "drop_prob": 0.03,
+              "onsite_noise": 0.05
+            },
+            "light_mode": {
+              "lambda0": 0.00022156125890623594,
+              "lambda_med": 2.078192401970643,
+              "epsilon_soft": 0.00010661248626264864,
+              "gap_ratio_12": 0.009051041252876656,
+              "participation_ratio": 12.488527368241458,
+              "inverse_participation_ratio": 0.08007349229525791,
+              "support_index": 0.09756662006438639,
+              "z0_proxy": 12.488527368241458,
+              "m2_proxy": 1.774118375795613e-05
+            },
+            "flags": {
+              "soft_ok": true,
+              "gap_ok": true,
+              "collective_ok": false
+            },
+            "joint_ok": false,
+            "robustness_pass_fraction": 0.0
+          }
+        },
+        "twisted_m2_eV_calibrated": 5.924684698726578e-23
+      },
+      {
+        "label": "edge_aniso=0.16",
+        "vary": "edge_aniso",
+        "value": 0.16,
+        "twisted_ring": {
+          "family": "twisted_ring",
+          "N": 128,
+          "n_samples": 240,
+          "joint_hits": 50,
+          "joint_fraction": 0.20833333333333334,
+          "robustness_pass_fraction": 0.06666666666666667,
+          "epsilon_soft_mean": 0.01101995924124957,
+          "epsilon_soft_p50": 0.00889845963923848,
+          "gap_ratio_p50": 0.007179038863719508,
+          "participation_mean": 25.741568711770036,
+          "m2_proxy_mean": 0.001458057385562101,
+          "best_sample_by_m2_proxy": {
+            "family": "twisted_ring",
+            "N": 128,
+            "config": {
+              "family": "twisted_ring",
+              "n": 128,
+              "modular_n1": 64,
+              "modular_n2": 64,
+              "modular_p_in": 0.06,
+              "modular_p_out": 0.01,
+              "k_link": 1.0,
+              "eps_pin": 0.0001,
+              "edge_aniso": 0.16,
+              "drop_prob": 0.03,
+              "onsite_noise": 0.05
+            },
+            "light_mode": {
+              "lambda0": 0.0008931560234231763,
+              "lambda_med": 2.969984056022624,
+              "epsilon_soft": 0.00030072754822101056,
+              "gap_ratio_12": 0.006152213605572979,
+              "participation_ratio": 36.685039858902044,
+              "inverse_participation_ratio": 0.027259068106405195,
+              "support_index": 0.2866018738976722,
+              "z0_proxy": 36.685039858902044,
+              "m2_proxy": 2.4346600872138392e-05
+            },
+            "flags": {
+              "soft_ok": true,
+              "gap_ok": true,
+              "collective_ok": true
+            },
+            "joint_ok": true,
+            "robustness_pass_fraction": 0.3333333333333333
+          }
+        },
+        "ring": {
+          "family": "ring",
+          "N": 128,
+          "n_samples": 240,
+          "joint_hits": 1,
+          "joint_fraction": 0.004166666666666667,
+          "robustness_pass_fraction": 0.0027777777777777775,
+          "epsilon_soft_mean": 0.011792099395541664,
+          "epsilon_soft_p50": 0.009466105695942844,
+          "gap_ratio_p50": 0.0062487655489585825,
+          "participation_mean": 13.561225307128428,
+          "m2_proxy_mean": 0.0020042878682349262,
+          "best_sample_by_m2_proxy": {
+            "family": "ring",
+            "N": 128,
+            "config": {
+              "family": "ring",
+              "n": 128,
+              "modular_n1": 64,
+              "modular_n2": 64,
+              "modular_p_in": 0.06,
+              "modular_p_out": 0.01,
+              "k_link": 1.0,
+              "eps_pin": 0.0001,
+              "edge_aniso": 0.12,
+              "drop_prob": 0.03,
+              "onsite_noise": 0.05
+            },
+            "light_mode": {
+              "lambda0": 3.872633263828337e-05,
+              "lambda_med": 2.1016698715258784,
+              "epsilon_soft": 1.8426458485683497e-05,
+              "gap_ratio_12": 0.03403599588326374,
+              "participation_ratio": 7.7724491398318305,
+              "inverse_participation_ratio": 0.1286595746088905,
+              "support_index": 0.060722258904936176,
+              "z0_proxy": 7.7724491398318305,
+              "m2_proxy": 4.98251348340393e-06
+            },
+            "flags": {
+              "soft_ok": true,
+              "gap_ok": true,
+              "collective_ok": false
+            },
+            "joint_ok": false,
+            "robustness_pass_fraction": 0.0
+          }
+        },
+        "twisted_m2_eV_calibrated": 1.4513348252420246e-22
+      },
+      {
+        "label": "drop_prob=0.01",
+        "vary": "drop_prob",
+        "value": 0.01,
+        "twisted_ring": {
+          "family": "twisted_ring",
+          "N": 128,
+          "n_samples": 240,
+          "joint_hits": 91,
+          "joint_fraction": 0.37916666666666665,
+          "robustness_pass_fraction": 0.14305555555555555,
+          "epsilon_soft_mean": 0.009047090797645286,
+          "epsilon_soft_p50": 0.00784335773952669,
+          "gap_ratio_p50": 0.00670195283737543,
+          "participation_mean": 31.89086624108493,
+          "m2_proxy_mean": 0.0009497362332844813,
+          "best_sample_by_m2_proxy": {
+            "family": "twisted_ring",
+            "N": 128,
+            "config": {
+              "family": "twisted_ring",
+              "n": 128,
+              "modular_n1": 64,
+              "modular_n2": 64,
+              "modular_p_in": 0.06,
+              "modular_p_out": 0.01,
+              "k_link": 1.0,
+              "eps_pin": 0.0001,
+              "edge_aniso": 0.12,
+              "drop_prob": 0.01,
+              "onsite_noise": 0.05
+            },
+            "light_mode": {
+              "lambda0": 0.0003311271769672205,
+              "lambda_med": 2.991346392488752,
+              "epsilon_soft": 0.00011069502943513274,
+              "gap_ratio_12": 0.010175495818552042,
+              "participation_ratio": 52.407827447529876,
+              "inverse_participation_ratio": 0.019081119151546373,
+              "support_index": 0.40943615193382715,
+              "z0_proxy": 52.407827447529876,
+              "m2_proxy": 6.318277118026717e-06
+            },
+            "flags": {
+              "soft_ok": true,
+              "gap_ok": true,
+              "collective_ok": true
+            },
+            "joint_ok": true,
+            "robustness_pass_fraction": 0.0
+          }
+        },
+        "ring": {
+          "family": "ring",
+          "N": 128,
+          "n_samples": 240,
+          "joint_hits": 0,
+          "joint_fraction": 0.0,
+          "robustness_pass_fraction": 0.0,
+          "epsilon_soft_mean": 0.010193744972423176,
+          "epsilon_soft_p50": 0.008330204840175565,
+          "gap_ratio_p50": 0.00620229498499127,
+          "participation_mean": 13.581052112718684,
+          "m2_proxy_mean": 0.0017152198645053846,
+          "best_sample_by_m2_proxy": {
+            "family": "ring",
+            "N": 128,
+            "config": {
+              "family": "ring",
+              "n": 128,
+              "modular_n1": 64,
+              "modular_n2": 64,
+              "modular_p_in": 0.06,
+              "modular_p_out": 0.01,
+              "k_link": 1.0,
+              "eps_pin": 0.0001,
+              "edge_aniso": 0.12,
+              "drop_prob": 0.03,
+              "onsite_noise": 0.05
+            },
+            "light_mode": {
+              "lambda0": 2.0382643736610146e-05,
+              "lambda_med": 2.0417634626160037,
+              "epsilon_soft": 9.982862417615673e-06,
+              "gap_ratio_12": 0.00652403362464165,
+              "participation_ratio": 14.427226169350769,
+              "inverse_participation_ratio": 0.0693133931818718,
+              "support_index": 0.11271270444805288,
+              "z0_proxy": 14.427226169350769,
+              "m2_proxy": 1.4127901994016757e-06
+            },
+            "flags": {
+              "soft_ok": true,
+              "gap_ok": true,
+              "collective_ok": false
+            },
+            "joint_ok": false,
+            "robustness_pass_fraction": 0.0
+          }
+        },
+        "twisted_m2_eV_calibrated": 9.453573527413431e-23
+      },
+      {
+        "label": "drop_prob=0.05",
+        "vary": "drop_prob",
+        "value": 0.05,
+        "twisted_ring": {
+          "family": "twisted_ring",
+          "N": 128,
+          "n_samples": 240,
+          "joint_hits": 60,
+          "joint_fraction": 0.25,
+          "robustness_pass_fraction": 0.0875,
+          "epsilon_soft_mean": 0.010380608383821174,
+          "epsilon_soft_p50": 0.008471130467654069,
+          "gap_ratio_p50": 0.006712840299286634,
+          "participation_mean": 28.004133023612294,
+          "m2_proxy_mean": 0.0011872792692995096,
+          "best_sample_by_m2_proxy": {
+            "family": "twisted_ring",
+            "N": 128,
+            "config": {
+              "family": "twisted_ring",
+              "n": 128,
+              "modular_n1": 64,
+              "modular_n2": 64,
+              "modular_p_in": 0.06,
+              "modular_p_out": 0.01,
+              "k_link": 1.0,
+              "eps_pin": 0.0001,
+              "edge_aniso": 0.12,
+              "drop_prob": 0.05,
+              "onsite_noise": 0.05
+            },
+            "light_mode": {
+              "lambda0": 0.0007053907829628974,
+              "lambda_med": 2.8384750906027887,
+              "epsilon_soft": 0.00024851047144933656,
+              "gap_ratio_12": 0.007736998858134096,
+              "participation_ratio": 11.703851957691695,
+              "inverse_participation_ratio": 0.08544195565826569,
+              "support_index": 0.09143634341946637,
+              "z0_proxy": 11.703851957691695,
+              "m2_proxy": 6.02699679996652e-05
+            },
+            "flags": {
+              "soft_ok": true,
+              "gap_ok": true,
+              "collective_ok": false
+            },
+            "joint_ok": false,
+            "robustness_pass_fraction": 0.0
+          }
+        },
+        "ring": {
+          "family": "ring",
+          "N": 128,
+          "n_samples": 240,
+          "joint_hits": 1,
+          "joint_fraction": 0.004166666666666667,
+          "robustness_pass_fraction": 0.0013888888888888887,
+          "epsilon_soft_mean": 0.011323105507808058,
+          "epsilon_soft_p50": 0.008876844129922552,
+          "gap_ratio_p50": 0.005811459870749392,
+          "participation_mean": 13.439702028803834,
+          "m2_proxy_mean": 0.001925264606561842,
+          "best_sample_by_m2_proxy": {
+            "family": "ring",
+            "N": 128,
+            "config": {
+              "family": "ring",
+              "n": 128,
+              "modular_n1": 64,
+              "modular_n2": 64,
+              "modular_p_in": 0.06,
+              "modular_p_out": 0.01,
+              "k_link": 1.0,
+              "eps_pin": 0.0001,
+              "edge_aniso": 0.12,
+              "drop_prob": 0.03,
+              "onsite_noise": 0.05
+            },
+            "light_mode": {
+              "lambda0": 0.00013251454790865597,
+              "lambda_med": 2.0498792752504276,
+              "epsilon_soft": 6.464504983712617e-05,
+              "gap_ratio_12": 0.0010807204379036062,
+              "participation_ratio": 15.153849351873548,
+              "inverse_participation_ratio": 0.065989833789417,
+              "support_index": 0.1183894480615121,
+              "z0_proxy": 15.153849351873548,
+              "m2_proxy": 8.744612991171945e-06
+            },
+            "flags": {
+              "soft_ok": true,
+              "gap_ok": true,
+              "collective_ok": false
+            },
+            "joint_ok": false,
+            "robustness_pass_fraction": 0.0
+          }
+        },
+        "twisted_m2_eV_calibrated": 1.1818051661649714e-22
+      },
+      {
+        "label": "onsite_noise=0.02",
+        "vary": "onsite_noise",
+        "value": 0.02,
+        "twisted_ring": {
+          "family": "twisted_ring",
+          "N": 128,
+          "n_samples": 240,
+          "joint_hits": 94,
+          "joint_fraction": 0.39166666666666666,
+          "robustness_pass_fraction": 0.1236111111111111,
+          "epsilon_soft_mean": 0.008368344004345557,
+          "epsilon_soft_p50": 0.0068535215539034045,
+          "gap_ratio_p50": 0.005999443275168595,
+          "participation_mean": 31.716455962969075,
+          "m2_proxy_mean": 0.0008666239459954972,
+          "best_sample_by_m2_proxy": {
+            "family": "twisted_ring",
+            "N": 128,
+            "config": {
+              "family": "twisted_ring",
+              "n": 128,
+              "modular_n1": 64,
+              "modular_n2": 64,
+              "modular_p_in": 0.06,
+              "modular_p_out": 0.01,
+              "k_link": 1.0,
+              "eps_pin": 0.0001,
+              "edge_aniso": 0.12,
+              "drop_prob": 0.03,
+              "onsite_noise": 0.02
+            },
+            "light_mode": {
+              "lambda0": 0.0001578124049772401,
+              "lambda_med": 2.851246399641955,
+              "epsilon_soft": 5.534856790947895e-05,
+              "gap_ratio_12": 0.010274226775438525,
+              "participation_ratio": 17.30890461774899,
+              "inverse_participation_ratio": 0.057773731040991164,
+              "support_index": 0.13522581732616398,
+              "z0_proxy": 17.30890461774899,
+              "m2_proxy": 9.117411440087044e-06
+            },
+            "flags": {
+              "soft_ok": true,
+              "gap_ok": true,
+              "collective_ok": false
+            },
+            "joint_ok": false,
+            "robustness_pass_fraction": 0.0
+          }
+        },
+        "ring": {
+          "family": "ring",
+          "N": 128,
+          "n_samples": 240,
+          "joint_hits": 3,
+          "joint_fraction": 0.0125,
+          "robustness_pass_fraction": 0.0013888888888888887,
+          "epsilon_soft_mean": 0.010858890914429339,
+          "epsilon_soft_p50": 0.008888896676364697,
+          "gap_ratio_p50": 0.006099805976152334,
+          "participation_mean": 13.567758698999576,
+          "m2_proxy_mean": 0.0018096539140627708,
+          "best_sample_by_m2_proxy": {
+            "family": "ring",
+            "N": 128,
+            "config": {
+              "family": "ring",
+              "n": 128,
+              "modular_n1": 64,
+              "modular_n2": 64,
+              "modular_p_in": 0.06,
+              "modular_p_out": 0.01,
+              "k_link": 1.0,
+              "eps_pin": 0.0001,
+              "edge_aniso": 0.12,
+              "drop_prob": 0.03,
+              "onsite_noise": 0.05
+            },
+            "light_mode": {
+              "lambda0": 0.00012245120578157343,
+              "lambda_med": 2.0334996633969933,
+              "epsilon_soft": 6.021697863328719e-05,
+              "gap_ratio_12": 0.0019503106438416376,
+              "participation_ratio": 29.34198917835448,
+              "inverse_participation_ratio": 0.034080852321276764,
+              "support_index": 0.22923429045589439,
+              "z0_proxy": 29.34198917835448,
+              "m2_proxy": 4.173241460804076e-06
+            },
+            "flags": {
+              "soft_ok": true,
+              "gap_ok": true,
+              "collective_ok": false
+            },
+            "joint_ok": false,
+            "robustness_pass_fraction": 0.0
+          }
+        },
+        "twisted_m2_eV_calibrated": 8.626282652976958e-23
+      },
+      {
+        "label": "onsite_noise=0.08",
+        "vary": "onsite_noise",
+        "value": 0.08,
+        "twisted_ring": {
+          "family": "twisted_ring",
+          "N": 128,
+          "n_samples": 240,
+          "joint_hits": 58,
+          "joint_fraction": 0.24166666666666667,
+          "robustness_pass_fraction": 0.08194444444444443,
+          "epsilon_soft_mean": 0.010816523426727447,
+          "epsilon_soft_p50": 0.009561728173328485,
+          "gap_ratio_p50": 0.007055318709368857,
+          "participation_mean": 26.368263017017107,
+          "m2_proxy_mean": 0.001369378979146944,
+          "best_sample_by_m2_proxy": {
+            "family": "twisted_ring",
+            "N": 128,
+            "config": {
+              "family": "twisted_ring",
+              "n": 128,
+              "modular_n1": 64,
+              "modular_n2": 64,
+              "modular_p_in": 0.06,
+              "modular_p_out": 0.01,
+              "k_link": 1.0,
+              "eps_pin": 0.0001,
+              "edge_aniso": 0.12,
+              "drop_prob": 0.03,
+              "onsite_noise": 0.08
+            },
+            "light_mode": {
+              "lambda0": 0.0007101094479467104,
+              "lambda_med": 2.982626449865055,
+              "epsilon_soft": 0.00023808192540465076,
+              "gap_ratio_12": 0.006801215529021,
+              "participation_ratio": 41.00322121265312,
+              "inverse_participation_ratio": 0.024388327805119164,
+              "support_index": 0.3203376657238525,
+              "z0_proxy": 41.00322121265312,
+              "m2_proxy": 1.7318381994036577e-05
+            },
+            "flags": {
+              "soft_ok": true,
+              "gap_ok": true,
+              "collective_ok": true
+            },
+            "joint_ok": true,
+            "robustness_pass_fraction": 0.0
+          }
+        },
+        "ring": {
+          "family": "ring",
+          "N": 128,
+          "n_samples": 240,
+          "joint_hits": 2,
+          "joint_fraction": 0.008333333333333333,
+          "robustness_pass_fraction": 0.0,
+          "epsilon_soft_mean": 0.010530764425298282,
+          "epsilon_soft_p50": 0.008823319525026192,
+          "gap_ratio_p50": 0.005850549520767679,
+          "participation_mean": 13.100905960176762,
+          "m2_proxy_mean": 0.0018785336148827963,
+          "best_sample_by_m2_proxy": {
+            "family": "ring",
+            "N": 128,
+            "config": {
+              "family": "ring",
+              "n": 128,
+              "modular_n1": 64,
+              "modular_n2": 64,
+              "modular_p_in": 0.06,
+              "modular_p_out": 0.01,
+              "k_link": 1.0,
+              "eps_pin": 0.0001,
+              "edge_aniso": 0.12,
+              "drop_prob": 0.03,
+              "onsite_noise": 0.05
+            },
+            "light_mode": {
+              "lambda0": 7.758698673524398e-06,
+              "lambda_med": 2.0669112413778317,
+              "epsilon_soft": 3.7537648052813057e-06,
+              "gap_ratio_12": 0.014506735212302314,
+              "participation_ratio": 8.294592373696045,
+              "inverse_participation_ratio": 0.1205604754214586,
+              "support_index": 0.06480150291950035,
+              "z0_proxy": 8.294592373696045,
+              "m2_proxy": 9.353924007319416e-07
+            },
+            "flags": {
+              "soft_ok": true,
+              "gap_ok": true,
+              "collective_ok": false
+            },
+            "joint_ok": false,
+            "robustness_pass_fraction": 0.0
+          }
+        },
+        "twisted_m2_eV_calibrated": 1.3630652819773288e-22
+      },
+      {
+        "label": "k_link=0.8",
+        "vary": "k_link",
+        "value": 0.8,
+        "twisted_ring": {
+          "family": "twisted_ring",
+          "N": 128,
+          "n_samples": 240,
+          "joint_hits": 94,
+          "joint_fraction": 0.39166666666666666,
+          "robustness_pass_fraction": 0.12777777777777777,
+          "epsilon_soft_mean": 0.009229762777427158,
+          "epsilon_soft_p50": 0.007688196771328865,
+          "gap_ratio_p50": 0.005988224768920855,
+          "participation_mean": 31.22771065735958,
+          "m2_proxy_mean": 0.0007507274067429709,
+          "best_sample_by_m2_proxy": {
+            "family": "twisted_ring",
+            "N": 128,
+            "config": {
+              "family": "twisted_ring",
+              "n": 128,
+              "modular_n1": 64,
+              "modular_n2": 64,
+              "modular_p_in": 0.06,
+              "modular_p_out": 0.01,
+              "k_link": 0.8,
+              "eps_pin": 0.0001,
+              "edge_aniso": 0.12,
+              "drop_prob": 0.03,
+              "onsite_noise": 0.05
+            },
+            "light_mode": {
+              "lambda0": 0.0017440529620566317,
+              "lambda_med": 2.3184481770516654,
+              "epsilon_soft": 0.0007522501383983992,
+              "gap_ratio_12": 0.007005749987418399,
+              "participation_ratio": 50.03370995022538,
+              "inverse_participation_ratio": 0.019986525104670864,
+              "support_index": 0.3908883589861358,
+              "z0_proxy": 50.03370995022538,
+              "m2_proxy": 3.485755831002045e-05
+            },
+            "flags": {
+              "soft_ok": true,
+              "gap_ok": true,
+              "collective_ok": true
+            },
+            "joint_ok": true,
+            "robustness_pass_fraction": 0.3333333333333333
+          }
+        },
+        "ring": {
+          "family": "ring",
+          "N": 128,
+          "n_samples": 240,
+          "joint_hits": 2,
+          "joint_fraction": 0.008333333333333333,
+          "robustness_pass_fraction": 0.0013888888888888887,
+          "epsilon_soft_mean": 0.010664097009683165,
+          "epsilon_soft_p50": 0.009343051274737786,
+          "gap_ratio_p50": 0.0062708045456967235,
+          "participation_mean": 13.196951299584594,
+          "m2_proxy_mean": 0.0017875849565508915,
+          "best_sample_by_m2_proxy": {
+            "family": "ring",
+            "N": 128,
+            "config": {
+              "family": "ring",
+              "n": 128,
+              "modular_n1": 64,
+              "modular_n2": 64,
+              "modular_p_in": 0.06,
+              "modular_p_out": 0.01,
+              "k_link": 1.0,
+              "eps_pin": 0.0001,
+              "edge_aniso": 0.12,
+              "drop_prob": 0.03,
+              "onsite_noise": 0.05
+            },
+            "light_mode": {
+              "lambda0": 2.331134134906085e-06,
+              "lambda_med": 2.0768931422703294,
+              "epsilon_soft": 1.1224140941395933e-06,
+              "gap_ratio_12": 0.01738567031636083,
+              "participation_ratio": 9.469172326081749,
+              "inverse_participation_ratio": 0.10560585081397396,
+              "support_index": 0.07397790879751366,
+              "z0_proxy": 9.469172326081749,
+              "m2_proxy": 2.461814036782543e-07
+            },
+            "flags": {
+              "soft_ok": true,
+              "gap_ok": true,
+              "collective_ok": false
+            },
+            "joint_ok": false,
+            "robustness_pass_fraction": 0.0
+          }
+        },
+        "twisted_m2_eV_calibrated": 7.472660818831002e-23
+      },
+      {
+        "label": "k_link=1.2",
+        "vary": "k_link",
+        "value": 1.2,
+        "twisted_ring": {
+          "family": "twisted_ring",
+          "N": 128,
+          "n_samples": 240,
+          "joint_hits": 98,
+          "joint_fraction": 0.4083333333333333,
+          "robustness_pass_fraction": 0.125,
+          "epsilon_soft_mean": 0.009534164777649212,
+          "epsilon_soft_p50": 0.007938408686851233,
+          "gap_ratio_p50": 0.0054455256085607084,
+          "participation_mean": 32.13691309740463,
+          "m2_proxy_mean": 0.0011747409981450884,
+          "best_sample_by_m2_proxy": {
+            "family": "twisted_ring",
+            "N": 128,
+            "config": {
+              "family": "twisted_ring",
+              "n": 128,
+              "modular_n1": 64,
+              "modular_n2": 64,
+              "modular_p_in": 0.06,
+              "modular_p_out": 0.01,
+              "k_link": 1.2,
+              "eps_pin": 0.0001,
+              "edge_aniso": 0.12,
+              "drop_prob": 0.03,
+              "onsite_noise": 0.05
+            },
+            "light_mode": {
+              "lambda0": 0.0007598541162460824,
+              "lambda_med": 3.543897168706687,
+              "epsilon_soft": 0.00021441201030203262,
+              "gap_ratio_12": 0.003525719064874486,
+              "participation_ratio": 20.8373607536472,
+              "inverse_participation_ratio": 0.04799072261706503,
+              "support_index": 0.16279188088786875,
+              "z0_proxy": 20.8373607536472,
+              "m2_proxy": 3.646594812220083e-05
+            },
+            "flags": {
+              "soft_ok": true,
+              "gap_ok": true,
+              "collective_ok": false
+            },
+            "joint_ok": false,
+            "robustness_pass_fraction": 0.0
+          }
+        },
+        "ring": {
+          "family": "ring",
+          "N": 128,
+          "n_samples": 240,
+          "joint_hits": 0,
+          "joint_fraction": 0.0,
+          "robustness_pass_fraction": 0.0,
+          "epsilon_soft_mean": 0.010169018952155436,
+          "epsilon_soft_p50": 0.008618792983946747,
+          "gap_ratio_p50": 0.0066057757159905025,
+          "participation_mean": 13.037195150601745,
+          "m2_proxy_mean": 0.001785884987906682,
+          "best_sample_by_m2_proxy": {
+            "family": "ring",
+            "N": 128,
+            "config": {
+              "family": "ring",
+              "n": 128,
+              "modular_n1": 64,
+              "modular_n2": 64,
+              "modular_p_in": 0.06,
+              "modular_p_out": 0.01,
+              "k_link": 1.0,
+              "eps_pin": 0.0001,
+              "edge_aniso": 0.12,
+              "drop_prob": 0.03,
+              "onsite_noise": 0.05
+            },
+            "light_mode": {
+              "lambda0": 0.0002601733011160025,
+              "lambda_med": 2.0419857754915895,
+              "epsilon_soft": 0.0001274119067031053,
+              "gap_ratio_12": 0.0020580771571689495,
+              "participation_ratio": 30.040563943345397,
+              "inverse_participation_ratio": 0.03328832314486295,
+              "support_index": 0.23469190580738591,
+              "z0_proxy": 30.040563943345397,
+              "m2_proxy": 8.660732921215225e-06
+            },
+            "flags": {
+              "soft_ok": true,
+              "gap_ok": true,
+              "collective_ok": false
+            },
+            "joint_ok": false,
+            "robustness_pass_fraction": 0.0
+          }
+        },
+        "twisted_m2_eV_calibrated": 1.1693247043155746e-22
+      },
+      {
+        "label": "eps_pin=5e-05",
+        "vary": "eps_pin",
+        "value": 5e-05,
+        "twisted_ring": {
+          "family": "twisted_ring",
+          "N": 128,
+          "n_samples": 240,
+          "joint_hits": 93,
+          "joint_fraction": 0.3875,
+          "robustness_pass_fraction": 0.12083333333333333,
+          "epsilon_soft_mean": 0.009752482255818427,
+          "epsilon_soft_p50": 0.007955080219576418,
+          "gap_ratio_p50": 0.006518668989288559,
+          "participation_mean": 30.577674778542896,
+          "m2_proxy_mean": 0.0010911782367155935,
+          "best_sample_by_m2_proxy": {
+            "family": "twisted_ring",
+            "N": 128,
+            "config": {
+              "family": "twisted_ring",
+              "n": 128,
+              "modular_n1": 64,
+              "modular_n2": 64,
+              "modular_p_in": 0.06,
+              "modular_p_out": 0.01,
+              "k_link": 1.0,
+              "eps_pin": 5e-05,
+              "edge_aniso": 0.12,
+              "drop_prob": 0.03,
+              "onsite_noise": 0.05
+            },
+            "light_mode": {
+              "lambda0": 0.0009453735746363704,
+              "lambda_med": 2.898342078463373,
+              "epsilon_soft": 0.0003261773624518412,
+              "gap_ratio_12": 0.015426052122255675,
+              "participation_ratio": 40.305518508331865,
+              "inverse_participation_ratio": 0.024810498338913127,
+              "support_index": 0.3148868633463427,
+              "z0_proxy": 40.305518508331865,
+              "m2_proxy": 2.3455189503168032e-05
+            },
+            "flags": {
+              "soft_ok": true,
+              "gap_ok": true,
+              "collective_ok": true
+            },
+            "joint_ok": true,
+            "robustness_pass_fraction": 0.3333333333333333
+          }
+        },
+        "ring": {
+          "family": "ring",
+          "N": 128,
+          "n_samples": 240,
+          "joint_hits": 0,
+          "joint_fraction": 0.0,
+          "robustness_pass_fraction": 0.0,
+          "epsilon_soft_mean": 0.012097393104916683,
+          "epsilon_soft_p50": 0.009944268914240526,
+          "gap_ratio_p50": 0.005825385759447703,
+          "participation_mean": 13.468425329711277,
+          "m2_proxy_mean": 0.0020338472870621497,
+          "best_sample_by_m2_proxy": {
+            "family": "ring",
+            "N": 128,
+            "config": {
+              "family": "ring",
+              "n": 128,
+              "modular_n1": 64,
+              "modular_n2": 64,
+              "modular_p_in": 0.06,
+              "modular_p_out": 0.01,
+              "k_link": 1.0,
+              "eps_pin": 0.0001,
+              "edge_aniso": 0.12,
+              "drop_prob": 0.03,
+              "onsite_noise": 0.05
+            },
+            "light_mode": {
+              "lambda0": 0.00023645374856723787,
+              "lambda_med": 2.08284775272417,
+              "epsilon_soft": 0.00011352425939821019,
+              "gap_ratio_12": 0.005088390420936554,
+              "participation_ratio": 13.745756871011908,
+              "inverse_participation_ratio": 0.07274972265142239,
+              "support_index": 0.10738872555478053,
+              "z0_proxy": 13.745756871011908,
+              "m2_proxy": 1.720194462815572e-05
+            },
+            "flags": {
+              "soft_ok": true,
+              "gap_ok": true,
+              "collective_ok": false
+            },
+            "joint_ok": false,
+            "robustness_pass_fraction": 0.0
+          }
+        },
+        "twisted_m2_eV_calibrated": 1.0861472197001368e-22
+      },
+      {
+        "label": "eps_pin=0.0002",
+        "vary": "eps_pin",
+        "value": 0.0002,
+        "twisted_ring": {
+          "family": "twisted_ring",
+          "N": 128,
+          "n_samples": 240,
+          "joint_hits": 88,
+          "joint_fraction": 0.36666666666666664,
+          "robustness_pass_fraction": 0.12916666666666668,
+          "epsilon_soft_mean": 0.009366547900241159,
+          "epsilon_soft_p50": 0.008588363170451332,
+          "gap_ratio_p50": 0.006376308070831554,
+          "participation_mean": 30.839679150454813,
+          "m2_proxy_mean": 0.0009765130267343173,
+          "best_sample_by_m2_proxy": {
+            "family": "twisted_ring",
+            "N": 128,
+            "config": {
+              "family": "twisted_ring",
+              "n": 128,
+              "modular_n1": 64,
+              "modular_n2": 64,
+              "modular_p_in": 0.06,
+              "modular_p_out": 0.01,
+              "k_link": 1.0,
+              "eps_pin": 0.0002,
+              "edge_aniso": 0.12,
+              "drop_prob": 0.03,
+              "onsite_noise": 0.05
+            },
+            "light_mode": {
+              "lambda0": 0.0009654615399368022,
+              "lambda_med": 2.88395464131837,
+              "epsilon_soft": 0.0003347700154865998,
+              "gap_ratio_12": 0.008581003669527494,
+              "participation_ratio": 47.60657285415197,
+              "inverse_participation_ratio": 0.021005502812891222,
+              "support_index": 0.37192635042306227,
+              "z0_proxy": 47.60657285415197,
+              "m2_proxy": 2.0280005092880787e-05
+            },
+            "flags": {
+              "soft_ok": true,
+              "gap_ok": true,
+              "collective_ok": true
+            },
+            "joint_ok": true,
+            "robustness_pass_fraction": 0.3333333333333333
+          }
+        },
+        "ring": {
+          "family": "ring",
+          "N": 128,
+          "n_samples": 240,
+          "joint_hits": 1,
+          "joint_fraction": 0.004166666666666667,
+          "robustness_pass_fraction": 0.0,
+          "epsilon_soft_mean": 0.009694936156330831,
+          "epsilon_soft_p50": 0.007900084954325808,
+          "gap_ratio_p50": 0.007170490604111483,
+          "participation_mean": 12.886174510269255,
+          "m2_proxy_mean": 0.001734635814678312,
+          "best_sample_by_m2_proxy": {
+            "family": "ring",
+            "N": 128,
+            "config": {
+              "family": "ring",
+              "n": 128,
+              "modular_n1": 64,
+              "modular_n2": 64,
+              "modular_p_in": 0.06,
+              "modular_p_out": 0.01,
+              "k_link": 1.0,
+              "eps_pin": 0.0001,
+              "edge_aniso": 0.12,
+              "drop_prob": 0.03,
+              "onsite_noise": 0.05
+            },
+            "light_mode": {
+              "lambda0": 2.4355901335899336e-05,
+              "lambda_med": 2.0158491174824165,
+              "epsilon_soft": 1.2082204528440747e-05,
+              "gap_ratio_12": 0.007530085275111576,
+              "participation_ratio": 16.096963309598625,
+              "inverse_participation_ratio": 0.062123518626876637,
+              "support_index": 0.12575752585623926,
+              "z0_proxy": 16.096963309598625,
+              "m2_proxy": 1.513074290315112e-06
+            },
+            "flags": {
+              "soft_ok": true,
+              "gap_ok": true,
+              "collective_ok": false
+            },
+            "joint_ok": false,
+            "robustness_pass_fraction": 0.0
+          }
+        },
+        "twisted_m2_eV_calibrated": 9.720106883554811e-23
+      }
+    ],
+    "best_point": {
+      "label": "edge_aniso=0.08",
+      "vary": "edge_aniso",
+      "value": 0.08,
+      "twisted_ring": {
+        "family": "twisted_ring",
+        "N": 128,
+        "n_samples": 240,
+        "joint_hits": 150,
+        "joint_fraction": 0.625,
+        "robustness_pass_fraction": 0.1847222222222222,
+        "epsilon_soft_mean": 0.006975809821392647,
+        "epsilon_soft_p50": 0.006399694074893717,
+        "gap_ratio_p50": 0.004900799320358977,
+        "participation_mean": 38.58163010923319,
+        "m2_proxy_mean": 0.0005952127746031655,
+        "best_sample_by_m2_proxy": {
+          "family": "twisted_ring",
+          "N": 128,
+          "config": {
+            "family": "twisted_ring",
+            "n": 128,
+            "modular_n1": 64,
+            "modular_n2": 64,
+            "modular_p_in": 0.06,
+            "modular_p_out": 0.01,
+            "k_link": 1.0,
+            "eps_pin": 0.0001,
+            "edge_aniso": 0.08,
+            "drop_prob": 0.03,
+            "onsite_noise": 0.05
+          },
+          "light_mode": {
+            "lambda0": 0.0005251088273472175,
+            "lambda_med": 2.9099644522910912,
+            "epsilon_soft": 0.0001804519731963686,
+            "gap_ratio_12": 0.006388504220618822,
+            "participation_ratio": 35.451181653574814,
+            "inverse_participation_ratio": 0.028207804461128937,
+            "support_index": 0.27696235666855323,
+            "z0_proxy": 35.451181653574814,
+            "m2_proxy": 1.4812167122623027e-05
+          },
+          "flags": {
+            "soft_ok": true,
+            "gap_ok": true,
+            "collective_ok": true
+          },
+          "joint_ok": true,
+          "robustness_pass_fraction": 0.0
+        }
+      },
+      "ring": {
+        "family": "ring",
+        "N": 128,
+        "n_samples": 240,
+        "joint_hits": 2,
+        "joint_fraction": 0.008333333333333333,
+        "robustness_pass_fraction": 0.0027777777777777775,
+        "epsilon_soft_mean": 0.010437726351049281,
+        "epsilon_soft_p50": 0.008369162100379166,
+        "gap_ratio_p50": 0.00571877252085019,
+        "participation_mean": 13.864382760074218,
+        "m2_proxy_mean": 0.0017807957484592136,
+        "best_sample_by_m2_proxy": {
+          "family": "ring",
+          "N": 128,
+          "config": {
+            "family": "ring",
+            "n": 128,
+            "modular_n1": 64,
+            "modular_n2": 64,
+            "modular_p_in": 0.06,
+            "modular_p_out": 0.01,
+            "k_link": 1.0,
+            "eps_pin": 0.0001,
+            "edge_aniso": 0.12,
+            "drop_prob": 0.03,
+            "onsite_noise": 0.05
+          },
+          "light_mode": {
+            "lambda0": 0.00022156125890623594,
+            "lambda_med": 2.078192401970643,
+            "epsilon_soft": 0.00010661248626264864,
+            "gap_ratio_12": 0.009051041252876656,
+            "participation_ratio": 12.488527368241458,
+            "inverse_participation_ratio": 0.08007349229525791,
+            "support_index": 0.09756662006438639,
+            "z0_proxy": 12.488527368241458,
+            "m2_proxy": 1.774118375795613e-05
+          },
+          "flags": {
+            "soft_ok": true,
+            "gap_ok": true,
+            "collective_ok": false
+          },
+          "joint_ok": false,
+          "robustness_pass_fraction": 0.0
+        }
+      },
+      "twisted_m2_eV_calibrated": 5.924684698726578e-23
+    }
+  },
+  "scale_scan": [
+    {
+      "N": 64,
+      "twisted_ring": {
+        "family": "twisted_ring",
+        "N": 64,
+        "n_samples": 240,
+        "joint_hits": 238,
+        "joint_fraction": 0.9916666666666667,
+        "robustness_pass_fraction": 0.6430555555555555,
+        "epsilon_soft_mean": 0.013447958466987002,
+        "epsilon_soft_p50": 0.012001284214090639,
+        "gap_ratio_p50": 0.009551543009297555,
+        "participation_mean": 32.41530943734664,
+        "m2_proxy_mean": 0.001275129943364977,
+        "best_sample_by_m2_proxy": {
+          "family": "twisted_ring",
+          "N": 64,
+          "config": {
+            "family": "twisted_ring",
+            "n": 64,
+            "modular_n1": 64,
+            "modular_n2": 64,
+            "modular_p_in": 0.06,
+            "modular_p_out": 0.01,
+            "k_link": 1.0,
+            "eps_pin": 0.0001,
+            "edge_aniso": 0.08,
+            "drop_prob": 0.03,
+            "onsite_noise": 0.05
+          },
+          "light_mode": {
+            "lambda0": 0.016726592456860364,
+            "lambda_med": 3.03235687646735,
+            "epsilon_soft": 0.005516036910651029,
+            "gap_ratio_12": 0.017923314402350628,
+            "participation_ratio": 38.563840739664656,
+            "inverse_participation_ratio": 0.02593102711814321,
+            "support_index": 0.6025600115572602,
+            "z0_proxy": 38.563840739664656,
+            "m2_proxy": 0.0004337377225929757
+          },
+          "flags": {
+            "soft_ok": true,
+            "gap_ok": true,
+            "collective_ok": true
+          },
+          "joint_ok": true,
+          "robustness_pass_fraction": 0.3333333333333333
+        }
+      },
+      "ring": {
+        "family": "ring",
+        "N": 64,
+        "n_samples": 240,
+        "joint_hits": 68,
+        "joint_fraction": 0.2833333333333333,
+        "robustness_pass_fraction": 0.09444444444444443,
+        "epsilon_soft_mean": 0.015610556004766475,
+        "epsilon_soft_p50": 0.013903999403623878,
+        "gap_ratio_p50": 0.010240513421748785,
+        "participation_mean": 14.663175411806492,
+        "m2_proxy_mean": 0.0024547522234764085,
+        "best_sample_by_m2_proxy": {
+          "family": "ring",
+          "N": 64,
+          "config": {
+            "family": "ring",
+            "n": 64,
+            "modular_n1": 64,
+            "modular_n2": 64,
+            "modular_p_in": 0.06,
+            "modular_p_out": 0.01,
+            "k_link": 1.0,
+            "eps_pin": 0.0001,
+            "edge_aniso": 0.12,
+            "drop_prob": 0.03,
+            "onsite_noise": 0.05
+          },
+          "light_mode": {
+            "lambda0": 0.0010868829030664122,
+            "lambda_med": 2.0273683663150077,
+            "epsilon_soft": 0.0005361052885726712,
+            "gap_ratio_12": 0.026969669112871374,
+            "participation_ratio": 21.773220292070427,
+            "inverse_participation_ratio": 0.04592797880082944,
+            "support_index": 0.3402065670636004,
+            "z0_proxy": 21.773220292070427,
+            "m2_proxy": 4.991833493101814e-05
+          },
+          "flags": {
+            "soft_ok": true,
+            "gap_ok": true,
+            "collective_ok": true
+          },
+          "joint_ok": true,
+          "robustness_pass_fraction": 0.0
+        }
+      },
+      "twisted_m2_eV_calibrated": 1.2692507934459895e-22,
+      "ring_m2_eV_calibrated": 2.4434342739522206e-22
+    },
+    {
+      "N": 128,
+      "twisted_ring": {
+        "family": "twisted_ring",
+        "N": 128,
+        "n_samples": 240,
+        "joint_hits": 139,
+        "joint_fraction": 0.5791666666666667,
+        "robustness_pass_fraction": 0.20833333333333334,
+        "epsilon_soft_mean": 0.006423068906733516,
+        "epsilon_soft_p50": 0.005426056238836682,
+        "gap_ratio_p50": 0.004640566231805308,
+        "participation_mean": 38.66240039084223,
+        "m2_proxy_mean": 0.0005612494364965144,
+        "best_sample_by_m2_proxy": {
+          "family": "twisted_ring",
+          "N": 128,
+          "config": {
+            "family": "twisted_ring",
+            "n": 128,
+            "modular_n1": 64,
+            "modular_n2": 64,
+            "modular_p_in": 0.06,
+            "modular_p_out": 0.01,
+            "k_link": 1.0,
+            "eps_pin": 0.0001,
+            "edge_aniso": 0.08,
+            "drop_prob": 0.03,
+            "onsite_noise": 0.05
+          },
+          "light_mode": {
+            "lambda0": 0.0010710284393352263,
+            "lambda_med": 2.932173611908654,
+            "epsilon_soft": 0.0003652677436920444,
+            "gap_ratio_12": 0.011129307173472188,
+            "participation_ratio": 37.504223393446516,
+            "inverse_participation_ratio": 0.026663663702865527,
+            "support_index": 0.2930017452613009,
+            "z0_proxy": 37.504223393446516,
+            "m2_proxy": 2.8557542122639387e-05
+          },
+          "flags": {
+            "soft_ok": true,
+            "gap_ok": true,
+            "collective_ok": true
+          },
+          "joint_ok": true,
+          "robustness_pass_fraction": 0.0
+        }
+      },
+      "ring": {
+        "family": "ring",
+        "N": 128,
+        "n_samples": 240,
+        "joint_hits": 3,
+        "joint_fraction": 0.0125,
+        "robustness_pass_fraction": 0.0,
+        "epsilon_soft_mean": 0.00998232555650951,
+        "epsilon_soft_p50": 0.008317925187723016,
+        "gap_ratio_p50": 0.006445246672438567,
+        "participation_mean": 13.547300819955648,
+        "m2_proxy_mean": 0.001668983312550057,
+        "best_sample_by_m2_proxy": {
+          "family": "ring",
+          "N": 128,
+          "config": {
+            "family": "ring",
+            "n": 128,
+            "modular_n1": 64,
+            "modular_n2": 64,
+            "modular_p_in": 0.06,
+            "modular_p_out": 0.01,
+            "k_link": 1.0,
+            "eps_pin": 0.0001,
+            "edge_aniso": 0.12,
+            "drop_prob": 0.03,
+            "onsite_noise": 0.05
+          },
+          "light_mode": {
+            "lambda0": 0.00020513816805784404,
+            "lambda_med": 2.0396354248367974,
+            "epsilon_soft": 0.0001005758997710379,
+            "gap_ratio_12": 0.001309276919119909,
+            "participation_ratio": 27.814240028417412,
+            "inverse_participation_ratio": 0.035952806870808415,
+            "support_index": 0.21729875022201103,
+            "z0_proxy": 27.814240028417412,
+            "m2_proxy": 7.375292938015107e-06
+          },
+          "flags": {
+            "soft_ok": true,
+            "gap_ok": true,
+            "collective_ok": false
+          },
+          "joint_ok": false,
+          "robustness_pass_fraction": 0.0
+        }
+      },
+      "twisted_m2_eV_calibrated": 5.586617240862775e-23,
+      "ring_m2_eV_calibrated": 1.6612882512287955e-22
+    },
+    {
+      "N": 192,
+      "twisted_ring": {
+        "family": "twisted_ring",
+        "N": 192,
+        "n_samples": 240,
+        "joint_hits": 39,
+        "joint_fraction": 0.1625,
+        "robustness_pass_fraction": 0.025,
+        "epsilon_soft_mean": 0.005446389256857046,
+        "epsilon_soft_p50": 0.004383485270134983,
+        "gap_ratio_p50": 0.0032240916801243693,
+        "participation_mean": 36.14125532453082,
+        "m2_proxy_mean": 0.0005067016372132702,
+        "best_sample_by_m2_proxy": {
+          "family": "twisted_ring",
+          "N": 192,
+          "config": {
+            "family": "twisted_ring",
+            "n": 192,
+            "modular_n1": 64,
+            "modular_n2": 64,
+            "modular_p_in": 0.06,
+            "modular_p_out": 0.01,
+            "k_link": 1.0,
+            "eps_pin": 0.0001,
+            "edge_aniso": 0.08,
+            "drop_prob": 0.03,
+            "onsite_noise": 0.05
+          },
+          "light_mode": {
+            "lambda0": 0.00013166436100772144,
+            "lambda_med": 2.957767777457568,
+            "epsilon_soft": 4.451477293491148e-05,
+            "gap_ratio_12": 0.007485761372722306,
+            "participation_ratio": 51.51195139018023,
+            "inverse_participation_ratio": 0.019412970641035178,
+            "support_index": 0.26829141349052205,
+            "z0_proxy": 51.51195139018023,
+            "m2_proxy": 2.555996374713553e-06
+          },
+          "flags": {
+            "soft_ok": true,
+            "gap_ok": true,
+            "collective_ok": true
+          },
+          "joint_ok": true,
+          "robustness_pass_fraction": 0.0
+        }
+      },
+      "ring": {
+        "family": "ring",
+        "N": 192,
+        "n_samples": 240,
+        "joint_hits": 0,
+        "joint_fraction": 0.0,
+        "robustness_pass_fraction": 0.0,
+        "epsilon_soft_mean": 0.009605478416035856,
+        "epsilon_soft_p50": 0.007778014386601311,
+        "gap_ratio_p50": 0.004936612895626042,
+        "participation_mean": 12.688379749639944,
+        "m2_proxy_mean": 0.0016850397295258522,
+        "best_sample_by_m2_proxy": {
+          "family": "ring",
+          "N": 192,
+          "config": {
+            "family": "ring",
+            "n": 192,
+            "modular_n1": 64,
+            "modular_n2": 64,
+            "modular_p_in": 0.06,
+            "modular_p_out": 0.01,
+            "k_link": 1.0,
+            "eps_pin": 0.0001,
+            "edge_aniso": 0.12,
+            "drop_prob": 0.03,
+            "onsite_noise": 0.05
+          },
+          "light_mode": {
+            "lambda0": 0.00022759243871627992,
+            "lambda_med": 2.0495662341285437,
+            "epsilon_soft": 0.00011104419799980267,
+            "gap_ratio_12": 0.004638882288016926,
+            "participation_ratio": 13.971878075900616,
+            "inverse_participation_ratio": 0.07157233942120131,
+            "support_index": 0.07277019831198238,
+            "z0_proxy": 13.971878075900616,
+            "m2_proxy": 1.6289323273500545e-05
+          },
+          "flags": {
+            "soft_ok": true,
+            "gap_ok": true,
+            "collective_ok": false
+          },
+          "joint_ok": false,
+          "robustness_pass_fraction": 0.0
+        }
+      },
+      "twisted_m2_eV_calibrated": 5.043654244179594e-23,
+      "ring_m2_eV_calibrated": 1.6772706380376626e-22
+    },
+    {
+      "N": 256,
+      "twisted_ring": {
+        "family": "twisted_ring",
+        "N": 256,
+        "n_samples": 240,
+        "joint_hits": 6,
+        "joint_fraction": 0.025,
+        "robustness_pass_fraction": 0.005555555555555555,
+        "epsilon_soft_mean": 0.005634070048207069,
+        "epsilon_soft_p50": 0.004916240176352225,
+        "gap_ratio_p50": 0.002412349439257064,
+        "participation_mean": 34.663374478429496,
+        "m2_proxy_mean": 0.0005277173367389603,
+        "best_sample_by_m2_proxy": {
+          "family": "twisted_ring",
+          "N": 256,
+          "config": {
+            "family": "twisted_ring",
+            "n": 256,
+            "modular_n1": 64,
+            "modular_n2": 64,
+            "modular_p_in": 0.06,
+            "modular_p_out": 0.01,
+            "k_link": 1.0,
+            "eps_pin": 0.0001,
+            "edge_aniso": 0.08,
+            "drop_prob": 0.03,
+            "onsite_noise": 0.05
+          },
+          "light_mode": {
+            "lambda0": 0.0005133481971507166,
+            "lambda_med": 2.90259877771876,
+            "epsilon_soft": 0.00017685813178567258,
+            "gap_ratio_12": 0.0016990549085531333,
+            "participation_ratio": 70.03165504047891,
+            "inverse_participation_ratio": 0.014279256993455192,
+            "support_index": 0.27356115250187074,
+            "z0_proxy": 70.03165504047891,
+            "m2_proxy": 7.330230834241984e-06
+          },
+          "flags": {
+            "soft_ok": true,
+            "gap_ok": true,
+            "collective_ok": true
+          },
+          "joint_ok": true,
+          "robustness_pass_fraction": 0.0
+        }
+      },
+      "ring": {
+        "family": "ring",
+        "N": 256,
+        "n_samples": 240,
+        "joint_hits": 0,
+        "joint_fraction": 0.0,
+        "robustness_pass_fraction": 0.0,
+        "epsilon_soft_mean": 0.009073886957583337,
+        "epsilon_soft_p50": 0.007709525605213832,
+        "gap_ratio_p50": 0.00410149665171341,
+        "participation_mean": 11.986252675348226,
+        "m2_proxy_mean": 0.0016872588120900025,
+        "best_sample_by_m2_proxy": {
+          "family": "ring",
+          "N": 256,
+          "config": {
+            "family": "ring",
+            "n": 256,
+            "modular_n1": 64,
+            "modular_n2": 64,
+            "modular_p_in": 0.06,
+            "modular_p_out": 0.01,
+            "k_link": 1.0,
+            "eps_pin": 0.0001,
+            "edge_aniso": 0.12,
+            "drop_prob": 0.03,
+            "onsite_noise": 0.05
+          },
+          "light_mode": {
+            "lambda0": 2.382537424268017e-05,
+            "lambda_med": 2.069449542147449,
+            "epsilon_soft": 1.1512904159990679e-05,
+            "gap_ratio_12": 0.002752535865531685,
+            "participation_ratio": 8.978230995766838,
+            "inverse_participation_ratio": 0.1113805158801875,
+            "support_index": 0.03507121482721421,
+            "z0_proxy": 8.978230995766838,
+            "m2_proxy": 2.653682474188249e-06
+          },
+          "flags": {
+            "soft_ok": true,
+            "gap_ok": true,
+            "collective_ok": false
+          },
+          "joint_ok": false,
+          "robustness_pass_fraction": 0.0
+        }
+      },
+      "twisted_m2_eV_calibrated": 5.2528422836935385e-23,
+      "ring_m2_eV_calibrated": 1.679479489237437e-22
+    }
+  ],
+  "multi_seed": {
+    "seeds": [
+      20260312,
+      20260313,
+      20260314,
+      20260315,
+      20260316,
+      20260317,
+      20260318,
+      20260319
+    ],
+    "records": [
+      {
+        "seed": 20260312,
+        "twisted_joint": 0.6181818181818182,
+        "twisted_robust": 0.16515151515151516,
+        "twisted_m2_eV_calibrated": 6.437272912750222e-23,
+        "ring_joint": 0.00909090909090909,
+        "ring_robust": 0.0
+      },
+      {
+        "seed": 20260313,
+        "twisted_joint": 0.5590909090909091,
+        "twisted_robust": 0.17727272727272728,
+        "twisted_m2_eV_calibrated": 6.103054911802212e-23,
+        "ring_joint": 0.004545454545454545,
+        "ring_robust": 0.0
+      },
+      {
+        "seed": 20260314,
+        "twisted_joint": 0.6409090909090909,
+        "twisted_robust": 0.18333333333333332,
+        "twisted_m2_eV_calibrated": 6.432344264744883e-23,
+        "ring_joint": 0.00909090909090909,
+        "ring_robust": 0.0
+      },
+      {
+        "seed": 20260315,
+        "twisted_joint": 0.6181818181818182,
+        "twisted_robust": 0.20454545454545456,
+        "twisted_m2_eV_calibrated": 6.277183008909182e-23,
+        "ring_joint": 0.004545454545454545,
+        "ring_robust": 0.0015151515151515152
+      },
+      {
+        "seed": 20260316,
+        "twisted_joint": 0.6409090909090909,
+        "twisted_robust": 0.1712121212121212,
+        "twisted_m2_eV_calibrated": 6.268995873759859e-23,
+        "ring_joint": 0.0,
+        "ring_robust": 0.0015151515151515152
+      },
+      {
+        "seed": 20260317,
+        "twisted_joint": 0.65,
+        "twisted_robust": 0.19090909090909092,
+        "twisted_m2_eV_calibrated": 6.548606249775034e-23,
+        "ring_joint": 0.0,
+        "ring_robust": 0.0
+      },
+      {
+        "seed": 20260318,
+        "twisted_joint": 0.6181818181818182,
+        "twisted_robust": 0.2121212121212121,
+        "twisted_m2_eV_calibrated": 6.152757284118439e-23,
+        "ring_joint": 0.0,
+        "ring_robust": 0.0
+      },
+      {
+        "seed": 20260319,
+        "twisted_joint": 0.5681818181818182,
+        "twisted_robust": 0.16515151515151513,
+        "twisted_m2_eV_calibrated": 6.108433633477193e-23,
+        "ring_joint": 0.0,
+        "ring_robust": 0.0
+      }
+    ],
+    "stats": {
+      "twisted_joint_mean": 0.6142045454545455,
+      "twisted_joint_p16_p84": [
+        0.5741818181818182,
+        0.6409090909090909
+      ],
+      "twisted_robust_mean": 0.1837121212121212,
+      "twisted_robust_p16_p84": [
+        0.16587878787878788,
+        0.20290909090909093
+      ],
+      "twisted_m2_mean_eV": 6.291081017417128e-23,
+      "twisted_m2_p16_p84_eV": [
+        6.113752471554143e-23,
+        6.436681474989581e-23
+      ],
+      "ring_joint_mean": 0.003409090909090909,
+      "ring_robust_mean": 0.0003787878787878788
+    }
+  },
+  "success_criteria": {
+    "target_twisted_robust_min": 0.2,
+    "target_twisted_joint_min": 0.35,
+    "target_m2_log10_dev_max": 0.5
+  },
+  "decision": {
+    "twisted_robust_pass": false,
+    "twisted_joint_pass": true,
+    "twisted_m2_pass": true,
+    "ring_control_passive": true,
+    "twisted_m2_log10_dev": 0.20127472187418396,
+    "overall_go": false
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "overall_go": false,
+  "decision": {
+    "twisted_robust_pass": false,
+    "twisted_joint_pass": true,
+    "twisted_m2_pass": true,
+    "ring_control_passive": true,
+    "twisted_m2_log10_dev": 0.20127472187418396,
+    "overall_go": false
+  }
+}

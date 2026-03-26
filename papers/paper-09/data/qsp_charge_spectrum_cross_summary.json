@@ -1,0 +1,78 @@
+{
+  "status": "charge_spectrum_cross_pass2",
+  "charge_baseline": "/Users/cyrille/Perso/Mes projets/TCV/REPO/TCV-Phi/TCV-PHI/papers/sm-exploration/data/qsp_charge_reconstruction_summary.json",
+  "spectrum_baseline": "/Users/cyrille/Perso/Mes projets/TCV/REPO/TCV-Phi/TCV-PHI/papers/sm-exploration/data/qsp_spectrum_bridge_robustness_summary.json",
+  "rows": [
+    {
+      "reduced_class": "Q_plus|L1_weak|A1_offset",
+      "charge_level": "C_plus_strong",
+      "signed_coordinate": 0.8569156998503613,
+      "mass_band": "M2_heavy",
+      "transport_band": "T2_high",
+      "alignment_band": "A1_offset",
+      "spectral_rank": 4,
+      "spectral_support": 0.9765912359906186,
+      "mean_mass_proxy_post": 6.891973910836144,
+      "effective_cross_label": "C_plus_strong|R04|M2_heavy|T2_high|A1_offset",
+      "charge_rank": 1
+    },
+    {
+      "reduced_class": "Q_plus|L1_weak|A0_aligned",
+      "charge_level": "C_plus_strong",
+      "signed_coordinate": 0.8534496467669478,
+      "mass_band": "M2_heavy",
+      "transport_band": "T1_supported",
+      "alignment_band": "A0_aligned",
+      "spectral_rank": 5,
+      "spectral_support": 0.9778843003729271,
+      "mean_mass_proxy_post": 7.315175642505977,
+      "effective_cross_label": "C_plus_strong|R05|M2_heavy|T1_supported|A0_aligned",
+      "charge_rank": 2
+    },
+    {
+      "reduced_class": "Q_plus|L1_weak|A2_shifted",
+      "charge_level": "C_plus_supported",
+      "signed_coordinate": 0.7434511502160839,
+      "mass_band": "M2_heavy",
+      "transport_band": "T2_high",
+      "alignment_band": "A2_shifted",
+      "spectral_rank": 3,
+      "spectral_support": 0.9490708356746724,
+      "mean_mass_proxy_post": 6.44392161243167,
+      "effective_cross_label": "C_plus_supported|R03|M2_heavy|T2_high|A2_shifted",
+      "charge_rank": 3
+    },
+    {
+      "reduced_class": "Q_minus|L1_weak|A1_offset",
+      "charge_level": "C_minus_weak",
+      "signed_coordinate": -0.22280021463360786,
+      "mass_band": "M0_light",
+      "transport_band": "T0_formation_only",
+      "alignment_band": "A1_offset",
+      "spectral_rank": 2,
+      "spectral_support": 0.0024957403181661373,
+      "mean_mass_proxy_post": 0.1287863493306268,
+      "effective_cross_label": "C_minus_weak|R02|M0_light|T0_formation_only|A1_offset",
+      "charge_rank": 4
+    },
+    {
+      "reduced_class": "Q_minus|L2_moderate|A1_offset",
+      "charge_level": "C_minus_moderate",
+      "signed_coordinate": -0.4,
+      "mass_band": "M0_light",
+      "transport_band": "T0_formation_only",
+      "alignment_band": "A1_offset",
+      "spectral_rank": 1,
+      "spectral_support": 0.0,
+      "mean_mass_proxy_post": 0.08366642655201104,
+      "effective_cross_label": "C_minus_moderate|R01|M0_light|T0_formation_only|A1_offset",
+      "charge_rank": 5
+    }
+  ],
+  "verdict": "charge_spectrum_cross_supported",
+  "next_gate_status": {
+    "charge_ladder": "charge_ladder_robust",
+    "spectrum_bridge": "spectrum_bridge_robust",
+    "observable_mapping_rule": "ready_to_open"
+  }
+}

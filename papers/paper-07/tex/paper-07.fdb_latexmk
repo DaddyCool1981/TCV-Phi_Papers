@@ -1,16 +1,16 @@
 # Fdb version 4
-["bibtex paper-07"] 1773223947.45671 "paper-07.aux" "paper-07.bbl" "paper-07" 1773223948.89126 0
-  "./paper-07Notes.bib" 1773223948.54446 104 4d8bb863c86f3d7b03a471e9d4707f34 ""
+["bibtex paper-07"] 1773223947.45671 "paper-07.aux" "paper-07.bbl" "paper-07" 1774537865.89286 0
+  "./paper-07Notes.bib" 1774537865.71308 104 4d8bb863c86f3d7b03a471e9d4707f34 ""
   "/usr/local/texlive/2025/texmf-dist/bibtex/bst/revtex/apsrev4-2.bst" 1601932770 69609 e9dea59f0e753ccda3ddc8f5806d846d ""
-  "paper-07.aux" 1773223948.54352 4481 41132e354baa72c860acae025df05792 "pdflatex"
+  "paper-07.aux" 1774537865.71246 4481 41132e354baa72c860acae025df05792 "pdflatex"
   (generated)
   "paper-07.bbl"
   "paper-07.blg"
   (rewritten before read)
-["pdflatex"] 1773223947.61185 "/Users/cyrille/Perso/Mes projets/TCV-Phi_Papers/papers/paper-07/tex/paper-07.tex" "paper-07.pdf" "paper-07" 1773223948.8915 0
+["pdflatex"] 1774537865.17156 "/Users/cyrille/Perso/Mes projets/TCV-Phi_Papers/papers/paper-07/tex/paper-07.tex" "paper-07.pdf" "paper-07" 1774537865.893 0
   "../figs/baseline_pk_comparison.png" 1773150289.85414 134443 3d7fd7ac05f56c87f34891b5b7b5a9d5 ""
   "/Users/cyrille/Perso/Mes" 1770370310.07885 0 d41d8cd98f00b204e9800998ecf8427e ""
-  "/Users/cyrille/Perso/Mes projets/TCV-Phi_Papers/papers/paper-07/tex/paper-07.tex" 1773223945.78832 13384 59d062b76c0a3ebfdd91a0a67b85d84f ""
+  "/Users/cyrille/Perso/Mes projets/TCV-Phi_Papers/papers/paper-07/tex/paper-07.tex" 1774537864.9778 13444 cafaf3f757b84606dad04d73be7215c8 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc" 1254269338 2375 baa924870cfb487815765f9094cf3728 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc" 1202520719 2405 5dcf2c1b967ee25cc46c58cd52244aed ""
   "/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc" 1202520719 2840 216e6e45ad352e2456e1149f28885bee ""
@@ -164,10 +164,10 @@
   "/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1769006903 5467155 19efa205003f9ecad95fbbaa6ff24da1 ""
   "/usr/local/texlive/2025/texmf-var/web2c/pdftex/pdflatex.fmt" 1769006826 3345740 df4bf6da6a887d91e4f0d78fac6548e0 ""
   "/usr/local/texlive/2025/texmf.cnf" 1741450484 577 418a7058ec8e006d8704f60ecd22c938 ""
-  "paper-07.aux" 1773223948.54352 4481 41132e354baa72c860acae025df05792 "pdflatex"
+  "paper-07.aux" 1774537865.71246 4481 41132e354baa72c860acae025df05792 "pdflatex"
   "paper-07.bbl" 1773223947.60873 1980 28c19e8c34138b62d4af8c2d0ed844b0 "bibtex paper-07"
-  "paper-07.out" 1773223948.54426 1804 55d963217b795519f84f7f21900d426a "pdflatex"
-  "paper-07.tex" 1773223945.78832 13384 59d062b76c0a3ebfdd91a0a67b85d84f ""
+  "paper-07.out" 1774537865.71295 1804 55d963217b795519f84f7f21900d426a "pdflatex"
+  "paper-07.tex" 1774537864.9778 13444 cafaf3f757b84606dad04d73be7215c8 ""
   (generated)
   "paper-07.aux"
   "paper-07.log"

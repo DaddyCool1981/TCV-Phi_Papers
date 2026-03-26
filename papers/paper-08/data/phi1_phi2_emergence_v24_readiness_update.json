@@ -1,0 +1,25 @@
+{
+  "status": "B_promising_but_incomplete",
+  "checks": {
+    "analytic_local_model_ready": true,
+    "canonical_reduction_ready": true,
+    "canonical_mode_capture_good": false,
+    "strict_homogeneous_ready": true,
+    "canonical_mode_capture_good_topology_aware": true,
+    "mass_scale_naturalness_supported": true
+  },
+  "note": "All internal checks pass under current v24 assumptions; publication-level claim still requires first-principles UV mapping beyond the chosen dimensional prior.",
+  "naturalness": {
+    "verdict": "naturalness_supported",
+    "alpha": 0.5781734496488212,
+    "max_delta": 0.5357366064294382,
+    "overlap_summary": {
+      "median": 0.4,
+      "p16_p84": [
+        0.4,
+        0.4
+      ],
+      "fraction_above_0p10": 1.0
+    }
+  }
+}

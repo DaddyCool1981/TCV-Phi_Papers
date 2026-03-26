@@ -1,0 +1,25 @@
+{
+  "settings": {
+    "n_samples": 96,
+    "seed": 20260390,
+    "inertia_eta": 0.2
+  },
+  "metrics": {
+    "first_mode_weight_mean": 0.21494829951577885,
+    "first_mode_weight_p16_p84": [
+      0.043515355470609245,
+      0.37783796575311324
+    ],
+    "orthogonality_error_max_mean": 1.9454871623083392e-15,
+    "orthogonality_error_max_p90": 2.4424906541753444e-15,
+    "canonical_norm_error_mean": 4.544975507059235e-16,
+    "canonical_norm_error_p90": 1.1102230246251565e-15,
+    "m2_generalized_mean": 0.01409529354676474,
+    "z0_mean": 1.0
+  },
+  "pass_flags": {
+    "orthogonality_good": true,
+    "canonical_norm_good": true,
+    "mode_capture_good": false
+  }
+}

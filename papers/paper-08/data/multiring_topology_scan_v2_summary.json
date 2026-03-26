@@ -1,0 +1,217 @@
+{
+  "status": "completed",
+  "baseline": {
+    "flavour_index": 0.9059391311700663,
+    "flavour_score": 0.23515217207483413,
+    "strict_fraction": 0.041529501139528996,
+    "bridge_index": 0.8695312500000001,
+    "joint_fraction": 0.99375,
+    "robustness_pass_fraction": 0.7177083333333333,
+    "micro_closure_index": 0.5198214295137118,
+    "micro_closure_status": "micro_closure_partial_supported",
+    "projection13_err_mean": 0.02881071422917729
+  },
+  "results": [
+    {
+      "topology": "nearest_neighbor_loop",
+      "label": "nearest-neighbor loop",
+      "description": "Baseline cyclic inter-ring coupling with one twisted channel per ring pair.",
+      "topology_descriptors": {
+        "pattern": "nearest_neighbor_loop",
+        "twist_shift": 1,
+        "signed": false,
+        "phase": 0.0,
+        "multiplicity": 1,
+        "dense_factor": 1.0,
+        "hierarchy_strength": 0.0,
+        "frustration_strength": 0.0
+      },
+      "flavour_index_raw": 0.7178816802395451,
+      "flavour_index": 0.9059391311700663,
+      "flavour_score_mean": 0.7052957994011371,
+      "strict_fraction": 0.675,
+      "best_flavour_candidate": {
+        "angles_deg": {
+          "theta12": 32.24782257437082,
+          "theta13": 8.382043323888949,
+          "theta23": 45.10843918369414
+        },
+        "score": 0.09416347000681866,
+        "strict_ok": true,
+        "flavour_index": 0.9623346119972725,
+        "controls": {
+          "bridge": 1.921318977913979,
+          "epsilon_l": 0.008140889277895467,
+          "anchor": 1.0397101945317864
+        }
+      },
+      "bridge_index_raw": 0.3955477779737962,
+      "bridge_index": 0.8695312500000001,
+      "joint_fraction": 0.0,
+      "robustness_pass_fraction": 0.0,
+      "epsilon_soft_mean": 0.46051867479263275,
+      "gap_ratio_mean": 0.00320559985886676,
+      "participation_mean": 59.89527156992342,
+      "m2_proxy_mean": 0.029893379192007453,
+      "overall_index_preclosure": 0.7109163100914279,
+      "projection13_err_mean": 0.9970318780012333,
+      "capture_mean": 0.03125000000000001,
+      "micro_closure_index": 0.07812500000000001,
+      "micro_closure_status": "open",
+      "overall_index": 0.6617724948446252,
+      "classification": "A_topology_does_not_help"
+    },
+    {
+      "topology": "alternating_handedness",
+      "label": "alternating handedness",
+      "description": "Cyclic links with alternating orientation signs and mild frustration.",
+      "topology_descriptors": {
+        "pattern": "alternating_handedness",
+        "twist_shift": 1,
+        "signed": true,
+        "phase": 0.0,
+        "multiplicity": 1,
+        "dense_factor": 1.0,
+        "hierarchy_strength": 0.0,
+        "frustration_strength": 0.0
+      },
+      "flavour_index_raw": 0.5796215778559696,
+      "flavour_index": 0.7314601878056595,
+      "flavour_score_mean": 1.0517283854831458,
+      "strict_fraction": 0.42777777777777776,
+      "best_flavour_candidate": {
+        "angles_deg": {
+          "theta12": 32.575703100248596,
+          "theta13": 8.428475579149474,
+          "theta23": 44.44189195950369
+        },
+        "score": 0.09997947808539281,
+        "strict_ok": true,
+        "flavour_index": 0.9600082087658429,
+        "controls": {
+          "bridge": 1.8104011745640403,
+          "epsilon_l": 0.01047660310956558,
+          "anchor": 1.019511735327159
+        }
+      },
+      "bridge_index_raw": 0.395783472730886,
+      "bridge_index": 0.8700493769322271,
+      "joint_fraction": 0.0,
+      "robustness_pass_fraction": 0.0,
+      "epsilon_soft_mean": 0.45871104341771973,
+      "gap_ratio_mean": 0.00303589963376209,
+      "participation_mean": 59.24311197022198,
+      "m2_proxy_mean": 0.03019897864412968,
+      "overall_index_preclosure": 0.6378320421126232,
+      "projection13_err_mean": 0.9971007634162964,
+      "capture_mean": 0.03125000000000001,
+      "micro_closure_index": 0.07812500000000001,
+      "micro_closure_status": "open",
+      "overall_index": 0.5956466595231078,
+      "classification": "A_topology_does_not_help"
+    },
+    {
+      "topology": "hierarchical_loop",
+      "label": "hierarchical loop",
+      "description": "Cyclic topology with one reinforced ring pair and one weakened pair.",
+      "topology_descriptors": {
+        "pattern": "hierarchical_loop",
+        "twist_shift": 1,
+        "signed": false,
+        "phase": 0.0,
+        "multiplicity": 1,
+        "dense_factor": 1.0,
+        "hierarchy_strength": 0.35,
+        "frustration_strength": 0.0
+      },
+      "flavour_index_raw": 0.016079390576782943,
+      "flavour_index": 0.0202915738482338,
+      "flavour_score_mean": 2.9953454591786843,
+      "strict_fraction": 0.0,
+      "best_flavour_candidate": {
+        "angles_deg": {
+          "theta12": 20.25805875543387,
+          "theta13": 13.427696395210504,
+          "theta23": 42.94665987204374
+        },
+        "score": 1.779404805256461,
+        "strict_ok": false,
+        "flavour_index": 0.2882380778974156,
+        "controls": {
+          "bridge": 2.000255242836016,
+          "epsilon_l": 0.011580556238787064,
+          "anchor": 1.07001455184997
+        }
+      },
+      "bridge_index_raw": 0.3953219488161553,
+      "bridge_index": 0.8690348105793672,
+      "joint_fraction": 0.0,
+      "robustness_pass_fraction": 0.0,
+      "epsilon_soft_mean": 0.45552975207150637,
+      "gap_ratio_mean": 0.003368196852368187,
+      "participation_mean": 57.11378640174394,
+      "m2_proxy_mean": 0.03128012377172694,
+      "overall_index_preclosure": 0.33875568903641773,
+      "projection13_err_mean": null,
+      "capture_mean": null,
+      "micro_closure_index": null,
+      "micro_closure_status": "not_tested",
+      "overall_index": 0.448732633923153,
+      "classification": "A_topology_does_not_help"
+    },
+    {
+      "topology": "frustrated_dual_closure",
+      "label": "frustrated dual closure",
+      "description": "Dual-channel closure with alternating handedness and explicit loop-frustration bias.",
+      "topology_descriptors": {
+        "pattern": "frustrated_dual_closure",
+        "twist_shift": 1,
+        "signed": true,
+        "phase": 0.65,
+        "multiplicity": 2,
+        "dense_factor": 1.18,
+        "hierarchy_strength": 0.0,
+        "frustration_strength": 0.4
+      },
+      "flavour_index_raw": 0.0,
+      "flavour_index": 0.0,
+      "flavour_score_mean": 5.329387766904518,
+      "strict_fraction": 0.0,
+      "best_flavour_candidate": {
+        "angles_deg": {
+          "theta12": 7.231106318160446,
+          "theta13": 7.095409647262107,
+          "theta23": 25.54083688063131
+        },
+        "score": 3.809144407333455,
+        "strict_ok": false,
+        "flavour_index": 0.0,
+        "controls": {
+          "bridge": 1.9252884206318992,
+          "epsilon_l": 0.011382527598580489,
+          "anchor": 1.130790920619766
+        }
+      },
+      "bridge_index_raw": 0.3958337157483992,
+      "bridge_index": 0.8701598259759451,
+      "joint_fraction": 0.0,
+      "robustness_pass_fraction": 0.0,
+      "epsilon_soft_mean": 0.5893248457072652,
+      "gap_ratio_mean": 0.002999724661152564,
+      "participation_mean": 59.922486504807694,
+      "m2_proxy_mean": 0.05848130975812891,
+      "overall_index_preclosure": 0.33066073387085915,
+      "projection13_err_mean": null,
+      "capture_mean": null,
+      "micro_closure_index": null,
+      "micro_closure_status": "not_tested",
+      "overall_index": 0.44140434109566073,
+      "classification": "A_topology_does_not_help"
+    }
+  ],
+  "final_classification": "A_topology_does_not_help",
+  "best_topology": "nearest_neighbor_loop",
+  "seed": 20260316,
+  "n_flavour": 360,
+  "n_bridge": 160
+}

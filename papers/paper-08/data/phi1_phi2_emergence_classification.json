@@ -1,0 +1,33 @@
+{
+  "selected_family": "twisted_ring",
+  "category": "B_promising_but_incomplete",
+  "decision_metrics": {
+    "joint_fraction": 0.4,
+    "robustness_pass_fraction": 0.12916666666666665,
+    "support_index": 0.051666666666666666,
+    "m2_eV_mean_calibrated": 1e-22,
+    "log10_deviation_from_ref": 0.0
+  },
+  "criteria_notes": [
+    "A: high joint + robustness + close calibrated mass scale.",
+    "B: moderate support with acceptable calibration window.",
+    "C: insufficient support and/or poor calibration."
+  ],
+  "reduced_homogeneous_test": {
+    "model": "reduced_homogeneous_matter_era",
+    "equation": "phi'' + 2/x phi' + phi = 0 with x = m t",
+    "x_window": [
+      0.01,
+      500.0
+    ],
+    "late_window_x_min": 100.0,
+    "expected_rho_scaling": "a^-3",
+    "measured_log_slope_rho_vs_a": -2.9999812148422937,
+    "target_log_slope": -3.0,
+    "rho_a3_relative_std_late": 0.0031581421344212203,
+    "pass_flags": {
+      "slope_close_to_minus3": true,
+      "rho_a3_quasi_constant": true
+    }
+  }
+}

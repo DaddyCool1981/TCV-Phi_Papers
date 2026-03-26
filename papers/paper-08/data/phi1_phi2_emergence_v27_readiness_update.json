@@ -1,0 +1,123 @@
+{
+  "status": "B_plus_structurally_strong_but_micro_closure_open",
+  "checks": {
+    "analytic_local_model_ready": true,
+    "canonical_reduction_ready": true,
+    "canonical_mode_capture_good": false,
+    "strict_homogeneous_ready": true,
+    "canonical_mode_capture_good_topology_aware": true,
+    "mass_scale_naturalness_supported": true,
+    "uv_compact_consistency_supported": true,
+    "micro_closure_supported": false,
+    "micro_closure_v26_supported": false,
+    "micro_closure_v27_supported": false
+  },
+  "note": "v27 loop/chirality-inspired kinetic term improves the ratio slightly but does not invert m0^2 ordering versus ring in scanned region.",
+  "naturalness": {
+    "verdict": "naturalness_supported",
+    "alpha": 0.5781734496488212,
+    "max_delta": 0.5357366064294382,
+    "overlap_summary": {
+      "median": 0.4,
+      "p16_p84": [
+        0.4,
+        0.4
+      ],
+      "fraction_above_0p10": 1.0
+    }
+  },
+  "uv_compact": {
+    "verdict": "uv_compact_consistency_supported",
+    "checks": {
+      "lambda_scaling_power_law_good": true,
+      "z0_collective_plateau_good": true,
+      "twist_reduces_soft_mode_scale": true,
+      "uv_closure_band_not_too_wide": true
+    },
+    "twist_effect": {
+      "lambda_ratio_twisted_over_ring_at_N128": 1.433267125560306,
+      "m2proxy_ratio_twisted_over_ring_at_N128": 0.6065672946210988,
+      "m2proxy_ratio_twisted_over_ring_median_Nge128": 0.49170448083240115
+    },
+    "uv_closure": {
+      "lambda_required_eV_median": 4.628533569442457e-21,
+      "lambda_required_eV_p16_p84": [
+        4.188400212874238e-21,
+        5.122203493213584e-21
+      ],
+      "log10_width_p84_over_p16": 0.08740865499115968
+    }
+  },
+  "micro_closure": {
+    "verdict": "micro_closure_partial",
+    "checks": {
+      "exact_generalized_diagonalization": true,
+      "twisted_capture_mode13_high": true,
+      "twisted_lowmode_projection_good": true,
+      "twisted_vs_ring_m0sq_lower": false
+    }
+  },
+  "micro_closure_v26": {
+    "verdict": "micro_closure_still_open_v26",
+    "n_all_pass": 0,
+    "best_ratio_record": {
+      "inertia_eta": 0.2,
+      "inertia_twist": 0.2,
+      "twisted": {
+        "orth_err_max": 2.1094237467877974e-15,
+        "h_reconstruction_rel_err": 2.240441480953568e-15,
+        "lambda1": 0.008878226429852044,
+        "m0_sq": 0.008878226429852452,
+        "capture13_max": 0.9966143616686006,
+        "projection13_err_mean": 0.11016763186435272
+      },
+      "ring": {
+        "orth_err_max": 1.9984014443252818e-15,
+        "h_reconstruction_rel_err": 2.076669529811252e-15,
+        "lambda1": 0.002503334757797938,
+        "m0_sq": 0.0025033347577983417,
+        "capture13_max": 1.5955128589832541e-09,
+        "projection13_err_mean": 6.282358092704692e-05
+      },
+      "checks": {
+        "diag_exact": true,
+        "capture_high": true,
+        "projection_good": true,
+        "m0sq_lower_than_ring": false
+      },
+      "all_pass": false,
+      "m0sq_ratio_tw_over_ring": 3.5465598047545046
+    }
+  },
+  "micro_closure_v27": {
+    "verdict": "micro_closure_still_open_v27",
+    "n_all_pass": 0,
+    "best_ratio_record": {
+      "inertia_eta": 0.1,
+      "inertia_twist": 0.1,
+      "inertia_loop": 0.1,
+      "twisted": {
+        "orth_err_max": 3.219646771412954e-15,
+        "h_reconstruction_rel_err": 7.544649316626873e-15,
+        "m0_sq": 0.008298967135675791,
+        "capture13_max": 0.9985590994657934,
+        "projection13_err_mean": 0.046424090682989395
+      },
+      "ring": {
+        "orth_err_max": 1.5732989206895032e-15,
+        "h_reconstruction_rel_err": 2.2354352442049118e-15,
+        "m0_sq": 0.002513107921215843,
+        "capture13_max": 3.572716202861013e-10,
+        "projection13_err_mean": 1.6485415988756634e-05
+      },
+      "checks": {
+        "diag_exact": true,
+        "capture_high": true,
+        "projection_good": true,
+        "m0sq_lower_than_ring": false
+      },
+      "all_pass": false,
+      "m0sq_ratio_tw_over_ring": 3.302272483252827
+    }
+  }
+}

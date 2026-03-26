@@ -1,0 +1,101 @@
+{
+  "status": "sm_family_rapprochement_pass1",
+  "baseline": "/Users/cyrille/Perso/Mes projets/TCV/REPO/TCV-Phi/TCV-PHI/papers/sm-exploration/data/qsp_hypothetical_naming_summary.json",
+  "verdict": "sm_family_rapprochement_supported_as_speculative_pattern",
+  "rows": [
+    {
+      "hypothesis_label": "HYP_LIGHT_PAIR::OBS_01",
+      "source_class": "Q_minus|L2_moderate|A1_offset",
+      "speculative_sm_like_reading": "possible_light_fermion-like_pair_pattern",
+      "correspondence_scope": "coarse_family_pattern_only",
+      "support_level": "moderate_internal_support",
+      "confidence_score": 0.72,
+      "support_basis": [
+        "paired low-rank light sector",
+        "negative recombination pole",
+        "shared light-family correspondence"
+      ],
+      "blockers": [
+        "no charge-sign calibration to SM quantum numbers",
+        "no spin/statistics derivation",
+        "no exact mass-spectrum fit"
+      ]
+    },
+    {
+      "hypothesis_label": "HYP_LIGHT_PAIR::OBS_02",
+      "source_class": "Q_minus|L1_weak|A1_offset",
+      "speculative_sm_like_reading": "possible_light_fermion-like_pair_pattern",
+      "correspondence_scope": "coarse_family_pattern_only",
+      "support_level": "moderate_internal_support",
+      "confidence_score": 0.72,
+      "support_basis": [
+        "paired low-rank light sector",
+        "negative recombination pole",
+        "shared light-family correspondence"
+      ],
+      "blockers": [
+        "no charge-sign calibration to SM quantum numbers",
+        "no spin/statistics derivation",
+        "no exact mass-spectrum fit"
+      ]
+    },
+    {
+      "hypothesis_label": "HYP_HEAVY_TRIPLET::heavy_shifted_branch::OBS_03",
+      "source_class": "Q_plus|L1_weak|A2_shifted",
+      "speculative_sm_like_reading": "possible_heavy_multibranch_family_pattern::heavy_shifted_branch",
+      "correspondence_scope": "coarse_family_and_branch_pattern",
+      "support_level": "moderate_internal_support",
+      "confidence_score": 0.76,
+      "support_basis": [
+        "heavy triplet family correspondence",
+        "positive transport pole",
+        "branch pattern `heavy_shifted_branch`"
+      ],
+      "blockers": [
+        "no gauge-charge reconstruction",
+        "no observed-family calibration",
+        "no exact branch-to-particle assignment"
+      ]
+    },
+    {
+      "hypothesis_label": "HYP_HEAVY_TRIPLET::heavy_offset_branch::OBS_04",
+      "source_class": "Q_plus|L1_weak|A1_offset",
+      "speculative_sm_like_reading": "possible_heavy_multibranch_family_pattern::heavy_offset_branch",
+      "correspondence_scope": "coarse_family_and_branch_pattern",
+      "support_level": "moderate_internal_support",
+      "confidence_score": 0.81,
+      "support_basis": [
+        "heavy triplet family correspondence",
+        "positive transport pole",
+        "branch pattern `heavy_offset_branch`"
+      ],
+      "blockers": [
+        "no gauge-charge reconstruction",
+        "no observed-family calibration",
+        "no exact branch-to-particle assignment"
+      ]
+    },
+    {
+      "hypothesis_label": "HYP_HEAVY_TRIPLET::heavy_aligned_branch::OBS_05",
+      "source_class": "Q_plus|L1_weak|A0_aligned",
+      "speculative_sm_like_reading": "possible_heavy_multibranch_family_pattern::heavy_aligned_branch",
+      "correspondence_scope": "coarse_family_and_branch_pattern",
+      "support_level": "moderate_internal_support",
+      "confidence_score": 0.81,
+      "support_basis": [
+        "heavy triplet family correspondence",
+        "positive transport pole",
+        "branch pattern `heavy_aligned_branch`"
+      ],
+      "blockers": [
+        "no gauge-charge reconstruction",
+        "no observed-family calibration",
+        "no exact branch-to-particle assignment"
+      ]
+    }
+  ],
+  "light_family_pattern_supported": true,
+  "heavy_family_pattern_supported": true,
+  "family_split_pattern_supported": true,
+  "exact_sm_identification_blocked": true
+}

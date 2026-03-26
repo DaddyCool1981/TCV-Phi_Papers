@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1450" height="440" viewBox="0 0 1450 440">
+<rect x="0" y="0" width="1450" height="440" fill="#fffdfa"/>
+<text x="50" y="48" font-family="Helvetica, Arial, sans-serif" font-size="30" fill="#222" font-weight="bold" text-anchor="start">Stage 28 generation-structure routes</text>
+<text x="50" y="78" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#5f6b7a" font-weight="normal" text-anchor="start">All routes remain candidate-level; none is promoted to theorem-level flavour structure.</text>
+<rect x="50" y="130" width="370" height="230" rx="16" ry="16" fill="#f7f4ee" stroke="#b45f06" stroke-width="2.2"/>
+<text x="68" y="158" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#b45f06" font-weight="bold" text-anchor="start">Three-generation route</text>
+<text x="68" y="190" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#222" font-weight="normal" text-anchor="start">preferred family:</text>
+<text x="68" y="208" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#222" font-weight="normal" text-anchor="start">muon_strange_anchor</text>
+<rect x="480" y="130" width="370" height="230" rx="16" ry="16" fill="#f7f4ee" stroke="#b45f06" stroke-width="2.2"/>
+<text x="498" y="158" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#b45f06" font-weight="bold" text-anchor="start">CKM-like route</text>
+<text x="498" y="190" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#222" font-weight="normal" text-anchor="start">triplet balance = 0.034620</text>
+<text x="498" y="208" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#222" font-weight="normal" text-anchor="start">hierarchy margin = 0.150482</text>
+<rect x="910" y="130" width="370" height="230" rx="16" ry="16" fill="#f7f4ee" stroke="#b45f06" stroke-width="2.2"/>
+<text x="928" y="158" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#b45f06" font-weight="bold" text-anchor="start">Neutrino route</text>
+<text x="928" y="190" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#222" font-weight="normal" text-anchor="start">neutrino-like role:</text>
+<text x="928" y="208" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#222" font-weight="normal" text-anchor="start">second_generation_neutrino_l</text>
+<text x="928" y="226" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#222" font-weight="normal" text-anchor="start">ike</text>
+<text x="928" y="244" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#222" font-weight="normal" text-anchor="start">charged partner:</text>
+<text x="928" y="262" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#222" font-weight="normal" text-anchor="start">second_generation_charged_le</text>
+<text x="928" y="280" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#222" font-weight="normal" text-anchor="start">pton_like</text>
+</svg>

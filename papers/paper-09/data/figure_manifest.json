@@ -1,0 +1,42 @@
+{
+  "paper": "paper-09",
+  "status": "canonical_figures_promoted",
+  "figures": [
+    {
+      "id": "fig01",
+      "paper_path": "../figs/paper-09-fig-01-mesoscopic-scale-hierarchy.png",
+      "source": "../../sm-exploration/figs/collective_particle_patch_scales_and_mass.png",
+      "role": "scale hierarchy and mesoscopic motivation"
+    },
+    {
+      "id": "fig02",
+      "paper_path": "../figs/paper-09-fig-02-qsp-identity-diagnostics.png",
+      "source": "../../sm-exploration/figs/qsp_interpretation_results.png",
+      "role": "physical interpretation of Q_SP as transport identity observable"
+    },
+    {
+      "id": "fig03",
+      "paper_path": "../figs/paper-09-fig-03-collision-channels.png",
+      "source": "../../sm-exploration/figs/qsp_collision_results.png",
+      "role": "collision and recombination channel structure"
+    },
+    {
+      "id": "fig04",
+      "paper_path": "../figs/paper-09-fig-04-attractor-reduction.png",
+      "source": "../../sm-exploration/figs/qsp_attractor_reduction_results.png",
+      "role": "reduced attractor classes"
+    },
+    {
+      "id": "fig05",
+      "paper_path": "../figs/paper-09-fig-05-sector-projection.png",
+      "source": "../../sm-exploration/figs/qsp_basis_sector_results.png",
+      "role": "heavy-light sector projection"
+    },
+    {
+      "id": "fig06",
+      "paper_path": "../figs/paper-09-fig-06-effective-family-reading.png",
+      "source": "../../sm-exploration/figs/qsp_effective_family_reading_results.png",
+      "role": "effective family reading"
+    }
+  ]
+}

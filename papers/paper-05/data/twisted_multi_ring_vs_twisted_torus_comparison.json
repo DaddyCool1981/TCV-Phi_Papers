@@ -1,0 +1,25 @@
+{
+  "twisted_multi_ring_best": {
+    "angles_deg": {
+      "theta12": 32.05496080624638,
+      "theta13": 7.761072010827432,
+      "theta23": 45.34135624458359
+    },
+    "score_common": 0.23515217207483413,
+    "strict_fraction_within_natural": 0.041529501139528996,
+    "twist_shift": 1
+  },
+  "twisted_torus_best": {
+    "angles_deg": {
+      "theta12": 34.560081347717166,
+      "theta13": 8.291308377393046,
+      "theta23": 41.5805713023299
+    },
+    "score_common": 0.5185715898671976,
+    "strict_fraction_within_natural": 0.019417475728155338
+  },
+  "notes": [
+    "This is a direct PMNS-level comparison only.",
+    "If twisted_multi_ring remains competitive here, it deserves a dedicated Phi2 bridge and micro-closure follow-up."
+  ]
+}

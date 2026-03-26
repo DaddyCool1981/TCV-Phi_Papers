@@ -1,0 +1,74 @@
+{
+  "status": "family_correspondence_pass1",
+  "baseline": "/Users/cyrille/Perso/Mes projets/TCV/REPO/TCV-Phi/TCV-PHI/papers/sm-exploration/data/qsp_effective_observable_analogy_summary.json",
+  "verdict": "family_correspondence_supported",
+  "candidates": [
+    {
+      "slot_label": "OBS_01",
+      "reduced_class": "Q_minus|L2_moderate|A1_offset",
+      "candidate_family": "candidate_light_family",
+      "candidate_subfamily": "light_offset_pair",
+      "hierarchy_role": "low_rank_member",
+      "support_basis": [
+        "negative recombination pole",
+        "low-rank spectral placement",
+        "formation-dominated transport"
+      ]
+    },
+    {
+      "slot_label": "OBS_02",
+      "reduced_class": "Q_minus|L1_weak|A1_offset",
+      "candidate_family": "candidate_light_family",
+      "candidate_subfamily": "light_offset_pair",
+      "hierarchy_role": "low_rank_member",
+      "support_basis": [
+        "negative recombination pole",
+        "low-rank spectral placement",
+        "formation-dominated transport"
+      ]
+    },
+    {
+      "slot_label": "OBS_03",
+      "reduced_class": "Q_plus|L1_weak|A2_shifted",
+      "candidate_family": "candidate_heavy_family",
+      "candidate_subfamily": "heavy_shifted_branch",
+      "hierarchy_role": "entry_heavy_member",
+      "support_basis": [
+        "positive transport pole",
+        "heavy_shifted_branch",
+        "high_transport_support",
+        "mid_rank"
+      ]
+    },
+    {
+      "slot_label": "OBS_04",
+      "reduced_class": "Q_plus|L1_weak|A1_offset",
+      "candidate_family": "candidate_heavy_family",
+      "candidate_subfamily": "heavy_offset_branch",
+      "hierarchy_role": "upper_heavy_member",
+      "support_basis": [
+        "positive transport pole",
+        "heavy_offset_branch",
+        "high_transport_support",
+        "high_rank"
+      ]
+    },
+    {
+      "slot_label": "OBS_05",
+      "reduced_class": "Q_plus|L1_weak|A0_aligned",
+      "candidate_family": "candidate_heavy_family",
+      "candidate_subfamily": "heavy_aligned_branch",
+      "hierarchy_role": "upper_heavy_member",
+      "support_basis": [
+        "positive transport pole",
+        "heavy_aligned_branch",
+        "supported_transport",
+        "high_rank"
+      ]
+    }
+  ],
+  "light_family_supported": true,
+  "heavy_family_supported": true,
+  "hierarchy_supported": true,
+  "non_arbitrary_split_supported": true
+}

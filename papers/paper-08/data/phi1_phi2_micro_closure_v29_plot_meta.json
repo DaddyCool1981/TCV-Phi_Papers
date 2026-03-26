@@ -1,0 +1,32 @@
+{
+  "verdict": "micro_closure_still_open_v29",
+  "n_all_pass": 0,
+  "max_pass_fraction_over_mix": 0.0,
+  "best_ratio_record": {
+    "mix_twist": 0.3,
+    "eta_mult": 1.1,
+    "loop_mult": 0.9,
+    "twisted": {
+      "orth_err_max": 3.9968028886505635e-15,
+      "h_reconstruction_rel_err": 7.927273136680624e-15,
+      "m0_sq": 0.008710205173321323,
+      "capture13_max": 0.9968700437007594,
+      "projection13_err_mean": 0.0941391121376389
+    },
+    "ring": {
+      "orth_err_max": 2.0814563969548024e-15,
+      "h_reconstruction_rel_err": 2.1585105064490384e-15,
+      "m0_sq": 0.0024987458626626324,
+      "capture13_max": 2.2692094273630272e-10,
+      "projection13_err_mean": 6.57001304723144e-05
+    },
+    "checks": {
+      "diag_exact": true,
+      "capture_high": true,
+      "projection_good": true,
+      "m0sq_lower_than_ring": false
+    },
+    "all_pass": false,
+    "m0sq_ratio_tw_over_ring": 3.4858307535284268
+  }
+}

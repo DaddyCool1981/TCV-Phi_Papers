@@ -1,0 +1,59 @@
+{
+  "status": "consolidated twisted-topology head-to-head",
+  "twisted_torus": {
+    "geometry": "twisted_torus",
+    "pmns": {
+      "angles_deg": {
+        "theta12": 34.560081347717166,
+        "theta13": 8.291308377393046,
+        "theta23": 41.5805713023299
+      },
+      "score_common": 0.5185715898671976,
+      "strict_fraction_within_natural": 0.019417475728155338
+    },
+    "bridge": {
+      "joint_fraction": 0.9152777777777779,
+      "robustness_pass_fraction": 0.3050925925925926,
+      "m2_eV": 3.505261219008403e-23,
+      "m2_log10_dev": 0.4552796120063944,
+      "micro_status": "structured_but_open",
+      "micro_projection_good": true
+    },
+    "flavour_index": 0.7359774251977197,
+    "bridge_index": 0.6145085255678127,
+    "overall_index": 0.6752429753827662
+  },
+  "twisted_multi_ring": {
+    "geometry": "twisted_multi_ring",
+    "pmns": {
+      "angles_deg": {
+        "theta12": 32.05496080624638,
+        "theta13": 7.761072010827432,
+        "theta23": 45.34135624458359
+      },
+      "score_common": 0.23515217207483413,
+      "strict_fraction_within_natural": 0.041529501139528996
+    },
+    "bridge": {
+      "joint_fraction": 0.9961538461538462,
+      "robustness_pass_fraction": 0.7025641025641025,
+      "m2_eV": 9.024108209492967e-23,
+      "m2_log10_dev": 0.04459570563645067,
+      "micro_status": "good_proxy",
+      "micro_projection_good": true
+    },
+    "flavour_index": 0.9491337936719066,
+    "bridge_index": 0.9064565895402916,
+    "overall_index": 0.9277951916060991
+  },
+  "winner": {
+    "geometry": "twisted_multi_ring",
+    "reason": "higher combined flavour + bridge index",
+    "overall_index": 0.9277951916060991
+  },
+  "notes": [
+    "The twisted_torus bridge uses the established v21/v29 in-repo diagnostics.",
+    "The twisted_multi_ring bridge is the new dedicated additive bridge.",
+    "This comparison is the current best internal decision layer for choosing the lead twisted topology."
+  ]
+}

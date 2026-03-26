@@ -1,15 +1,15 @@
 # Fdb version 4
-["bibtex paper-06"] 1773148833.3879 "paper-06.aux" "paper-06.bbl" "paper-06" 1773223452.14019 0
-  "./paper-06Notes.bib" 1773223451.80931 104 4d8bb863c86f3d7b03a471e9d4707f34 ""
+["bibtex paper-06"] 1773148833.3879 "paper-06.aux" "paper-06.bbl" "paper-06" 1774534493.86728 0
+  "./paper-06Notes.bib" 1774534493.69577 104 4d8bb863c86f3d7b03a471e9d4707f34 ""
   "/usr/local/texlive/2025/texmf-dist/bibtex/bst/revtex/apsrev4-2.bst" 1601932770 69609 e9dea59f0e753ccda3ddc8f5806d846d ""
-  "paper-06.aux" 1773223451.80848 2415 8f0d30fed17ba3e2f47a6919302a449c "pdflatex"
+  "paper-06.aux" 1774534493.69466 2415 8f0d30fed17ba3e2f47a6919302a449c "pdflatex"
   (generated)
   "paper-06.bbl"
   "paper-06.blg"
   (rewritten before read)
-["pdflatex"] 1773223451.00402 "/Users/cyrille/Perso/Mes projets/TCV-Phi_Papers/papers/paper-06/tex/paper-06.tex" "paper-06.pdf" "paper-06" 1773223452.14041 0
+["pdflatex"] 1774534493.27131 "/Users/cyrille/Perso/Mes projets/TCV-Phi_Papers/papers/paper-06/tex/paper-06.tex" "paper-06.pdf" "paper-06" 1774534493.8674 0
   "/Users/cyrille/Perso/Mes" 1770370310.07885 0 d41d8cd98f00b204e9800998ecf8427e ""
-  "/Users/cyrille/Perso/Mes projets/TCV-Phi_Papers/papers/paper-06/tex/paper-06.tex" 1773223450.54213 7304 09a8136df6227094a5bc36d95f2b05f8 ""
+  "/Users/cyrille/Perso/Mes projets/TCV-Phi_Papers/papers/paper-06/tex/paper-06.tex" 1774534493.08635 7360 513baa147d6635b5a9592f9c61a56ea8 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc" 1254269338 2375 baa924870cfb487815765f9094cf3728 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc" 1202520719 2405 5dcf2c1b967ee25cc46c58cd52244aed ""
   "/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc" 1202520719 2840 216e6e45ad352e2456e1149f28885bee ""
@@ -162,10 +162,10 @@
   "/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1769006903 5467155 19efa205003f9ecad95fbbaa6ff24da1 ""
   "/usr/local/texlive/2025/texmf-var/web2c/pdftex/pdflatex.fmt" 1769006826 3345740 df4bf6da6a887d91e4f0d78fac6548e0 ""
   "/usr/local/texlive/2025/texmf.cnf" 1741450484 577 418a7058ec8e006d8704f60ecd22c938 ""
-  "paper-06.aux" 1773223451.80848 2415 8f0d30fed17ba3e2f47a6919302a449c "pdflatex"
+  "paper-06.aux" 1774534493.69466 2415 8f0d30fed17ba3e2f47a6919302a449c "pdflatex"
   "paper-06.bbl" 1773148833.50696 1982 35453d3875d823f0ec9445e740a573d9 "bibtex paper-06"
-  "paper-06.out" 1773223451.80905 1931 2e9b48a4b585419af82a7ce5bb3189e4 "pdflatex"
-  "paper-06.tex" 1773223450.54213 7304 09a8136df6227094a5bc36d95f2b05f8 ""
+  "paper-06.out" 1774534493.69508 1931 2e9b48a4b585419af82a7ce5bb3189e4 "pdflatex"
+  "paper-06.tex" 1774534493.08635 7360 513baa147d6635b5a9592f9c61a56ea8 ""
   (generated)
   "paper-06.aux"
   "paper-06.log"

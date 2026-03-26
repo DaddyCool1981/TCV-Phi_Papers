@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="430" viewBox="0 0 1500 430">
+<rect x="0" y="0" width="1500" height="430" fill="#fffdfa"/>
+<text x="50" y="48" font-family="Helvetica, Arial, sans-serif" font-size="30" fill="#222" font-weight="bold" text-anchor="start">Paper X derivation ladder</text>
+<text x="50" y="78" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#5f6b7a" font-weight="normal" text-anchor="start">Exact and guarded packages remain visually distinct from candidate and conditional layers.</text>
+<rect x="50" y="120" width="240" height="220" rx="16" ry="16" fill="#f7f4ee" stroke="#1f4e79" stroke-width="2.2"/>
+<text x="68" y="148" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#1f4e79" font-weight="bold" text-anchor="start">Stage 25
+Windowed SM crossing</text>
+<text x="68" y="180" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#222" font-weight="normal" text-anchor="start">The framework supports a</text>
+<text x="68" y="198" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#222" font-weight="normal" text-anchor="start">full Standard Model</text>
+<text x="68" y="216" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#222" font-weight="normal" text-anchor="start">derivation within the</text>
+<text x="68" y="234" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#222" font-weight="normal" text-anchor="start">explicitly tested external</text>
+<text x="68" y="252" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#222" font-weight="normal" text-anchor="start">matching window: exact U(1)</text>
+<text x="68" y="270" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#222" font-weight="normal" text-anchor="start">x SU(2) x SU(3) gauge</text>
+<text x="68" y="288" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#222" font-weight="normal" text-anchor="start">product, exact</text>
+<text x="68" y="306" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#222" font-weight="normal" text-anchor="start">representation-side</text>
+<text x="68" y="324" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#222" font-weight="normal" text-anchor="start">capstone, preferred external</text>
+<text x="68" y="342" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#222" font-weight="normal" text-anchor="start">5bar-type route, and</text>
+<text x="68" y="360" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#222" font-weight="normal" text-anchor="start">licensed nonproxy mass and</text>
+<text x="68" y="378" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#222" font-weight="normal" text-anchor="start">coupling assignments.</text>
+<line x1="290" y1="230" x2="320" y2="230" stroke="#5f6b7a" stroke-width="3"/>
+<rect x="340" y="120" width="240" height="220" rx="16" ry="16" fill="#f7f4ee" stroke="#2a7f62" stroke-width="2.2"/>
+<text x="358" y="148" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#2a7f62" font-weight="bold" text-anchor="start">Stage 26
+Anomaly dynamics</text>
+<text x="358" y="180" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#222" font-weight="normal" text-anchor="start">Stage 26 supports a</text>
+<text x="358" y="198" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#222" font-weight="normal" text-anchor="start">strengthened guarded</text>
+<text x="358" y="216" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#222" font-weight="normal" text-anchor="start">theorem-style internal</text>
+<text x="358" y="234" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#222" font-weight="normal" text-anchor="start">anomaly-dynamics package</text>
+<text x="358" y="252" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#222" font-weight="normal" text-anchor="start">with closed-form unique</text>
+<text x="358" y="270" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#222" font-weight="normal" text-anchor="start">zero, exact isolated</text>
+<text x="358" y="288" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#222" font-weight="normal" text-anchor="start">minimum, analytic symmetry-</text>
+<text x="358" y="306" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#222" font-weight="normal" text-anchor="start">lock recovery, candidate</text>
+<text x="358" y="324" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#222" font-weight="normal" text-anchor="start">transport-equation origin,</text>
+<text x="358" y="342" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#222" font-weight="normal" text-anchor="start">and candidate unique</text>
+<text x="358" y="360" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#222" font-weight="normal" text-anchor="start">internal action.</text>
+<line x1="580" y1="230" x2="610" y2="230" stroke="#5f6b7a" stroke-width="3"/>
+<rect x="630" y="120" width="240" height="220" rx="16" ry="16" fill="#f7f4ee" stroke="#b45f06" stroke-width="2.2"/>
+<text x="648" y="148" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#b45f06" font-weight="bold" text-anchor="start">Stage 27
+Hard predictions</text>
+<text x="648" y="180" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#222" font-weight="normal" text-anchor="start">Lambda_TCV, m_Phi2, and</text>
+<text x="648" y="198" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#222" font-weight="normal" text-anchor="start">conditional EW anchor</text>
+<line x1="870" y1="230" x2="900" y2="230" stroke="#5f6b7a" stroke-width="3"/>
+<rect x="920" y="120" width="240" height="220" rx="16" ry="16" fill="#f7f4ee" stroke="#b45f06" stroke-width="2.2"/>
+<text x="938" y="148" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#b45f06" font-weight="bold" text-anchor="start">Stage 28
+Generation routes</text>
+<text x="938" y="180" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#222" font-weight="normal" text-anchor="start">Three-generation, CKM-like,</text>
+<text x="938" y="198" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#222" font-weight="normal" text-anchor="start">and neutrino-spectrum routes</text>
+<line x1="1160" y1="230" x2="1190" y2="230" stroke="#5f6b7a" stroke-width="3"/>
+<rect x="1210" y="120" width="240" height="220" rx="16" ry="16" fill="#f7f4ee" stroke="#b45f06" stroke-width="2.2"/>
+<text x="1228" y="148" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#b45f06" font-weight="bold" text-anchor="start">Stage 29
+Unification route</text>
+<text x="1228" y="180" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#222" font-weight="normal" text-anchor="start">Gauge-coupling meeting route</text>
+<text x="1228" y="198" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#222" font-weight="normal" text-anchor="start">and conditional 3/8 path</text>
+</svg>

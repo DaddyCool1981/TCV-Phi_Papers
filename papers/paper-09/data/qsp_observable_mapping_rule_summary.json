@@ -1,0 +1,70 @@
+{
+  "status": "observable_mapping_rule_pass1",
+  "baseline": "/Users/cyrille/Perso/Mes projets/TCV/REPO/TCV-Phi/TCV-PHI/papers/sm-exploration/data/qsp_charge_spectrum_cross_summary.json",
+  "verdict": "observable_mapping_rule_supported",
+  "slots": [
+    {
+      "reduced_class": "Q_minus|L2_moderate|A1_offset",
+      "slot_label": "OBS_01",
+      "family_group": "light_offset_branch",
+      "polarity_group": "negative_recombination_pole",
+      "transport_group": "formation_dominated",
+      "rank_group": "low_rank",
+      "charge_level": "C_minus_moderate",
+      "spectral_rank": 1,
+      "signed_coordinate": -0.4,
+      "spectral_support": 0.0
+    },
+    {
+      "reduced_class": "Q_minus|L1_weak|A1_offset",
+      "slot_label": "OBS_02",
+      "family_group": "light_offset_branch",
+      "polarity_group": "negative_recombination_pole",
+      "transport_group": "formation_dominated",
+      "rank_group": "low_rank",
+      "charge_level": "C_minus_weak",
+      "spectral_rank": 2,
+      "signed_coordinate": -0.22280021463360786,
+      "spectral_support": 0.0024957403181661373
+    },
+    {
+      "reduced_class": "Q_plus|L1_weak|A2_shifted",
+      "slot_label": "OBS_03",
+      "family_group": "heavy_shifted_branch",
+      "polarity_group": "positive_transport_pole",
+      "transport_group": "high_transport_support",
+      "rank_group": "mid_rank",
+      "charge_level": "C_plus_supported",
+      "spectral_rank": 3,
+      "signed_coordinate": 0.7434511502160839,
+      "spectral_support": 0.9490708356746724
+    },
+    {
+      "reduced_class": "Q_plus|L1_weak|A1_offset",
+      "slot_label": "OBS_04",
+      "family_group": "heavy_offset_branch",
+      "polarity_group": "positive_transport_pole",
+      "transport_group": "high_transport_support",
+      "rank_group": "high_rank",
+      "charge_level": "C_plus_strong",
+      "spectral_rank": 4,
+      "signed_coordinate": 0.8569156998503613,
+      "spectral_support": 0.9765912359906186
+    },
+    {
+      "reduced_class": "Q_plus|L1_weak|A0_aligned",
+      "slot_label": "OBS_05",
+      "family_group": "heavy_aligned_branch",
+      "polarity_group": "positive_transport_pole",
+      "transport_group": "supported_transport",
+      "rank_group": "high_rank",
+      "charge_level": "C_plus_strong",
+      "spectral_rank": 5,
+      "signed_coordinate": 0.8534496467669478,
+      "spectral_support": 0.9778843003729271
+    }
+  ],
+  "family_triplet_supported": true,
+  "light_pair_supported": true,
+  "transport_split_supported": true
+}

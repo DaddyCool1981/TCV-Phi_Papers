@@ -1,0 +1,731 @@
+{
+  "status": "private hybrid inverse/direct PMNS-to-geometry workflow",
+  "constraint_profile": {
+    "target_pmns_deg": {
+      "theta12": 33.0,
+      "theta13": 8.6,
+      "theta23": 45.0
+    },
+    "target_windows_deg": {
+      "theta12": [
+        10.0,
+        40.0
+      ],
+      "theta13": [
+        2.0,
+        12.0
+      ],
+      "theta23": [
+        40.0,
+        50.0
+      ]
+    },
+    "observational_features": {
+      "large_theta23": 1.0,
+      "small_nonzero_theta13": 0.76,
+      "moderate_theta12": 0.9
+    },
+    "constraints": {
+      "requires_doublet": 0.95,
+      "requires_singlet_doublet_split": 0.9,
+      "requires_small_singlet_doublet_mixing": 0.8,
+      "requires_controlled_symmetry_breaking": 0.85,
+      "requires_closed_geometry": 0.75,
+      "requires_nontrivial_topology": 0.7,
+      "requires_hierarchical_companion_sector": 0.65,
+      "requires_collective_branch_sector": 0.8
+    },
+    "constraint_table": [
+      {
+        "constraint": "requires_doublet",
+        "weight": 0.95,
+        "status": "required",
+        "explanation": "Large theta23 suggests a quasi-degenerate 2-3 modal sector."
+      },
+      {
+        "constraint": "requires_singlet_doublet_split",
+        "weight": 0.9,
+        "status": "required",
+        "explanation": "Moderate theta12 is easier to obtain from a one-plus-two modal decomposition than from a fully rigid hierarchy."
+      },
+      {
+        "constraint": "requires_small_singlet_doublet_mixing",
+        "weight": 0.8,
+        "status": "required",
+        "explanation": "Small but nonzero theta13 points to weak singlet-doublet coupling rather than exact decoupling."
+      },
+      {
+        "constraint": "requires_controlled_symmetry_breaking",
+        "weight": 0.85,
+        "status": "required",
+        "explanation": "Exact degeneracy must be lifted, but only moderately, to avoid destroying the atmospheric sector."
+      },
+      {
+        "constraint": "requires_closed_geometry",
+        "weight": 0.75,
+        "status": "likely",
+        "explanation": "Closed geometries naturally support shared branch modes and coherent recirculation."
+      },
+      {
+        "constraint": "requires_nontrivial_topology",
+        "weight": 0.7,
+        "status": "likely",
+        "explanation": "A twisted or nontrivial closed topology is a plausible way to keep theta23 large while preventing theta13 from blowing up."
+      },
+      {
+        "constraint": "requires_hierarchical_companion_sector",
+        "weight": 0.65,
+        "status": "likely",
+        "explanation": "Charged leptons remain more hierarchical than neutrinos in the toy layer."
+      },
+      {
+        "constraint": "requires_collective_branch_sector",
+        "weight": 0.8,
+        "status": "required",
+        "explanation": "The atmospheric sector is naturally read as a collective branch/doublet effect."
+      }
+    ],
+    "notes": [
+      "This is an inverse-structure inference, not a proof of uniqueness.",
+      "Weights rank how strongly a PMNS-like target suggests each structural feature."
+    ]
+  },
+  "geometry_property_matrix": [
+    {
+      "geometry": "pyramidal",
+      "display_name": "Pyramidal",
+      "structural_class": "open_hierarchical",
+      "properties": {
+        "requires_doublet": 0.3,
+        "requires_singlet_doublet_split": 0.4,
+        "requires_small_singlet_doublet_mixing": 0.55,
+        "requires_controlled_symmetry_breaking": 0.45,
+        "requires_closed_geometry": 0.0,
+        "requires_nontrivial_topology": 0.0,
+        "requires_hierarchical_companion_sector": 0.95,
+        "requires_collective_branch_sector": 0.25
+      },
+      "notes": [
+        "Strong hierarchy toy, weak support for a stable doublet."
+      ]
+    },
+    {
+      "geometry": "tetrahedral_apex_base",
+      "display_name": "Tetrahedral apex/base",
+      "structural_class": "rigid_singlet_doublet",
+      "properties": {
+        "requires_doublet": 0.8,
+        "requires_singlet_doublet_split": 0.85,
+        "requires_small_singlet_doublet_mixing": 0.6,
+        "requires_controlled_symmetry_breaking": 0.6,
+        "requires_closed_geometry": 0.2,
+        "requires_nontrivial_topology": 0.05,
+        "requires_hierarchical_companion_sector": 0.7,
+        "requires_collective_branch_sector": 0.7
+      },
+      "notes": [
+        "Clear singlet plus base-doublet logic, but no nontrivial topology."
+      ]
+    },
+    {
+      "geometry": "tetrahedral_star",
+      "display_name": "Tetrahedral star",
+      "structural_class": "rigid_triplet_split",
+      "properties": {
+        "requires_doublet": 0.65,
+        "requires_singlet_doublet_split": 0.7,
+        "requires_small_singlet_doublet_mixing": 0.55,
+        "requires_controlled_symmetry_breaking": 0.65,
+        "requires_closed_geometry": 0.2,
+        "requires_nontrivial_topology": 0.05,
+        "requires_hierarchical_companion_sector": 0.6,
+        "requires_collective_branch_sector": 0.55
+      },
+      "notes": [
+        "Triplet splitting is available, but the topology remains rigid and open."
+      ]
+    },
+    {
+      "geometry": "torus_ring",
+      "display_name": "Torus ring",
+      "structural_class": "closed_loop",
+      "properties": {
+        "requires_doublet": 0.8,
+        "requires_singlet_doublet_split": 0.78,
+        "requires_small_singlet_doublet_mixing": 0.75,
+        "requires_controlled_symmetry_breaking": 0.85,
+        "requires_closed_geometry": 1.0,
+        "requires_nontrivial_topology": 0.35,
+        "requires_hierarchical_companion_sector": 0.7,
+        "requires_collective_branch_sector": 0.85
+      },
+      "notes": [
+        "Closed-loop family with strong collective branch support."
+      ]
+    },
+    {
+      "geometry": "twisted_torus",
+      "display_name": "Twisted torus",
+      "structural_class": "closed_twisted_loop",
+      "properties": {
+        "requires_doublet": 0.95,
+        "requires_singlet_doublet_split": 0.95,
+        "requires_small_singlet_doublet_mixing": 0.9,
+        "requires_controlled_symmetry_breaking": 0.9,
+        "requires_closed_geometry": 1.0,
+        "requires_nontrivial_topology": 1.0,
+        "requires_hierarchical_companion_sector": 0.75,
+        "requires_collective_branch_sector": 0.95
+      },
+      "notes": [
+        "Closed twisted topology; best current joint flavour candidate."
+      ]
+    },
+    {
+      "geometry": "spherical_shell",
+      "display_name": "Spherical shell",
+      "structural_class": "closed_isotropic",
+      "properties": {
+        "requires_doublet": 0.2,
+        "requires_singlet_doublet_split": 0.2,
+        "requires_small_singlet_doublet_mixing": 0.3,
+        "requires_controlled_symmetry_breaking": 0.3,
+        "requires_closed_geometry": 0.9,
+        "requires_nontrivial_topology": 0.0,
+        "requires_hierarchical_companion_sector": 0.35,
+        "requires_collective_branch_sector": 0.4
+      },
+      "notes": [
+        "Closed but too isotropic for the observed PMNS pattern in current toys."
+      ]
+    }
+  ],
+  "family_rankings": [
+    {
+      "geometry": "twisted_torus",
+      "display_name": "Twisted torus",
+      "structural_class": "closed_twisted_loop",
+      "representative_angles_deg": {
+        "theta12": 34.560081347717166,
+        "theta13": 8.291308377393046,
+        "theta23": 41.5805713023299
+      },
+      "score_common": 0.5185715898671976,
+      "pmns_viability_index": 0.5097087378640777,
+      "strict_fraction_within_natural": 0.019417475728155338,
+      "score_quality_0to1": 1.0,
+      "structural_score": 0.9281249999999999,
+      "properties": {
+        "requires_doublet": 0.95,
+        "requires_singlet_doublet_split": 0.95,
+        "requires_small_singlet_doublet_mixing": 0.9,
+        "requires_controlled_symmetry_breaking": 0.9,
+        "requires_closed_geometry": 1.0,
+        "requires_nontrivial_topology": 1.0,
+        "requires_hierarchical_companion_sector": 0.75,
+        "requires_collective_branch_sector": 0.95
+      },
+      "family_notes": [
+        "Closed twisted topology; best current joint flavour candidate."
+      ],
+      "sector_extension_index": 0.6004242704178971,
+      "combined_pmns_structure_score": 0.6488409463879273
+    },
+    {
+      "geometry": "torus_ring",
+      "display_name": "Torus ring",
+      "structural_class": "closed_loop",
+      "representative_angles_deg": {
+        "theta12": 30.8673487577931,
+        "theta13": 10.83183563101732,
+        "theta23": 41.5396054711135
+      },
+      "score_common": 0.7753542697473904,
+      "pmns_viability_index": 0.4477537101425576,
+      "strict_fraction_within_natural": 0.013538320330426802,
+      "score_quality_0to1": 0.8819690999546884,
+      "structural_score": 0.767890625,
+      "properties": {
+        "requires_doublet": 0.8,
+        "requires_singlet_doublet_split": 0.78,
+        "requires_small_singlet_doublet_mixing": 0.75,
+        "requires_controlled_symmetry_breaking": 0.85,
+        "requires_closed_geometry": 1.0,
+        "requires_nontrivial_topology": 0.35,
+        "requires_hierarchical_companion_sector": 0.7,
+        "requires_collective_branch_sector": 0.85
+      },
+      "family_notes": [
+        "Closed-loop family with strong collective branch support."
+      ],
+      "combined_pmns_structure_score": 0.5437947845997904
+    },
+    {
+      "geometry": "tetrahedral_apex_base",
+      "display_name": "Tetrahedral apex/base",
+      "structural_class": "rigid_singlet_doublet",
+      "representative_angles_deg": {
+        "theta12": 10.988716176329573,
+        "theta13": 8.97649444874189,
+        "theta23": 42.73677969167485
+      },
+      "score_common": 2.226737392100795,
+      "pmns_viability_index": 0.10741832907437217,
+      "strict_fraction_within_natural": 0.0,
+      "score_quality_0to1": 0.21483665814874434,
+      "structural_score": 0.58046875,
+      "properties": {
+        "requires_doublet": 0.8,
+        "requires_singlet_doublet_split": 0.85,
+        "requires_small_singlet_doublet_mixing": 0.6,
+        "requires_controlled_symmetry_breaking": 0.6,
+        "requires_closed_geometry": 0.2,
+        "requires_nontrivial_topology": 0.05,
+        "requires_hierarchical_companion_sector": 0.7,
+        "requires_collective_branch_sector": 0.7
+      },
+      "family_notes": [
+        "Clear singlet plus base-doublet logic, but no nontrivial topology."
+      ],
+      "combined_pmns_structure_score": 0.24933345535206053
+    },
+    {
+      "geometry": "tetrahedral_star",
+      "display_name": "Tetrahedral star",
+      "structural_class": "rigid_triplet_split",
+      "representative_angles_deg": {
+        "theta12": 11.718557423440432,
+        "theta13": 14.65153871180833,
+        "theta23": 42.48330856864887
+      },
+      "score_common": 2.6357310074547766,
+      "pmns_viability_index": 0.013420781117594774,
+      "strict_fraction_within_natural": 0.0,
+      "score_quality_0to1": 0.026841562235189548,
+      "structural_score": 0.5085937500000001,
+      "properties": {
+        "requires_doublet": 0.65,
+        "requires_singlet_doublet_split": 0.7,
+        "requires_small_singlet_doublet_mixing": 0.55,
+        "requires_controlled_symmetry_breaking": 0.65,
+        "requires_closed_geometry": 0.2,
+        "requires_nontrivial_topology": 0.05,
+        "requires_hierarchical_companion_sector": 0.6,
+        "requires_collective_branch_sector": 0.55
+      },
+      "family_notes": [
+        "Triplet splitting is available, but the topology remains rigid and open."
+      ],
+      "combined_pmns_structure_score": 0.16197267178231636
+    },
+    {
+      "geometry": "pyramidal",
+      "display_name": "Pyramidal",
+      "structural_class": "open_hierarchical",
+      "representative_angles_deg": {
+        "theta12": 21.093516867850667,
+        "theta13": 8.725663026434438,
+        "theta23": 30.397839049604578
+      },
+      "score_common": 2.402107883191178,
+      "pmns_viability_index": 0.06711355284405197,
+      "strict_fraction_within_natural": 0.0,
+      "score_quality_0to1": 0.13422710568810395,
+      "structural_score": 0.35703125,
+      "properties": {
+        "requires_doublet": 0.3,
+        "requires_singlet_doublet_split": 0.4,
+        "requires_small_singlet_doublet_mixing": 0.55,
+        "requires_controlled_symmetry_breaking": 0.45,
+        "requires_closed_geometry": 0.0,
+        "requires_nontrivial_topology": 0.0,
+        "requires_hierarchical_companion_sector": 0.95,
+        "requires_collective_branch_sector": 0.25
+      },
+      "family_notes": [
+        "Strong hierarchy toy, weak support for a stable doublet."
+      ],
+      "combined_pmns_structure_score": 0.1540888619908364
+    },
+    {
+      "geometry": "spherical_shell",
+      "display_name": "Spherical shell",
+      "structural_class": "closed_isotropic",
+      "representative_angles_deg": {
+        "theta12": 6.143402036557629,
+        "theta13": 8.689351835131939,
+        "theta23": 46.48573189167451
+      },
+      "score_common": 2.6941262944540028,
+      "pmns_viability_index": 0.0,
+      "strict_fraction_within_natural": 0.0,
+      "score_quality_0to1": 0.0,
+      "structural_score": 0.32617187500000006,
+      "properties": {
+        "requires_doublet": 0.2,
+        "requires_singlet_doublet_split": 0.2,
+        "requires_small_singlet_doublet_mixing": 0.3,
+        "requires_controlled_symmetry_breaking": 0.3,
+        "requires_closed_geometry": 0.9,
+        "requires_nontrivial_topology": 0.0,
+        "requires_hierarchical_companion_sector": 0.35,
+        "requires_collective_branch_sector": 0.4
+      },
+      "family_notes": [
+        "Closed but too isotropic for the observed PMNS pattern in current toys."
+      ],
+      "combined_pmns_structure_score": 0.09785156250000002
+    }
+  ],
+  "joint_rankings": [
+    {
+      "geometry": "twisted_torus",
+      "display_name": "Twisted torus",
+      "structural_class": "closed_twisted_loop",
+      "representative_angles_deg": {
+        "theta12": 34.560081347717166,
+        "theta13": 8.291308377393046,
+        "theta23": 41.5805713023299
+      },
+      "score_common": 0.5185715898671976,
+      "pmns_viability_index": 0.5097087378640777,
+      "strict_fraction_within_natural": 0.019417475728155338,
+      "score_quality_0to1": 1.0,
+      "structural_score": 0.9281249999999999,
+      "properties": {
+        "requires_doublet": 0.95,
+        "requires_singlet_doublet_split": 0.95,
+        "requires_small_singlet_doublet_mixing": 0.9,
+        "requires_controlled_symmetry_breaking": 0.9,
+        "requires_closed_geometry": 1.0,
+        "requires_nontrivial_topology": 1.0,
+        "requires_hierarchical_companion_sector": 0.75,
+        "requires_collective_branch_sector": 0.95
+      },
+      "family_notes": [
+        "Closed twisted topology; best current joint flavour candidate."
+      ],
+      "sector_extension_index": 0.6004242704178971,
+      "combined_pmns_structure_score": 0.6488409463879273,
+      "bridge_geometry_class": "twisted_ring_family",
+      "emergent_phi2_score": 0.7413657407407408,
+      "one_field_support_score": 1.0,
+      "micro_closure_status": "open_but_structured",
+      "micro_closure_score": 0.4,
+      "evidence": {
+        "best_twisted_joint_mean": 0.9152777777777779,
+        "best_twisted_robust_mean": 0.3050925925925926,
+        "naturalness_verdict": "naturalness_supported",
+        "uv_compact_verdict": "uv_compact_consistency_supported",
+        "micro_closure_verdict": "micro_closure_still_open_v29"
+      },
+      "notes": [
+        "Mapped to the twisted-ring emergence family as the same closed twisted topology class.",
+        "Strong emergence/UV evidence coexists with open micro-closure."
+      ],
+      "joint_score": 0.7514564351338267,
+      "classification": "D_good_on_PMNS_emergent_Phi2_and_partial_micro_closure"
+    },
+    {
+      "geometry": "torus_ring",
+      "display_name": "Torus ring",
+      "structural_class": "closed_loop",
+      "representative_angles_deg": {
+        "theta12": 30.8673487577931,
+        "theta13": 10.83183563101732,
+        "theta23": 41.5396054711135
+      },
+      "score_common": 0.7753542697473904,
+      "pmns_viability_index": 0.4477537101425576,
+      "strict_fraction_within_natural": 0.013538320330426802,
+      "score_quality_0to1": 0.8819690999546884,
+      "structural_score": 0.767890625,
+      "properties": {
+        "requires_doublet": 0.8,
+        "requires_singlet_doublet_split": 0.78,
+        "requires_small_singlet_doublet_mixing": 0.75,
+        "requires_controlled_symmetry_breaking": 0.85,
+        "requires_closed_geometry": 1.0,
+        "requires_nontrivial_topology": 0.35,
+        "requires_hierarchical_companion_sector": 0.7,
+        "requires_collective_branch_sector": 0.85
+      },
+      "family_notes": [
+        "Closed-loop family with strong collective branch support."
+      ],
+      "combined_pmns_structure_score": 0.5437947845997904,
+      "bridge_geometry_class": "ring_family_control",
+      "emergent_phi2_score": 0.14959467758305367,
+      "one_field_support_score": 0.2,
+      "micro_closure_status": "not_supported_in_current_control",
+      "micro_closure_score": 0.05,
+      "evidence": {
+        "ring_joint_control": 0.004166666666666667,
+        "ring_robust_control": 0.0,
+        "twist_reduction_ratio": 0.49170448083240115
+      },
+      "notes": [
+        "Closed untwisted control remains useful, but the emergence evidence is much weaker than in the twisted class."
+      ],
+      "joint_score": 0.3370657902239744,
+      "classification": "A_PMNS_good_only"
+    },
+    {
+      "geometry": "tetrahedral_apex_base",
+      "display_name": "Tetrahedral apex/base",
+      "structural_class": "rigid_singlet_doublet",
+      "representative_angles_deg": {
+        "theta12": 10.988716176329573,
+        "theta13": 8.97649444874189,
+        "theta23": 42.73677969167485
+      },
+      "score_common": 2.226737392100795,
+      "pmns_viability_index": 0.10741832907437217,
+      "strict_fraction_within_natural": 0.0,
+      "score_quality_0to1": 0.21483665814874434,
+      "structural_score": 0.58046875,
+      "properties": {
+        "requires_doublet": 0.8,
+        "requires_singlet_doublet_split": 0.85,
+        "requires_small_singlet_doublet_mixing": 0.6,
+        "requires_controlled_symmetry_breaking": 0.6,
+        "requires_closed_geometry": 0.2,
+        "requires_nontrivial_topology": 0.05,
+        "requires_hierarchical_companion_sector": 0.7,
+        "requires_collective_branch_sector": 0.7
+      },
+      "family_notes": [
+        "Clear singlet plus base-doublet logic, but no nontrivial topology."
+      ],
+      "combined_pmns_structure_score": 0.24933345535206053,
+      "bridge_geometry_class": "unmatched_rigid_or_open_family",
+      "emergent_phi2_score": 0.05,
+      "one_field_support_score": 0.05,
+      "micro_closure_status": "not_tested_in_bridge_pipeline",
+      "micro_closure_score": 0.0,
+      "evidence": {},
+      "notes": [
+        "No dedicated Phi2-emergence bridge has been established for this family in the current pipeline."
+      ],
+      "joint_score": 0.13970005490842724,
+      "classification": "F_weak_or_disfavored"
+    },
+    {
+      "geometry": "tetrahedral_star",
+      "display_name": "Tetrahedral star",
+      "structural_class": "rigid_triplet_split",
+      "representative_angles_deg": {
+        "theta12": 11.718557423440432,
+        "theta13": 14.65153871180833,
+        "theta23": 42.48330856864887
+      },
+      "score_common": 2.6357310074547766,
+      "pmns_viability_index": 0.013420781117594774,
+      "strict_fraction_within_natural": 0.0,
+      "score_quality_0to1": 0.026841562235189548,
+      "structural_score": 0.5085937500000001,
+      "properties": {
+        "requires_doublet": 0.65,
+        "requires_singlet_doublet_split": 0.7,
+        "requires_small_singlet_doublet_mixing": 0.55,
+        "requires_controlled_symmetry_breaking": 0.65,
+        "requires_closed_geometry": 0.2,
+        "requires_nontrivial_topology": 0.05,
+        "requires_hierarchical_companion_sector": 0.6,
+        "requires_collective_branch_sector": 0.55
+      },
+      "family_notes": [
+        "Triplet splitting is available, but the topology remains rigid and open."
+      ],
+      "combined_pmns_structure_score": 0.16197267178231636,
+      "bridge_geometry_class": "unmatched_rigid_or_open_family",
+      "emergent_phi2_score": 0.05,
+      "one_field_support_score": 0.05,
+      "micro_closure_status": "not_tested_in_bridge_pipeline",
+      "micro_closure_score": 0.0,
+      "evidence": {},
+      "notes": [
+        "No dedicated Phi2-emergence bridge has been established for this family in the current pipeline."
+      ],
+      "joint_score": 0.10038770230204236,
+      "classification": "F_weak_or_disfavored"
+    },
+    {
+      "geometry": "pyramidal",
+      "display_name": "Pyramidal",
+      "structural_class": "open_hierarchical",
+      "representative_angles_deg": {
+        "theta12": 21.093516867850667,
+        "theta13": 8.725663026434438,
+        "theta23": 30.397839049604578
+      },
+      "score_common": 2.402107883191178,
+      "pmns_viability_index": 0.06711355284405197,
+      "strict_fraction_within_natural": 0.0,
+      "score_quality_0to1": 0.13422710568810395,
+      "structural_score": 0.35703125,
+      "properties": {
+        "requires_doublet": 0.3,
+        "requires_singlet_doublet_split": 0.4,
+        "requires_small_singlet_doublet_mixing": 0.55,
+        "requires_controlled_symmetry_breaking": 0.45,
+        "requires_closed_geometry": 0.0,
+        "requires_nontrivial_topology": 0.0,
+        "requires_hierarchical_companion_sector": 0.95,
+        "requires_collective_branch_sector": 0.25
+      },
+      "family_notes": [
+        "Strong hierarchy toy, weak support for a stable doublet."
+      ],
+      "combined_pmns_structure_score": 0.1540888619908364,
+      "bridge_geometry_class": "unmatched_rigid_or_open_family",
+      "emergent_phi2_score": 0.05,
+      "one_field_support_score": 0.05,
+      "micro_closure_status": "not_tested_in_bridge_pipeline",
+      "micro_closure_score": 0.0,
+      "evidence": {},
+      "notes": [
+        "No dedicated Phi2-emergence bridge has been established for this family in the current pipeline."
+      ],
+      "joint_score": 0.09683998789587639,
+      "classification": "F_weak_or_disfavored"
+    },
+    {
+      "geometry": "spherical_shell",
+      "display_name": "Spherical shell",
+      "structural_class": "closed_isotropic",
+      "representative_angles_deg": {
+        "theta12": 6.143402036557629,
+        "theta13": 8.689351835131939,
+        "theta23": 46.48573189167451
+      },
+      "score_common": 2.6941262944540028,
+      "pmns_viability_index": 0.0,
+      "strict_fraction_within_natural": 0.0,
+      "score_quality_0to1": 0.0,
+      "structural_score": 0.32617187500000006,
+      "properties": {
+        "requires_doublet": 0.2,
+        "requires_singlet_doublet_split": 0.2,
+        "requires_small_singlet_doublet_mixing": 0.3,
+        "requires_controlled_symmetry_breaking": 0.3,
+        "requires_closed_geometry": 0.9,
+        "requires_nontrivial_topology": 0.0,
+        "requires_hierarchical_companion_sector": 0.35,
+        "requires_collective_branch_sector": 0.4
+      },
+      "family_notes": [
+        "Closed but too isotropic for the observed PMNS pattern in current toys."
+      ],
+      "combined_pmns_structure_score": 0.09785156250000002,
+      "bridge_geometry_class": "unmatched_rigid_or_open_family",
+      "emergent_phi2_score": 0.05,
+      "one_field_support_score": 0.05,
+      "micro_closure_status": "not_tested_in_bridge_pipeline",
+      "micro_closure_score": 0.0,
+      "evidence": {},
+      "notes": [
+        "No dedicated Phi2-emergence bridge has been established for this family in the current pipeline."
+      ],
+      "joint_score": 0.071533203125,
+      "classification": "F_weak_or_disfavored"
+    }
+  ],
+  "pmns_only_runner_up": {
+    "geometry": "torus_ring",
+    "display_name": "Torus ring",
+    "structural_class": "closed_loop",
+    "representative_angles_deg": {
+      "theta12": 30.8673487577931,
+      "theta13": 10.83183563101732,
+      "theta23": 41.5396054711135
+    },
+    "score_common": 0.7753542697473904,
+    "pmns_viability_index": 0.4477537101425576,
+    "strict_fraction_within_natural": 0.013538320330426802,
+    "score_quality_0to1": 0.8819690999546884,
+    "structural_score": 0.767890625,
+    "properties": {
+      "requires_doublet": 0.8,
+      "requires_singlet_doublet_split": 0.78,
+      "requires_small_singlet_doublet_mixing": 0.75,
+      "requires_controlled_symmetry_breaking": 0.85,
+      "requires_closed_geometry": 1.0,
+      "requires_nontrivial_topology": 0.35,
+      "requires_hierarchical_companion_sector": 0.7,
+      "requires_collective_branch_sector": 0.85
+    },
+    "family_notes": [
+      "Closed-loop family with strong collective branch support."
+    ],
+    "combined_pmns_structure_score": 0.5437947845997904,
+    "bridge_geometry_class": "ring_family_control",
+    "emergent_phi2_score": 0.14959467758305367,
+    "one_field_support_score": 0.2,
+    "micro_closure_status": "not_supported_in_current_control",
+    "micro_closure_score": 0.05,
+    "evidence": {
+      "ring_joint_control": 0.004166666666666667,
+      "ring_robust_control": 0.0,
+      "twist_reduction_ratio": 0.49170448083240115
+    },
+    "notes": [
+      "Closed untwisted control remains useful, but the emergence evidence is much weaker than in the twisted class."
+    ],
+    "joint_score": 0.3370657902239744,
+    "classification": "A_PMNS_good_only"
+  },
+  "top_joint_candidate": {
+    "geometry": "twisted_torus",
+    "display_name": "Twisted torus",
+    "structural_class": "closed_twisted_loop",
+    "representative_angles_deg": {
+      "theta12": 34.560081347717166,
+      "theta13": 8.291308377393046,
+      "theta23": 41.5805713023299
+    },
+    "score_common": 0.5185715898671976,
+    "pmns_viability_index": 0.5097087378640777,
+    "strict_fraction_within_natural": 0.019417475728155338,
+    "score_quality_0to1": 1.0,
+    "structural_score": 0.9281249999999999,
+    "properties": {
+      "requires_doublet": 0.95,
+      "requires_singlet_doublet_split": 0.95,
+      "requires_small_singlet_doublet_mixing": 0.9,
+      "requires_controlled_symmetry_breaking": 0.9,
+      "requires_closed_geometry": 1.0,
+      "requires_nontrivial_topology": 1.0,
+      "requires_hierarchical_companion_sector": 0.75,
+      "requires_collective_branch_sector": 0.95
+    },
+    "family_notes": [
+      "Closed twisted topology; best current joint flavour candidate."
+    ],
+    "sector_extension_index": 0.6004242704178971,
+    "combined_pmns_structure_score": 0.6488409463879273,
+    "bridge_geometry_class": "twisted_ring_family",
+    "emergent_phi2_score": 0.7413657407407408,
+    "one_field_support_score": 1.0,
+    "micro_closure_status": "open_but_structured",
+    "micro_closure_score": 0.4,
+    "evidence": {
+      "best_twisted_joint_mean": 0.9152777777777779,
+      "best_twisted_robust_mean": 0.3050925925925926,
+      "naturalness_verdict": "naturalness_supported",
+      "uv_compact_verdict": "uv_compact_consistency_supported",
+      "micro_closure_verdict": "micro_closure_still_open_v29"
+    },
+    "notes": [
+      "Mapped to the twisted-ring emergence family as the same closed twisted topology class.",
+      "Strong emergence/UV evidence coexists with open micro-closure."
+    ],
+    "joint_score": 0.7514564351338267,
+    "classification": "D_good_on_PMNS_emergent_Phi2_and_partial_micro_closure"
+  },
+  "notes": [
+    "The inverse stage is heuristic and explicitly non-unique.",
+    "The direct stage reuses existing in-repo flavour scan outputs rather than rerunning every toy.",
+    "The Phi2 bridge uses the existing emergence/micro-closure diagnostics from paper-08."
+  ]
+}
